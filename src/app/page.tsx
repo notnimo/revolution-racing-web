@@ -1,5 +1,10 @@
+import { NavBar } from "@/ui/home/nav-bar/nav-bar";
+
 export default function Main() {
-  return (
-    <div>Hello word</div>
-  );
+	return (
+		<div>
+			<NavBar />
+			<div className="bg-background min-h-screen w-full z-10">Hello word</div>
+		</div>
+	);
 }
