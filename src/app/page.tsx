@@ -1,4 +1,4 @@
-import { NavBar } from "@/ui/home/nav-bar/nav-bar";
+import { NavBar } from "@/src/ui/home/nav-bar/nav-bar";
 
 export default function Main() {
 	return (

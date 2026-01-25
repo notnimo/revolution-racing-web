@@ -1,10 +1,27 @@
+import {
+	NavigationMenu,
+	NavigationMenuContent,
+	NavigationMenuItem,
+	NavigationMenuLink,
+	NavigationMenuList,
+	NavigationMenuTrigger,
+} from "@/src/components/navigation-menu";
+import { Button } from "@/src/components/button";
+
 export function NavBar() {
-	const childStyle = "rounded-sm bg-rr-accent-blue";
+	const navbarItems = ["Home", "About", "Projects", "Team", "Contact"];
+
 	return (
-		<div className="flex flex-row justify-around min-w-[100vh] sticky top-0 z-50 bg-rr-dark-blue rounded-sm">
-			<div className={childStyle}>top</div>
-			<div className={childStyle}>mid</div>
-			<div className={childStyle}>bottom</div>
-		</div>
+		<NavigationMenu className="sticky top-0 z-50">
+			<NavigationMenuList className="min-w-screen bg-rr-dark-blue">
+				{navbarItems.map((item) => (
+					<NavigationMenuItem key={item} className="p-[1vh]">
+						<Button variant={"ghost"} className="hover:bg-rr-accent-blue">
+							{item}
+						</Button>
+					</NavigationMenuItem>
+				))}
+			</NavigationMenuList>
+		</NavigationMenu>
 	);
 }
