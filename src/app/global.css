@@ -131,9 +131,36 @@
 	}
 }
 
+/* Hide scrollbar globally */
+
 .example::-webkit-scrollbar {
 	display: none;
 }
 .example {
 	-ms-overflow-style: none;
+}
+
+/* CUSTOM GLOBAL STYLES */
+
+html,
+body,
+#__next {
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+
+p {
 }
