@@ -130,3 +130,10 @@
 		@apply bg-background text-foreground;
 	}
 }
+
+.example::-webkit-scrollbar {
+	display: none;
+}
+.example {
+	-ms-overflow-style: none;
+}
