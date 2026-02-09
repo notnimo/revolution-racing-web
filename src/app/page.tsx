@@ -1,21 +1,81 @@
+"use client";
+
+import { useRef, useState, useEffect } from "react";
+
 import { NavBar } from "@/src/ui/home/nav-bar/nav-bar";
 import { HeroSection } from "@/src/ui/home/hero-section";
 import { AboutSnapshot } from "@/src/ui/home/about-snapshot";
 import { NewsSnapshot } from "@/src/ui/home/news-snapshot";
 import { StatsSection } from "@/src/ui/home/stats-section";
+import { Contacts } from "@/src/ui/home/contacts";
 
 export default function Main() {
-	const navbarItems = ["Home", "About", "Projects", "Team", "Contact"];
+	const navbarItems = ["Home", "About", "News", "Stats", "Contact"];
+
+	const heroRef = useRef<HTMLDivElement>(null);
+	const aboutRef = useRef<HTMLDivElement>(null);
+	const newsRef = useRef<HTMLDivElement>(null);
+	const statsRef = useRef<HTMLDivElement>(null);
+	const contactRef = useRef<HTMLDivElement>(null);
+
+	const sectionRefs: { [key: string]: React.RefObject<HTMLDivElement | null> } =
+		{
+			Home: heroRef,
+			About: aboutRef,
+			News: newsRef,
+			Stats: statsRef,
+			Contact: contactRef,
+		};
+
+	const handleNavClick = (item: string) => {
+		const ref = sectionRefs[item];
+		if (ref?.current) {
+			ref.current.scrollIntoView({ behavior: "smooth" });
+		}
+	};
+
+	const useDeviceSize = () => {
+		const [width, setWidth] = useState(0);
+		const [height, setHeight] = useState(0);
+
+		const handleWindowResize = () => {
+			setWidth(window.innerWidth);
+			setHeight(window.innerHeight);
+		};
+
+		useEffect(() => {
+			// component is mounted and window is available
+			handleWindowResize();
+			window.addEventListener("resize", handleWindowResize);
+			// unsubscribe from the event on component unmount
+			return () => window.removeEventListener("resize", handleWindowResize);
+		}, []);
+
+		return [width, height];
+	};
+
+	const [cutScreenWidth, cutScreenHeight] = useDeviceSize();
 
 	return (
-		<div className="flex flex-col justify-start items-center">
-			<div className="sticky top-0 z-50">
-				<NavBar navbarItems={navbarItems} />
+		<div className="w-screen flex flex-col justify-start items-center">
+			<div className="sticky top-0 z-50" id="nav-bar-container">
+				<NavBar navbarItems={navbarItems} onItemClick={handleNavClick} />
 			</div>
-			<HeroSection />
-			<AboutSnapshot />
-			<NewsSnapshot />
-			<StatsSection />
+			<div ref={heroRef}>
+				<HeroSection heroHight={cutScreenHeight} />
+			</div>
+			<div ref={aboutRef}>
+				<AboutSnapshot />
+			</div>
+			<div ref={newsRef}>
+				<NewsSnapshot />
+			</div>
+			<div ref={statsRef}>
+				<StatsSection />
+			</div>
+			<div ref={contactRef}>
+				<Contacts />
+			</div>
 		</div>
 	);
 }
