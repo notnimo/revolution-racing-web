@@ -1,6 +1,7 @@
-export function HeroSection({ heroHight }: { heroHight?: number }) {
+export function HeroSection() {
+	const containerDivStyle: string = `bg-rr-black p-8 h-screen w-screen`;
 	return (
-		<div className="bg-rr-black p-8 h-screen w-screen">
+		<div className={containerDivStyle}>
 			<h1 className="text-4xl font-bold text-white">
 				Welcome to Revolution Racing
 			</h1>

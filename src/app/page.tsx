@@ -34,35 +34,13 @@ export default function Main() {
 		}
 	};
 
-	const useDeviceSize = () => {
-		const [width, setWidth] = useState(0);
-		const [height, setHeight] = useState(0);
-
-		const handleWindowResize = () => {
-			setWidth(window.innerWidth);
-			setHeight(window.innerHeight);
-		};
-
-		useEffect(() => {
-			// component is mounted and window is available
-			handleWindowResize();
-			window.addEventListener("resize", handleWindowResize);
-			// unsubscribe from the event on component unmount
-			return () => window.removeEventListener("resize", handleWindowResize);
-		}, []);
-
-		return [width, height];
-	};
-
-	const [cutScreenWidth, cutScreenHeight] = useDeviceSize();
-
 	return (
 		<div className="w-screen flex flex-col justify-start items-center">
 			<div className="sticky top-0 z-50" id="nav-bar-container">
 				<NavBar navbarItems={navbarItems} onItemClick={handleNavClick} />
 			</div>
 			<div ref={heroRef}>
-				<HeroSection heroHight={cutScreenHeight} />
+				<HeroSection />
 			</div>
 			<div ref={aboutRef}>
 				<AboutSnapshot />
