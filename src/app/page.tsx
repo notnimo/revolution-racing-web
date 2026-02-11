@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState, useEffect } from "react";
+/*import { useRef } from "react";
 
 import { NavBar } from "@/src/ui/home/nav-bar/nav-bar";
 import { HeroSection } from "@/src/ui/home/hero-section";
@@ -56,4 +56,8 @@ export default function Main() {
 			</div>
 		</div>
 	);
+}*/
+
+export default function Page(){
+	return (<><div></div></>);
 }

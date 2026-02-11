@@ -9,8 +9,8 @@ const inter500 = Inter({ weight: "500", style: "normal" });
 const inter400 = Inter({ weight: "400", style: "normal" });
 
 const playfair_display = Playfair_Display({
-	weight: "600",
-	style: "normal",
+  weight: "600",
+  style: "normal",
 });
 
 export { open_sans, poppins, inter600, inter500, inter400, playfair_display };

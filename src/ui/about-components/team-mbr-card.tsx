@@ -1,3 +1,9 @@
-import { TMtype } from "@/src/lib/placeholder";
+import { TMtype } from "@/src/lib/team-members";
 
-function TMCard({ teamMember }: { teamMember: TMtype }) {}
+export function TMCard({ teamMember }: { teamMember: TMtype }) {
+  return (
+    <>
+      <div></div>
+    </>
+  );
+}
