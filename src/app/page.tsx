@@ -63,16 +63,22 @@ import { TMCard } from "../ui/about-components/team-mbr-card";
 export default function Page() {
   return (
     <>
-      <div>
-        <TMCard
-          teamMember={{
-            name: "Gabriele di Giorgio",
-            position: "Project Manager",
-            description:
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis possimus nemo ipsa, dicta debitis, nulla labore dolorum recusandae assumenda cumque autem modi quam quod animi? Neque distinctio nisi blanditiis et!",
-            imageRef: "./../../public/foo.jpg",
-          }}
-        />
+      <div className="flex flex- row h-screen w-screen justify-center items-center">
+        <div className="max-w-[500px]">
+          <TMCard
+            teamMember={{
+              name: "Gabriele di Giorgio",
+              position: "Project Manager",
+              description:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis possimus nemo ipsa, dicta debitis, nulla labore dolorum recusandae assumenda cumque autem modi quam quod animi? Neque distinctio nisi blanditiis et!",
+              image: {
+                width: 20,
+                height: 20,
+                imageRef: "/foo.jpg",
+              },
+            }}
+          />
+        </div>
       </div>
     </>
   );

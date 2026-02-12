@@ -7,10 +7,16 @@ const positionOptList = [
 ] as const;
 type positionOptions = (typeof positionOptList)[number];
 
+type TMimageType = {
+  imageRef: string;
+  width: number;
+  height: number;
+};
+
 type TMtype = {
   name: string;
   position: positionOptions;
-  imageRef: string;
+  image: TMimageType;
   description: string;
 };
 
