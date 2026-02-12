@@ -10,7 +10,7 @@ type positionOptions = (typeof positionOptList)[number];
 type TMtype = {
   name: string;
   position: positionOptions;
-  imageName: string;
+  imageRef: string;
   description: string;
 };
 
