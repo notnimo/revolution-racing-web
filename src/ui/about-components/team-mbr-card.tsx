@@ -17,14 +17,14 @@ export function TMCard({ teamMember }: { teamMember: TMtype }) {
   return (
     <>
       <div className="w-full h-full">
-        <Card className="flex flex-col items-center">
-          <CardTitle className={`${poppins.className} antialiased`}>
-            {teamMember.name.toUpperCase()}
-          </CardTitle>
-          <CardContent className="flex flex-col items-center">
+        <Card>
+          <CardContent className="flex flex-col items-center justify-around">
+            <CardTitle className={`${poppins.className} antialiased p-1.5`}>
+              {teamMember.name.toUpperCase()}
+            </CardTitle>
             <Image
               src={teamMember.image.imageRef}
-              className="rounded-md"
+              className="rounded-md grow"
               alt={`${teamMember.name}'s card picture`}
               width={teamMember.image.width}
               height={teamMember.image.height}
@@ -32,7 +32,8 @@ export function TMCard({ teamMember }: { teamMember: TMtype }) {
             <CardHeader className={`${poppins.className} antialiased`}>
               {teamMember.position}
             </CardHeader>
-            <CardDescription className={`${inter500.className} antialiased`}>
+            <CardDescription
+              className={`${inter500.className} antialiased invisible md:visible`}>
               {teamMember.description}
             </CardDescription>
           </CardContent>
