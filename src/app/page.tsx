@@ -64,7 +64,7 @@ export default function Page() {
   return (
     <>
       <div className="flex flex- row h-screen w-screen justify-center items-center">
-        <div className="max-w-[500px] min-h-[500px]">
+        <div className="max-w-[500px] max-h-[500px]">
           <TMCard
             teamMember={{
               name: "Gabriele di Giorgio",

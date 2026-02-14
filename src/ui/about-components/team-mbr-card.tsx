@@ -24,7 +24,7 @@ export function TMCard({ teamMember }: { teamMember: TMtype }) {
             </CardTitle>
             <Image
               src={teamMember.image.imageRef}
-              className="rounded-md grow"
+              className="rounded-md grow h-50 w-50"
               alt={`${teamMember.name}'s card picture`}
               width={teamMember.image.width}
               height={teamMember.image.height}
@@ -33,7 +33,7 @@ export function TMCard({ teamMember }: { teamMember: TMtype }) {
               {teamMember.position}
             </CardHeader>
             <CardDescription
-              className={`${inter500.className} antialiased invisible md:visible`}>
+              className={`${inter500.className} antialiased hidden md:inline max-w-50`}>
               {teamMember.description}
             </CardDescription>
           </CardContent>
