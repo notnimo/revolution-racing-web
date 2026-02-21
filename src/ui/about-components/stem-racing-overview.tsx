@@ -3,15 +3,15 @@ import Image from "next/image";
 export function StemRacingOverview() {
   return (
     <div className="flex flex-col items-center">
-      <div className="flex flex-row justify-around items-center-safe">
+      <div className="flex flex-row justify-around items-center-safe gap-10">
         <h1>The STEM Racing Competition</h1>
-        <Image
+        {/*<Image
           src="/stem-racing-logo.jpg"
           alt="stem racing logo"
           className="h-20 w-100"
           width={0}
           height={0}
-        />
+        />*/}
       </div>
       <div>
         <p>
@@ -38,6 +38,13 @@ export function StemRacingOverview() {
             sistema di timing elettronico
           </li>
         </ul>
+        <div>
+          Centinaia di team partecipano alle qualifiche regionali italiane, dai
+          50 ai 100+ team per ogni regione nelle aree ad alta
+          industrializzazione (Piemonte, Lombardia, Emilia-Romagna) ed un numero
+          variabile avanza alle finali regionali (top 10-15 per regione). Infine
+          circa 50-100 team competono al campionato nazionale a settembre
+        </div>
       </div>
     </div>
   );
