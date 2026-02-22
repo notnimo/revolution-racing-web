@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function StemRacingOverview() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center max-w-[50vw]">
       <div className="flex flex-row justify-around items-center-safe gap-10">
         <h1>The STEM Racing Competition</h1>
         {/*<Image
