@@ -5,7 +5,6 @@ import { sponsorType } from "@/src/lib/sponsor-type";
 
 export function AboutSnapshot() {
   const sponsorsList: Record<string, sponsorType> = {
-    famar: {},
     hyperion: {},
     mitor: {},
     comuneGiaveno: {},
