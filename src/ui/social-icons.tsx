@@ -51,3 +51,12 @@ function MailLogo() {
     </>
   );
 }
+
+export {
+  InstagramLogo,
+  FacebookLogo,
+  LinkedinLogo,
+  YoutubeLogo,
+  MailLogo,
+  TikTokLogo,
+};
