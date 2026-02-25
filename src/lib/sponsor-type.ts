@@ -1,3 +1,14 @@
-type sponsorType = {};
+type sponsorType = {
+  sponsorName: string;
+  description: string;
+  imagePath: `/sponsor/${string}.png`;
+};
 
-export type { sponsorType };
+type sponsorPack = {
+  primary: sponsorType;
+  secondary: Record<string, sponsorType>;
+  tier3: Record<string, sponsorType>;
+  others: Record<string, sponsorType>;
+};
+
+export type { sponsorType, sponsorPack };

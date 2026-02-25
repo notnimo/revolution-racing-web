@@ -8,9 +8,9 @@ const positionOptList = [
 type positionOptions = (typeof positionOptList)[number];
 
 type TMimageType = {
-  imageRef: string;
-  width: number;
-  height: number;
+  imageRef: `/team-members/${string}.png`;
+  width: 0;
+  height: 0;
 };
 
 type TMtype = {
