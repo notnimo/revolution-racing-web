@@ -1,14 +1,10 @@
-import { sponsorType } from "@/src/lib/sponsor-type";
+import { sponsorPack, sponsorType } from "@/src/lib/sponsor-type";
 
 function FamarCard() {
   return <div></div>;
 }
 
-export function SponsorOverview({
-  sponsors,
-}: {
-  sponsors: Record<string, sponsorType>;
-}) {
+export function SponsorOverview({ sponsors }: { sponsors: sponsorPack }) {
   let temp;
 
   for (let sponsor in sponsors) {
