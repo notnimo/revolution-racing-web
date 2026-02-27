@@ -1,4 +1,4 @@
-import { sponsorPack, sponsorType } from "@/src/lib/sponsor-type";
+import { sponsorPack, sponsorType } from "@/src/lib/sponsor";
 
 function FamarCard() {
   return <div></div>;
