@@ -7,7 +7,7 @@ import { HeroSection } from "@/src/ui/home/hero-section";
 import { AboutSnapshot } from "@/src/ui/home/about-snapshot";
 import { NewsSnapshot } from "@/src/ui/home/news-snapshot";
 import { StatsSection } from "@/src/ui/home/stats-section";
-import { Contacts } from "@/src/ui/home/contacts";
+import { Contacts } from "@/src/ui/contacts/contacts";
 
 export default function Main() {
   const navbarItems = ["Home", "About", "News", "Stats", "Contact"];
