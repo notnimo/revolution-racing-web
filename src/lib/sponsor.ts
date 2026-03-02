@@ -40,7 +40,11 @@ const poliTo: sponsorType = {
   description: "",
   imagePath: "/sponsor/poliTo/poli-white-logo.png",
 };
-
+const centroServizi: sponsorType = {
+  sponsorName: "Centro Servizi",
+  description: "",
+  imagePath: "/sponsor/centro-servizi/centro_servizi.png",
+};
 export type { sponsorType, sponsorPack };
 
-export { famar, hyperion, mitor, comuneGiaveno, pascal, poliTo };
+export { famar, hyperion, mitor, comuneGiaveno, pascal, poliTo, centroServizi };

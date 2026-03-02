@@ -40,7 +40,6 @@ type Contact = {
   title?: string;
   description?: string;
 };
-
 type ContactPack = Record<string, Contact>;
 
 const matchIcon: Record<string, () => JSX.Element> = {

@@ -1,0 +1,23 @@
+style everything in the directory @/src/ui (with the exception of project-components) and @/src/app/page.tsx following this guidelines:
+
+- color theme:
+  pass
+- use only tailwind
+- font rules:
+  - h1: opensans weight700
+  - h2: poppins weight600
+  - h3: poppins weight600
+  - h4: poppins weight600
+  - body: inter weight400
+  - button: inter weight600
+- leave comfortable spaces between elements to give a modern look, use padding and margin accordingly
+- the total width at any point should be the screen's, no horizontal scroll or less than screen width
+- DO NOT touch the code only modify the tailwind styling for each component is needed
+- DO NOT change the fonts.ts file in @/src/ui
+- respect hierarchy, if a part is labeled as primary give it a more important styling that makes it pop out
+- use wide radius to respect the modern and comfortable feel
+
+Specific page guidelines:
+
+- in @/src/app/page.tsx the navbar component has to be sticky to the top and ave z-50 as a fixed value
+-

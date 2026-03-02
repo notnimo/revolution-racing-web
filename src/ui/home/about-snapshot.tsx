@@ -6,16 +6,18 @@ import {
   famar,
   hyperion,
   mitor,
+  centroServizi,
   comuneGiaveno,
   pascal,
   poliTo,
 } from "@/src/lib/sponsor";
+import { TMtype } from "@/src/lib/team-members";
 
 export function AboutSnapshot() {
   const sponsorsList: sponsorPack = {
     primary: famar,
     secondary: { hyperion },
-    tier3: { mitor },
+    tier3: { mitor, centroServizi },
     others: { comuneGiaveno, pascal, poliTo },
   };
 
