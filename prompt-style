@@ -1,5 +1,6 @@
 style everything in the directory @/src/ui (with the exception of project-components) and @/src/app/page.tsx following this guidelines:
 
+- use a mobile first approach, using the md: functionality of tailwind
 - color theme:
   pass
 - use only tailwind
@@ -20,4 +21,3 @@ style everything in the directory @/src/ui (with the exception of project-compon
 Specific page guidelines:
 
 - in @/src/app/page.tsx the navbar component has to be sticky to the top and ave z-50 as a fixed value
--
