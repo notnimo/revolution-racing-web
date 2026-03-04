@@ -1,27 +1,43 @@
 import { sponsorPack, sponsorType } from "@/src/lib/sponsor";
 
-function FamarCard() {
-  return <div></div>;
+function PlatinumSponsor({ sponsor }: { sponsor: sponsorType }) {
+  return <div>Platinum Sponsor</div>;
+}
+
+function SecondarySponsor({ sponsor }: { sponsor: sponsorType }) {
+  return <div>Secondary Sponsor</div>;
+}
+
+function Tier3Sponsor({ sponsor }: { sponsor: sponsorType }) {
+  return <div>Tier 3 Sponsor</div>;
+}
+
+function OtherSponsor({ sponsor }: { sponsor: sponsorType }) {
+  return <div>Other Sponsor</div>;
 }
 
 export function SponsorOverview({ sponsors }: { sponsors: sponsorPack }) {
-  let temp;
-
-  for (let sponsor in sponsors) {
-    temp = (
-      <>
-        {temp}
-        <div></div>
-      </>
-    );
-  }
   return (
     <div>
       <h1>Our Sponsors</h1>
       <div>
-        <FamarCard />
+        <PlatinumSponsor sponsor={sponsors.primary} />
       </div>
-      <div>{temp}</div>
+      <div>
+        {Object.values(sponsors.secondary).map((sponsor) => (
+          <SecondarySponsor sponsor={sponsor} />
+        ))}
+      </div>
+      <div>
+        {Object.values(sponsors.tier3).map((sponsor) => (
+          <Tier3Sponsor sponsor={sponsor} />
+        ))}
+      </div>
+      <div>
+        {Object.values(sponsors.others).map((sponsor) => (
+          <OtherSponsor sponsor={sponsor} />
+        ))}
+      </div>
     </div>
   );
 }

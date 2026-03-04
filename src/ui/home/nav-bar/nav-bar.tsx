@@ -14,7 +14,7 @@ export function NavBar({
   onItemClick?: (item: string) => void;
 }) {
   return (
-    <NavigationMenu>
+    <NavigationMenu className="w-screen">
       <NavigationMenuList className="w-screen bg-rr-dark-blue">
         {navbarItems.map((item) => (
           <NavigationMenuItem key={item} className="p-[1vh]">

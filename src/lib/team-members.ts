@@ -20,4 +20,6 @@ type TMtype = {
   description: string;
 };
 
-export type { TMtype };
+type teamMembersPack = Record<string, TMtype>;
+
+export type { TMtype, teamMembersPack };

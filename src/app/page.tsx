@@ -9,6 +9,8 @@ import { NewsSnapshot } from "@/src/ui/home/news-snapshot";
 import { StatsSection } from "@/src/ui/home/stats-section";
 import { Contacts } from "@/src/ui/contacts/contacts";
 
+import { Contact, ContactPack } from "@/src/lib/contacts";
+
 export default function Main() {
   const navbarItems = ["Home", "About", "News", "Stats", "Contact"];
 
@@ -34,6 +36,16 @@ export default function Main() {
     }
   };
 
+  const instasq: Contact = {
+    type: "instagram",
+    href: "https://www.instagram.com/yourprofile",
+    title: "Instagram",
+    description:
+      "Follow us on Instagram for updates and behind-the-scenes content.",
+  };
+
+  const contacts: ContactPack = { instasq };
+
   return (
     <div className="w-screen flex flex-col justify-start items-center">
       <div className="sticky top-0 z-50" id="nav-bar-container">
@@ -52,7 +64,7 @@ export default function Main() {
         <StatsSection />
       </div>
       <div ref={contactRef}>
-        <Contacts />
+        <Contacts contacts={contacts} />
       </div>
     </div>
   );
