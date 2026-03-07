@@ -29,7 +29,7 @@ const typeOpts = [
   "facebook",
   "linkedin",
   "youtube",
-  "mail",
+  "email",
   "tiktok",
 ] as const;
 type typeOptions = (typeof typeOpts)[number];

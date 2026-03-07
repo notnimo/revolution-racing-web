@@ -64,15 +64,28 @@ export default function Main() {
     description:
       "Follow us on LinkedIn for updates and behind-the-scenes content.",
   };
-  const q: Contact = {
-    type: "instagram",
-    href: "https://www.instagram.com/yourprofile",
-    title: "Instagram",
+  const youtubeSq: Contact = {
+    type: "youtube",
+    href: "https://www.youtube.com/@yourprofile",
+    title: "YouTube",
+    description:
+      "Follow us on YouTube for updates and behind-the-scenes content.",
+  };
+  const emailSq: Contact = {
+    type: "email",
+    href: "mailto:yourprofile@example.com",
+    title: "Email",
     description:
       "Follow us on Instagram for updates and behind-the-scenes content.",
   };
-
-  const contacts: ContactPack = { instasq: instaSq };
+  const contacts: ContactPack = {
+    instaSq: instaSq,
+    tiktokSq: tiktokSq,
+    facebookSq: facebookSq,
+    linkedinSq: linkedinSq,
+    youtubeSq: youtubeSq,
+    emailSq: emailSq,
+  };
 
   return (
     <div className="w-screen flex flex-col justify-start items-center">
