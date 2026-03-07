@@ -36,7 +36,35 @@ export default function Main() {
     }
   };
 
-  const instasq: Contact = {
+  const instaSq: Contact = {
+    type: "instagram",
+    href: "https://www.instagram.com/yourprofile",
+    title: "Instagram",
+    description:
+      "Follow us on Instagram for updates and behind-the-scenes content.",
+  };
+  const tiktokSq: Contact = {
+    type: "tiktok",
+    href: "https://www.tiktok.com/@yourprofile",
+    title: "TikTok",
+    description:
+      "Follow us on TikTok for updates and behind-the-scenes content.",
+  };
+  const facebookSq: Contact = {
+    type: "facebook",
+    href: "https://www.facebook.com/yourprofile",
+    title: "Facebook",
+    description:
+      "Follow us on Facebook for updates and behind-the-scenes content.",
+  };
+  const linkedinSq: Contact = {
+    type: "linkedin",
+    href: "https://www.linkedin.com/in/yourprofile",
+    title: "LinkedIn",
+    description:
+      "Follow us on LinkedIn for updates and behind-the-scenes content.",
+  };
+  const q: Contact = {
     type: "instagram",
     href: "https://www.instagram.com/yourprofile",
     title: "Instagram",
@@ -44,7 +72,7 @@ export default function Main() {
       "Follow us on Instagram for updates and behind-the-scenes content.",
   };
 
-  const contacts: ContactPack = { instasq };
+  const contacts: ContactPack = { instasq: instaSq };
 
   return (
     <div className="w-screen flex flex-col justify-start items-center">
