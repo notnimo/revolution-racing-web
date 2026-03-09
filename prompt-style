@@ -2,7 +2,47 @@ style everything in the directory @/src/ui (with the exception of project-compon
 
 - use a mobile first approach, using the md: functionality of tailwind
 - color theme:
-  pass
+    Primary Colors
+      Primary Blue
+      Hex: #3B9FE5
+      RGB: 59, 159, 229
+      Use: Logo, transparent navbar with blur, primary buttons, link, titles H1/H2
+      Note: vibrant light blue for light backgrounds. not aggressive
+      
+      Light Blue
+      Hex: #E8F5FC
+      RGB: 232, 245, 252
+      Uso: Background sections, card background, light hover states
+      Note: Almost white with light blue tint, to maintains color consistency
+      
+      Pure White
+      Hex: #FFFFFF
+      RGB: 255, 255, 255
+      Uso: Main Background, text on dark, card on colorful sections
+      Note: neutral base with hight legibility
+
+
+    Secondary Colors
+      Teal Accent
+      Hex: #1FBEB6
+      RGB: 31, 190, 182
+      Uso: secondary call-to-action, icons, dynamic elements, progress bar
+      Note: maintains teal identity, perfect for vivid contrasts
+      
+      Sky Blue
+      Hex: #7EC8E3
+      RGB: 126, 200, 227
+      Uso: Hover on primary buttons, card border on hover, animations
+      Note: lighter version of the primary light blue for hover effects
+      
+
+    Text Color
+      Primary Text (Dark Gray)
+      Hex: #2C3E50
+      RGB: 44, 62, 80
+      Uso: Paragraphs
+
+
 - use only tailwind
 - font rules:
   - h1: opensans weight700
@@ -17,7 +57,9 @@ style everything in the directory @/src/ui (with the exception of project-compon
 - DO NOT change the fonts.ts file in @/src/ui
 - respect hierarchy, if a part is labeled as primary give it a more important styling that makes it pop out
 - use wide radius to respect the modern and comfortable feel
+- DO NOT use animations of any kind
 
 Specific page guidelines:
 
 - in @/src/app/page.tsx the navbar component has to be sticky to the top and ave z-50 as a fixed value
+- in @/src/ui/about-components/overview-components/team-overview.tsx //explain arrows to scroll styling
