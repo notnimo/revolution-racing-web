@@ -1,11 +1,25 @@
-tm card done
-finish hero
-finish about
-finish news
-finish stats
-finish contacts
-finish home page
-charts
-other pages
-vercel project
-branch workflow
+- home
+  - hero
+    - background
+    - h1
+  - about
+    - team
+      - tm def and card
+      - scroller
+    - stem racing
+      - text
+      - logo
+    - sponsor
+      - sponsor def and card
+      - pagination
+  - news
+  - stats
+  - contacts
+    - contact def DONE
+    - render
+- vercel
+- domain
+- branch workflow
+- about page
+- news page
+- projects page
