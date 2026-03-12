@@ -45,6 +45,6 @@ const centroServizi: sponsorType = {
   description: "",
   imagePath: "/sponsor/centro-servizi/centro_servizi.png",
 };
-export type { sponsorType, sponsorPack };
 
+export type { sponsorType, sponsorPack };
 export { famar, hyperion, mitor, comuneGiaveno, pascal, poliTo, centroServizi };

@@ -11,7 +11,6 @@ import {
 
 import { TMtype } from "@/src/lib/team-members";
 import { poppins, inter500 } from "@/src/ui/fonts";
-import "@/public/foo.jpg";
 
 export function TMCard({ teamMember }: { teamMember: TMtype }) {
   return (
