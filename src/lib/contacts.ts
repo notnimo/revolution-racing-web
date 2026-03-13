@@ -40,7 +40,7 @@ type Contact = {
   title?: string;
   description?: string;
 };
-type ContactPack = Record<string, Contact>;
+type ContactPack = Contact[];
 
 const matchIcon: Record<string, () => JSX.Element> = {
   tiktok: TikTokLogo,

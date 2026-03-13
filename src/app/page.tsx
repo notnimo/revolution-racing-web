@@ -78,14 +78,14 @@ export default function Main() {
     description:
       "Follow us on Instagram for updates and behind-the-scenes content.",
   };
-  const contacts: ContactPack = {
-    instaSq: instaSq,
-    tiktokSq: tiktokSq,
-    facebookSq: facebookSq,
-    linkedinSq: linkedinSq,
-    youtubeSq: youtubeSq,
-    emailSq: emailSq,
-  };
+  const contacts: ContactPack = [
+    instaSq,
+    tiktokSq,
+    facebookSq,
+    linkedinSq,
+    youtubeSq,
+    emailSq,
+  ];
 
   return (
     <div className="w-screen flex flex-col justify-start items-center">
