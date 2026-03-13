@@ -14,19 +14,22 @@ export function SponsorOverview({ sponsors }: { sponsors: sponsorPack }) {
         <PlatinumSponsor sponsor={sponsors.primary} />
       </div>
       <div>
-        {Object.values(sponsors.secondary).map((sponsor) => (
-          <SecondarySponsor sponsor={sponsor} />
-        ))}
+        {Object.values(sponsors.secondary) &&
+          Object.values(sponsors.secondary).map((sponsor) => (
+            <SecondarySponsor sponsor={sponsor} />
+          ))}
       </div>
       <div>
-        {Object.values(sponsors.tier3).map((sponsor) => (
-          <Tier3Sponsor sponsor={sponsor} />
-        ))}
+        {Object.values(sponsors.tier3) &&
+          Object.values(sponsors.tier3).map((sponsor) => (
+            <Tier3Sponsor sponsor={sponsor} />
+          ))}
       </div>
       <div>
-        {Object.values(sponsors.others).map((sponsor) => (
-          <OtherSponsor sponsor={sponsor} />
-        ))}
+        {Object.values(sponsors.others) &&
+          Object.values(sponsors.others).map((sponsor) => (
+            <OtherSponsor sponsor={sponsor} />
+          ))}
       </div>
     </div>
   );

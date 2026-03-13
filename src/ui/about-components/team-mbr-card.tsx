@@ -25,8 +25,8 @@ export function TMCard({ teamMember }: { teamMember: TMtype }) {
               src={teamMember.image.imageRef}
               className="rounded-md grow h-50 w-50"
               alt={`${teamMember.name}'s card picture`}
-              width={teamMember.image.width}
-              height={teamMember.image.height}
+              width={0}
+              height={0}
             />
             <CardHeader className={`${poppins.className} antialiased`}>
               {teamMember.position}
