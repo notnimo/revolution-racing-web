@@ -25,9 +25,9 @@ import {
 export function AboutSnapshot() {
   const sponsorsList: sponsorPack = {
     primary: famar,
-    secondary: { hyperion },
-    tier3: { mitor, centroServizi },
-    others: { comuneGiaveno, pascal, poliTo },
+    secondary: [hyperion],
+    tier3: [mitor, centroServizi],
+    others: [comuneGiaveno, pascal, poliTo],
   };
   const teamMembersList: TMtype[] = [tm1, tm2, tm3, tm4, tm5, tm6, tm7];
 

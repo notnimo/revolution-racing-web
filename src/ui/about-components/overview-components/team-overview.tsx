@@ -31,11 +31,12 @@ export function TeamOverview({
       </div>
 
       <div className="flex flex-col items-center">
-        {Object.values(teamMembers).map((member) => (
-          <div key={member.name} className="mb-4">
-            <TMCard teamMember={member as TMtype} />
-          </div>
-        ))}
+        {teamMembers &&
+          teamMembers.map((member) => (
+            <div key={member.id} className="mb-4">
+              <TMCard teamMember={member as TMtype} />
+            </div>
+          ))}
       </div>
     </div>
   );

@@ -13,6 +13,7 @@ type TMimageType = {
   height?: 0;
 };
 type TMtype = {
+  id: number;
   name: string;
   position: positionOptions;
   image: TMimageType;
@@ -22,6 +23,7 @@ type teamMembersPack = TMtype[];
 
 // Team members data to change with real imported from json or something like that, for now it's hardcoded for testing purposes
 const tm1: TMtype = {
+  id: 0,
   name: "Gabriele di Giorgio",
   position: "Project Manager",
   image: {
@@ -30,6 +32,7 @@ const tm1: TMtype = {
   description: "Gabriele is our Project Manager.",
 };
 const tm2: TMtype = {
+  id: 1,
   name: "Arturo Serpico",
   position: "Design Engineer",
   image: {
@@ -38,6 +41,7 @@ const tm2: TMtype = {
   description: "Arturo is our Head of the Engineering",
 };
 const tm3: TMtype = {
+  id: 2,
   name: "Edoardo Bona",
   position: "Graphic Designer",
   image: {
@@ -46,6 +50,7 @@ const tm3: TMtype = {
   description: "Edoardo is our Graphic Designer.",
 };
 const tm4: TMtype = {
+  id: 3,
   name: "Federico Ponti",
   position: "Design Engineer",
   image: {
@@ -54,6 +59,7 @@ const tm4: TMtype = {
   description: "Federico is one of our Design Engineers.",
 };
 const tm5: TMtype = {
+  id: 4,
   name: "Sherine Cirigliano",
   position: "Design Engineer",
   image: {
@@ -62,6 +68,7 @@ const tm5: TMtype = {
   description: "Sherine is one of our Design Engineers.",
 };
 const tm6: TMtype = {
+  id: 5,
   name: "Pietro Tranca",
   position: "Manufacturing Engineer",
   image: {
@@ -70,6 +77,7 @@ const tm6: TMtype = {
   description: "Pietro is one of our Manufacturing Engineers.",
 };
 const tm7: TMtype = {
+  id: 6,
   name: "Damiano Livoni",
   position: "Web Developer",
   image: {
