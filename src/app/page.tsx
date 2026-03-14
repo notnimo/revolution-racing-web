@@ -37,6 +37,7 @@ export default function Main() {
   };
 
   const instaSq: Contact = {
+    id: 0,
     type: "instagram",
     href: "https://www.instagram.com/yourprofile",
     title: "Instagram",
@@ -44,6 +45,7 @@ export default function Main() {
       "Follow us on Instagram for updates and behind-the-scenes content.",
   };
   const tiktokSq: Contact = {
+    id: 1,
     type: "tiktok",
     href: "https://www.tiktok.com/@yourprofile",
     title: "TikTok",
@@ -51,6 +53,7 @@ export default function Main() {
       "Follow us on TikTok for updates and behind-the-scenes content.",
   };
   const facebookSq: Contact = {
+    id: 2,
     type: "facebook",
     href: "https://www.facebook.com/yourprofile",
     title: "Facebook",
@@ -58,6 +61,7 @@ export default function Main() {
       "Follow us on Facebook for updates and behind-the-scenes content.",
   };
   const linkedinSq: Contact = {
+    id: 3,
     type: "linkedin",
     href: "https://www.linkedin.com/in/yourprofile",
     title: "LinkedIn",
@@ -65,6 +69,7 @@ export default function Main() {
       "Follow us on LinkedIn for updates and behind-the-scenes content.",
   };
   const youtubeSq: Contact = {
+    id: 4,
     type: "youtube",
     href: "https://www.youtube.com/@yourprofile",
     title: "YouTube",
@@ -72,11 +77,12 @@ export default function Main() {
       "Follow us on YouTube for updates and behind-the-scenes content.",
   };
   const emailSq: Contact = {
+    id: 5,
     type: "email",
     href: "mailto:yourprofile@example.com",
     title: "Email",
     description:
-      "Follow us on Instagram for updates and behind-the-scenes content.",
+      "Contact us via email for inquiries, collaborations, or any questions you may have.",
   };
   const contacts: ContactPack = [
     instaSq,

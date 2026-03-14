@@ -3,11 +3,12 @@ import { Linkedin } from "lucide-react";
 import { Youtube } from "lucide-react";
 import { Mail } from "lucide-react";
 import { Facebook } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";
 
 function TikTokLogo() {
   return (
     <>
-      <img src="/tiktok.svg" alt="tiktok-logo" />
+      <FaTiktok />
     </>
   );
 }

@@ -14,7 +14,7 @@ function Story(props) {
 }
 */
 
-import { JSX } from "react";
+import { JSX, ReactNode } from "react";
 import {
   InstagramLogo,
   FacebookLogo,
@@ -35,6 +35,7 @@ const typeOpts = [
 type typeOptions = (typeof typeOpts)[number];
 
 type Contact = {
+  id: number;
   type: typeOptions;
   href: string;
   title?: string;
@@ -42,13 +43,13 @@ type Contact = {
 };
 type ContactPack = Contact[];
 
-const matchIcon: Record<string, () => JSX.Element> = {
+const matchIcon = {
   tiktok: TikTokLogo,
   instagram: InstagramLogo,
   facebook: FacebookLogo,
   linkedin: LinkedinLogo,
   youtube: YoutubeLogo,
-  mail: MailLogo,
+  email: MailLogo,
 };
 
 export { type Contact, type ContactPack, matchIcon };
