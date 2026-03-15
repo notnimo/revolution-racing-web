@@ -5,13 +5,11 @@ export function StemRacingOverview() {
     <div className="flex flex-col items-center max-w-[50vw]">
       <div className="flex flex-row justify-around items-center-safe gap-10">
         <h1>The STEM Racing Competition</h1>
-        {/*<Image
-          src="/stem-racing-logo.jpg"
+        <img
+          src="/stem-racing-logo.png"
           alt="stem racing logo"
-          className="h-20 w-100"
-          width={0}
-          height={0}
-        />*/}
+          className="h-[6rem]"
+        />
       </div>
       <div>
         <p>

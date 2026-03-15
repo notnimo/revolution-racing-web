@@ -21,12 +21,10 @@ export function TMCard({ teamMember }: { teamMember: TMtype }) {
             <CardTitle className={`${poppins.className} antialiased p-1.5`}>
               {teamMember.name.toUpperCase()}
             </CardTitle>
-            <Image
+            <img
               src={teamMember.image.imageRef}
-              className="rounded-md grow h-50 w-50"
               alt={`${teamMember.name}'s card picture`}
-              width={0}
-              height={0}
+              className="rounded-md grow h-50"
             />
             <CardHeader className={`${poppins.className} antialiased`}>
               {teamMember.position}
