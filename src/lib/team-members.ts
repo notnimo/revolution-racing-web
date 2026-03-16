@@ -85,6 +85,15 @@ const tm7: TMtype = {
   },
   description: "Damiano is our Web Developer.",
 };
+const tm8: TMtype = {
+  id: 7,
+  name: "Damiano Livoni",
+  position: "Web Developer",
+  image: {
+    imageRef: "/team-members/foo2.png",
+  },
+  description: "Damiano is our Web Developer.",
+};
 
 export type { TMtype, teamMembersPack };
-export { tm1, tm2, tm3, tm4, tm5, tm6, tm7 };
+export { tm1, tm2, tm3, tm4, tm5, tm6, tm7, tm8 };

@@ -1,12 +1,9 @@
-import Image from "next/image";
-
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-  CardFooter,
 } from "@/src/components/card";
 
 import { TMtype } from "@/src/lib/team-members";
@@ -15,16 +12,16 @@ import { poppins, inter500 } from "@/src/ui/fonts";
 export function TMCard({ teamMember }: { teamMember: TMtype }) {
   return (
     <>
-      <div className="w-full h-full">
+      <div className="w-fit h-fit">
         <Card>
           <CardContent className="flex flex-col items-center justify-around">
-            <CardTitle className={`${poppins.className} antialiased p-1.5`}>
+            <CardTitle className={`${poppins.className} antialiased p-1.5 m-1`}>
               {teamMember.name.toUpperCase()}
             </CardTitle>
             <img
               src={teamMember.image.imageRef}
               alt={`${teamMember.name}'s card picture`}
-              className="rounded-md grow h-50"
+              className="rounded-md grow w-75"
             />
             <CardHeader className={`${poppins.className} antialiased`}>
               {teamMember.position}

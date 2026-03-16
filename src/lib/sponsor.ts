@@ -5,7 +5,7 @@ type sponsorType = {
   imagePath: `/sponsor/${string}.png`;
 };
 type sponsorPack = {
-  primary: sponsorType;
+  primary: sponsorType[];
   secondary: sponsorType[];
   tier3: sponsorType[];
   others: sponsorType[];

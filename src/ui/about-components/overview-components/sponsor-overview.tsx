@@ -11,7 +11,10 @@ export function SponsorOverview({ sponsors }: { sponsors: sponsorPack }) {
     <div>
       <h1>Our Sponsors</h1>
       <div>
-        <PlatinumSponsor sponsor={sponsors.primary} />
+        {sponsors.primary &&
+          sponsors.primary.map((sponsor) => (
+            <PlatinumSponsor sponsor={sponsor} key={sponsor.id} />
+          ))}
       </div>
       <div>
         {sponsors.secondary &&

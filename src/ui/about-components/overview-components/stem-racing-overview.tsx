@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export function StemRacingOverview() {
   return (
     <div className="flex flex-col items-center max-w-[50vw]">
