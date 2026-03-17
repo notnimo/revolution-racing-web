@@ -1,14 +1,25 @@
-import { Instagram } from "lucide-react";
-import { Linkedin } from "lucide-react";
-import { Youtube } from "lucide-react";
-import { Mail } from "lucide-react";
-import { Facebook } from "lucide-react";
+import {
+  Facebook,
+  Globe,
+  Mail,
+  Youtube,
+  Linkedin,
+  Instagram,
+} from "lucide-react";
 import { FaTiktok } from "react-icons/fa";
 
 function TikTokLogo() {
   return (
     <>
       <FaTiktok />
+    </>
+  );
+}
+
+function WebsiteLogo() {
+  return (
+    <>
+      <Globe />
     </>
   );
 }
@@ -60,4 +71,5 @@ export {
   YoutubeLogo,
   MailLogo,
   TikTokLogo,
+  WebsiteLogo,
 };

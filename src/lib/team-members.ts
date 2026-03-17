@@ -7,16 +7,14 @@ const positionOptList = [
   "Web Developer",
 ] as const;
 type positionOptions = (typeof positionOptList)[number];
-type TMimageType = {
-  imageRef: `/team-members/${string}.png`;
-  width?: 0;
-  height?: 0;
+type cardImageType<T> = {
+  imageRef: T;
 };
 type TMtype = {
   id: number;
   name: string;
   position: positionOptions;
-  image: TMimageType;
+  image: cardImageType<`/team-members/${string}.png`>;
   description: string;
 };
 type teamMembersPack = TMtype[];
@@ -95,5 +93,5 @@ const tm8: TMtype = {
   description: "Damiano is our Web Developer.",
 };
 
-export type { TMtype, teamMembersPack };
+export type { TMtype, teamMembersPack, cardImageType };
 export { tm1, tm2, tm3, tm4, tm5, tm6, tm7, tm8 };

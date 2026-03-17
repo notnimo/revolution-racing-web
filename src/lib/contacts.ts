@@ -1,20 +1,3 @@
-/*
-import React from 'react';
-import { PhotoStory, VideoStory } from './stories';
-
-const components = {
-  photo: PhotoStory,
-  video: VideoStory
-};
-
-function Story(props) {
-  // Correct! JSX type can be a capitalized variable.
-  const SpecificStory = components[props.storyType];
-  return <SpecificStory story={props.story} />;
-}
-*/
-
-import { JSX, ReactNode } from "react";
 import {
   InstagramLogo,
   FacebookLogo,
@@ -22,6 +5,7 @@ import {
   YoutubeLogo,
   MailLogo,
   TikTokLogo,
+  WebsiteLogo,
 } from "@/src/ui/social-icons";
 
 const typeOpts = [
@@ -31,6 +15,7 @@ const typeOpts = [
   "youtube",
   "email",
   "tiktok",
+  "website",
 ] as const;
 type typeOptions = (typeof typeOpts)[number];
 
@@ -50,6 +35,7 @@ const matchIcon = {
   linkedin: LinkedinLogo,
   youtube: YoutubeLogo,
   email: MailLogo,
+  website: WebsiteLogo,
 };
 
 export { type Contact, type ContactPack, matchIcon };
