@@ -34,10 +34,9 @@ export function AboutSnapshot() {
 
   return (
     <div className="w-screen h-fit ">
-      <div className="flex flex-col md:flex-row">
-        {/*<StemRacingOverview />
-        <hr className="md:hidden" />
-        <div className="hidden md:block w-1.5 h-screen bg-neutral-quaternary border-3 rounded-sm" />*/}
+      <div className="flex flex-col">
+        <StemRacingOverview />
+        <hr />
         <TeamOverview teamMembers={teamMembersList} />
       </div>
       <hr />
