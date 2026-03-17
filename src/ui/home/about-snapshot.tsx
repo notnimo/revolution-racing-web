@@ -33,12 +33,10 @@ export function AboutSnapshot() {
   const teamMembersList: TMtype[] = [tm1, tm2, tm3, tm4, tm5, tm6, tm7, tm8];
 
   return (
-    <div className="w-screen h-fit ">
-      <div className="flex flex-col">
-        <StemRacingOverview />
-        <hr />
-        <TeamOverview teamMembers={teamMembersList} />
-      </div>
+    <div className="w-screen h-fit flex flex-col gap-2">
+      <StemRacingOverview />
+      <hr />
+      <TeamOverview teamMembers={teamMembersList} />
       <hr />
       <SponsorOverview sponsors={sponsorsList} />
     </div>
