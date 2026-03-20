@@ -1,21 +1,21 @@
 - home
   - hero
-    - background
+    - background done
     - h1
   - about
     - team
-      - tm def and card
-      - scroller
+      - tm def and card done
+      - scroller done
     - stem racing
-      - text
-      - logo
+      - text 
+      - logo done
     - sponsor
-      - sponsor def and card
+      - sponsor def and card done
       - pagination
   - news
   - stats
   - contacts
-    - contact def DONE
+    - contact def done
     - render
 - vercel
 - domain

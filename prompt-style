@@ -56,6 +56,7 @@ style everything in the directory @/src/ui (with the exception of project-compon
 - respect hierarchy, if a part is labeled as primary give it a more important styling that makes it pop out
 - use wide radius to respect the modern and comfortable feel
 - ADD an animation of fade in on vertical scroll, (use normal code out of tailwind if needed) to give a modern look
+- if a set of cards have the same hierarchy (ex. all the platinum sponsors or the tm cards) they HAVE TO have the same dimensions 
 
 Specific page guidelines:
 

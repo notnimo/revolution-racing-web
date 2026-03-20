@@ -14,7 +14,8 @@ export function HeroSection() {
           Welcome to Revolution Racing
         </h1>
         <p className="mt-4 text-lg md:text-xl">
-          Join us in revolutionizing the racing experience.
+          Our official website for our STEM Racing journey. Explore our
+          projects, news, and team updates.
         </p>
       </div>
     </section>
