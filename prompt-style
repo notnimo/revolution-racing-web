@@ -55,9 +55,15 @@ style everything in the directory @/src/ui (with the exception of project-compon
 - DO NOT change the fonts.ts file in @/src/ui
 - respect hierarchy, if a part is labeled as primary give it a more important styling that makes it pop out
 - use wide radius to respect the modern and comfortable feel
-- DO NOT use animations of any kind
+- ADD an animation of fade in on vertical scroll, (use normal code out of tailwind if needed) to give a modern look
 
 Specific page guidelines:
 
 - in @/src/app/page.tsx the navbar component has to be sticky to the top and ave z-50 as a fixed value
 - in @/src/ui/about-components/overview-components/team-overview.tsx //explain arrows to scroll styling
+- sponsor section in the about snapshot (@/src/ui/about-components/overview-components/sponsor-overview.tsx, @src/ui/about-components/overview-components/single-sponsor.tsx), hierarchy:
+  - make platinum sponsor more spacious with only one on every row
+  - gold is a bit less two or three per row, reduce the size of the card
+  - tier 3 and others are even less important reduce the size even more, four per row
+- DON'T change the tailwind rules to make the scrolling effect in @/src/ui/about-components/overview-components/team-overview.tsx (it is permitted to change the rules for other aspects of styling cards)
+- 
