@@ -51,12 +51,14 @@ style everything in the directory @/src/ui (with the exception of project-compon
   - button: inter weight600
 - leave comfortable spaces between elements to give a modern look, use padding and margin accordingly
 - the total width at any point should be the screen's, no horizontal scroll or less than screen width
-- DO NOT touch the code only modify the tailwind styling for each component is needed
+- DO NOT touch the code; only modify the tailwind styling for each component is needed
 - DO NOT change the fonts.ts file in @/src/ui
 - respect hierarchy, if a part is labeled as primary give it a more important styling that makes it pop out
 - use wide radius to respect the modern and comfortable feel
 - ADD an animation of fade in on vertical scroll, (use normal code out of tailwind if needed) to give a modern look
-- if a set of cards have the same hierarchy (ex. all the platinum sponsors or the tm cards) they HAVE TO have the same dimensions 
+- if a set of cards have the same hierarchy (ex. all the platinum sponsors or the tm cards) they HAVE TO have the same dimensions
+- all the cards and sections that should be the most important have to have different background that the background to make them stand out
+- DO NOT use the already existent tailwind code as a guide WITH THE EXCEPTION OF ANIMATIONS AND DISPLAY PROPERTIES 
 
 Specific page guidelines:
 
@@ -67,4 +69,4 @@ Specific page guidelines:
   - gold is a bit less two or three per row, reduce the size of the card
   - tier 3 and others are even less important reduce the size even more, four per row
 - DON'T change the tailwind rules to make the scrolling effect in @/src/ui/about-components/overview-components/team-overview.tsx (it is permitted to change the rules for other aspects of styling cards)
-- 
+- in @/src/ui/home/hero-section.tsx DO NOT change the gradient in background of the hero image

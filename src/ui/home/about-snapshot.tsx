@@ -34,9 +34,9 @@ export function AboutSnapshot() {
 
   return (
     <div className="w-screen h-fit flex flex-col gap-2">
-      <StemRacingOverview />
-      <hr />
       <TeamOverview teamMembers={teamMembersList} />
+      <hr />
+      <StemRacingOverview />
       <hr />
       <SponsorOverview sponsors={sponsorsList} />
     </div>

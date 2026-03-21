@@ -27,7 +27,7 @@ type sponsorPack = {
 const famar: sponsorType = {
   id: 0,
   sponsorName: "Famar",
-  description: "",
+  description: "kkkkkkkkkkkkk",
   image: { imageRef: "/sponsor/FAMAR/famar.png" },
   header: "FOO",
   contactSocials: { website: { id: 1, type: "website", href: "foo.com" } },
@@ -35,7 +35,7 @@ const famar: sponsorType = {
 const hyperion: sponsorType = {
   id: 1,
   sponsorName: "Hyperion",
-  description: "",
+  description: "kkkkkkk",
   image: { imageRef: "/sponsor/hyperion/hyperion-black.png" },
   header: "FOO",
   contactSocials: { website: { id: 1, type: "website", href: "foo.com" } },
@@ -67,10 +67,17 @@ const pascal: sponsorType = {
 const poliTo: sponsorType = {
   id: 5,
   sponsorName: "Squadra Corse PoliTo",
-  description: "",
+  description: "kkkkkkkkkkkk",
   image: { imageRef: "/sponsor/poliTo/poli-white-logo.png" },
   header: "FOO",
-  contactSocials: { website: { id: 1, type: "website", href: "foo.com" } },
+  contactSocials: {
+    website: { id: 1, type: "website", href: "foo.com" },
+    instagram: {
+      id: 2,
+      type: "instagram",
+      href: "https://www.instagram.com/squadracorsepolito/",
+    },
+  },
 };
 const centroServizi: sponsorType = {
   id: 6,

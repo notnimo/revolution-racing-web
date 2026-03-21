@@ -46,19 +46,21 @@ function SingleSponsor({
           <div className="hidden" />
         )}
         <CardFooter>
-          {Object.values(sponsor.contactSocials) &&
-            Object.values(sponsor.contactSocials).map((contact) => {
-              const Icon = matchIcon[contact.type];
-              return (
-                <a
-                  key={contact.href}
-                  href={contact.href}
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <Icon />
-                </a>
-              );
-            })}
+          <div className="flex flex-row items-center justify-center">
+            {Object.values(sponsor.contactSocials) &&
+              Object.values(sponsor.contactSocials).map((contact) => {
+                const Icon = matchIcon[contact.type];
+                return (
+                  <a
+                    key={contact.href}
+                    href={contact.href}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <Icon />
+                  </a>
+                );
+              })}
+          </div>
         </CardFooter>
       </CardContent>
     </Card>
