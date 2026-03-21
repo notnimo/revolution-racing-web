@@ -58,15 +58,20 @@ style everything in the directory @/src/ui (with the exception of project-compon
 - ADD an animation of fade in on vertical scroll, (use normal code out of tailwind if needed) to give a modern look
 - if a set of cards have the same hierarchy (ex. all the platinum sponsors or the tm cards) they HAVE TO have the same dimensions
 - all the cards and sections that should be the most important have to have different background that the background to make them stand out
-- DO NOT use the already existent tailwind code as a guide WITH THE EXCEPTION OF ANIMATIONS AND DISPLAY PROPERTIES 
+- DO NOT use the already existent tailwind code as a guide WITH THE EXCEPTION OF ANIMATIONS AND DISPLAY PROPERTIES (don't touch the animation and use the flex direction property as guidelines)
+- every img tag should have one set between height and width (with relative units)
 
 Specific page guidelines:
 
 - in @/src/app/page.tsx the navbar component has to be sticky to the top and ave z-50 as a fixed value
-- in @/src/ui/about-components/overview-components/team-overview.tsx //explain arrows to scroll styling
+- in @/src/ui/about-components/overview-components/team-overview.tsx place the arrows to the side of the cards scrolling not above them (it is allowed to move the html components if required)
 - sponsor section in the about snapshot (@/src/ui/about-components/overview-components/sponsor-overview.tsx, @src/ui/about-components/overview-components/single-sponsor.tsx), hierarchy:
   - make platinum sponsor more spacious with only one on every row
   - gold is a bit less two or three per row, reduce the size of the card
   - tier 3 and others are even less important reduce the size even more, four per row
 - DON'T change the tailwind rules to make the scrolling effect in @/src/ui/about-components/overview-components/team-overview.tsx (it is permitted to change the rules for other aspects of styling cards)
 - in @/src/ui/home/hero-section.tsx DO NOT change the gradient in background of the hero image
+- in @/src/ui/news-components/number-section.tsx find a fitting font for the numbers supported on google fonts and apply it (for this you can ignore the rule to not touch the font file), scatter the various stats around the page, enclosed in items maintaining the importance of the number by having it bigger than everything else
+- in @/src/ui/news-components/news-overview/news-section.tsx the news have to be in a column
+- DO NOT change the colors in @/src/ui/news-components/news-overview/badges.tsx although everything else inside the tailwind rules is editable
+- 
