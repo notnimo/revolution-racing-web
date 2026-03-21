@@ -1,11 +1,11 @@
-import { cardImageType } from "@/src/lib/team-members";
+import { ImageType } from "@/src/lib/team-members";
 import { Contact } from "@/src/lib/contacts";
 
-type sponsorType = {
+type Sponsor = {
   id: number;
   sponsorName: string;
   description: string;
-  image: cardImageType<`/sponsor/${string}.png`>;
+  image: ImageType<`/sponsor/${string}.png`>;
   header: string; // @TODO prop name to change
   contactSocials: {
     website: Contact;
@@ -17,14 +17,14 @@ type sponsorType = {
   };
 };
 type sponsorPack = {
-  primary: sponsorType[];
-  secondary: sponsorType[];
-  tier3: sponsorType[];
-  others: sponsorType[];
+  primary: Sponsor[];
+  secondary: Sponsor[];
+  tier3: Sponsor[];
+  others: Sponsor[];
 };
 
 // Sponsor data to change with real imported from json or something like that, for now it's hardcoded for testing purposes
-const famar: sponsorType = {
+const famar: Sponsor = {
   id: 0,
   sponsorName: "Famar",
   description: "kkkkkkkkkkkkk",
@@ -32,7 +32,7 @@ const famar: sponsorType = {
   header: "FOO",
   contactSocials: { website: { id: 1, type: "website", href: "foo.com" } },
 };
-const hyperion: sponsorType = {
+const hyperion: Sponsor = {
   id: 1,
   sponsorName: "Hyperion",
   description: "kkkkkkk",
@@ -40,7 +40,7 @@ const hyperion: sponsorType = {
   header: "FOO",
   contactSocials: { website: { id: 1, type: "website", href: "foo.com" } },
 };
-const mitor: sponsorType = {
+const mitor: Sponsor = {
   id: 2,
   sponsorName: "Mitor",
   description: "",
@@ -48,7 +48,7 @@ const mitor: sponsorType = {
   header: "FOO",
   contactSocials: { website: { id: 1, type: "website", href: "foo.com" } },
 };
-const comuneGiaveno: sponsorType = {
+const comuneGiaveno: Sponsor = {
   id: 3,
   sponsorName: "Comune di Giaveno",
   description: "",
@@ -56,7 +56,7 @@ const comuneGiaveno: sponsorType = {
   header: "FOO",
   contactSocials: { website: { id: 1, type: "website", href: "foo.com" } },
 };
-const pascal: sponsorType = {
+const pascal: Sponsor = {
   id: 4,
   sponsorName: "ISS Blaise Pascal",
   description: "",
@@ -64,7 +64,7 @@ const pascal: sponsorType = {
   header: "FOO",
   contactSocials: { website: { id: 1, type: "website", href: "foo.com" } },
 };
-const poliTo: sponsorType = {
+const poliTo: Sponsor = {
   id: 5,
   sponsorName: "Squadra Corse PoliTo",
   description: "kkkkkkkkkkkk",
@@ -79,7 +79,7 @@ const poliTo: sponsorType = {
     },
   },
 };
-const centroServizi: sponsorType = {
+const centroServizi: Sponsor = {
   id: 6,
   sponsorName: "Centro Servizi",
   description: "",
@@ -88,5 +88,5 @@ const centroServizi: sponsorType = {
   contactSocials: { website: { id: 1, type: "website", href: "foo.com" } },
 };
 
-export type { sponsorType, sponsorPack };
+export type { Sponsor, sponsorPack };
 export { famar, hyperion, mitor, comuneGiaveno, pascal, poliTo, centroServizi };

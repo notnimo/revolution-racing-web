@@ -9,14 +9,14 @@ import {
 
 import { poppins, inter500 } from "@/src/ui/fonts";
 
-import { sponsorType } from "@/src/lib/sponsor";
+import { Sponsor } from "@/src/lib/sponsor";
 import { matchIcon } from "@/src/lib/contacts";
 
 function SingleSponsor({
   sponsor,
   level,
 }: {
-  sponsor: sponsorType;
+  sponsor: Sponsor;
   level: string;
 }) {
   return (

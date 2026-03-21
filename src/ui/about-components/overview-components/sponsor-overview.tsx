@@ -1,4 +1,4 @@
-import { sponsorPack, sponsorType } from "@/src/lib/sponsor";
+import { sponsorPack, Sponsor } from "@/src/lib/sponsor";
 import { SingleSponsor } from "@/src/ui/about-components/overview-components/single-sponsor";
 
 export function SponsorOverview({ sponsors }: { sponsors: sponsorPack }) {
