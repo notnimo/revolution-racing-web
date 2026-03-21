@@ -8,10 +8,15 @@ function calcRowsCols(numContacts: number): [number, number] {
 
 export function BadgeSection({ contacts }: { contacts: ContactPack }) {
   const [rows, cols] = calcRowsCols(contacts.length);
-  const wrapperStyle = `grid grid-cols-${cols} grid-rows-${rows} w-full`;
+  const wrapperStyle = {
+    display: "grid",
+    gridTemplateColumns: `repeat(${cols}, 1fr)`,
+    gridTemplateRows: `repeat(${rows}, 1fr)`,
+    width: "100%",
+  };
   return (
     <>
-      <div className={wrapperStyle}>
+      <div style={wrapperStyle}>
         {contacts &&
           contacts.map((contact: Contact) => {
             const Icon = matchIcon[contact.type];
