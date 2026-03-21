@@ -1,4 +1,4 @@
-import { type Contact, type ContactPack, matchIcon } from "@/src/lib/contacts";
+import { type Contact, matchIcon } from "@/src/lib/contacts";
 
 function calcRowsCols(numContacts: number): [number, number] {
   const cols = Math.ceil(Math.sqrt(numContacts));
@@ -6,7 +6,7 @@ function calcRowsCols(numContacts: number): [number, number] {
   return [rows, cols];
 }
 
-export function BadgeSection({ contacts }: { contacts: ContactPack }) {
+export function BadgeSection({ contacts }: { contacts: Contact[] }) {
   const [rows, cols] = calcRowsCols(contacts.length);
   const wrapperStyle = {
     display: "grid",
