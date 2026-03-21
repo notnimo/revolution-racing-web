@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 
-import { ArrowLeft, ArrowRight } from "lucide-react";
-
-import { TMCard } from "@/src/ui/about-components/team-mbr-card";
+import { ArrowLeft, ArrowRight, UsersRound } from "lucide-react";
 
 import { teamMembersPack, TMtype } from "@/src/lib/team-members";
+
+import { TMCard } from "@/src/ui/about-components/team-mbr-card";
+import { open_sans } from "@/src/ui/fonts";
 
 function TeamDescription() {
   return (
@@ -58,8 +59,14 @@ export function TeamOverview({
 
   return (
     <div className="flex flex-col items-center text-center w-full">
-      <div>
+      <div className="flex flex-row items-center justify-center gap-3">
         <h1 className="text-3xl font-bold mb-2">Our Team</h1>
+        <a href="/about-us">
+          <div className="flex flex-col w-fit h-fit items-center justify-center">
+            <UsersRound />
+            <h3 className={open_sans.className}>ABOUT US</h3>
+          </div>
+        </a>
       </div>
 
       <TeamDescription />
