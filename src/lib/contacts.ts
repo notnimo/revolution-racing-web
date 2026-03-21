@@ -26,7 +26,6 @@ type Contact = {
   title?: string;
   description?: string;
 };
-type ContactPack = Contact[];
 
 const matchIcon = {
   tiktok: TikTokLogo,
@@ -38,4 +37,4 @@ const matchIcon = {
   website: WebsiteLogo,
 };
 
-export { type Contact, type ContactPack, matchIcon };
+export { type Contact, matchIcon };

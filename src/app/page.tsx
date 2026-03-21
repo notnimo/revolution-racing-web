@@ -9,7 +9,7 @@ import { NewsSnapshot } from "@/src/ui/home/news-snapshot";
 import { StatsSection } from "@/src/ui/home/stats-section";
 import { Contacts } from "@/src/ui/contacts/contacts";
 
-import { Contact, ContactPack } from "@/src/lib/contacts";
+import { Contact } from "@/src/lib/contacts";
 
 export default function Main() {
   const navbarItems = ["Home", "About", "News", "Stats", "Contact"];
@@ -78,7 +78,7 @@ export default function Main() {
     title: "Email",
     description: "Contact us via email",
   };
-  const contacts: ContactPack = [
+  const contacts: Contact[] = [
     instaSq,
     tiktokSq,
     facebookSq,
