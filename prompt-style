@@ -74,4 +74,5 @@ Specific page guidelines:
 - in @/src/ui/news-components/number-section.tsx find a fitting font for the numbers supported on google fonts and apply it (for this you can ignore the rule to not touch the font file), scatter the various stats around the page, enclosed in items maintaining the importance of the number by having it bigger than everything else
 - in @/src/ui/news-components/news-overview/news-section.tsx the news have to be in a column
 - DO NOT change the colors in @/src/ui/news-components/news-overview/badges.tsx although everything else inside the tailwind rules is editable
-- 
+- in @/src/ui/news-components/news-article.tsx make sure that regardless if there is more than one image in the carousel or just one static image the images have the same appearance, style, and dimensions
+- in @/src/ui/home/news-snapshot.tsx, @/src/ui/about-components/overview-components/team-overview.tsx and src/ui/home/stats-section.tsx style the part that links to other pages in a way that fits the overall theme of the website, don't take ANY existing style into account (ignore the rule that says to do so)

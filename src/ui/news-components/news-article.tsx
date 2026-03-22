@@ -8,6 +8,14 @@ import {
   ItemTitle,
 } from "@/src/components/item";
 import { Separator } from "@/src/components/separator";
+import { Card, CardContent } from "@/src/components/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/src/components/carousel";
 
 import { matchBadge, NewsType } from "@/src/lib/news";
 
@@ -19,15 +27,39 @@ export function NewsArticle({ article }: { article: NewsType }) {
           <h2>{article.title}</h2>
         </ItemTitle>
         {article.badges &&
-          article.badges.map((badge) => {
+          article.badges.map((badge, index) => {
             const BadgeUi = matchBadge[badge];
-            return <BadgeUi />;
+            return <BadgeUi key={index} />;
           })}
         <h4>{article.date}</h4>
       </ItemHeader>
       <Separator />
       {article.images ? (
-        <div>carousel</div>
+        <Carousel
+          opts={{
+            align: "start",
+          }}
+          className="w-full max-w-[12rem] sm:max-w-xs md:max-w-sm">
+          <CarouselContent>
+            {article.images.map((image, index) => (
+              <CarouselItem key={index}>
+                <div className="p-1">
+                  <Card>
+                    <CardContent className="flex aspect-square items-center justify-center p-6">
+                      <img
+                        src={image.imageRef}
+                        alt={image.altText}
+                        className="w-full h-full object-cover rounded-md"
+                      />
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
       ) : (
         <ItemMedia>
           <img
@@ -40,6 +72,15 @@ export function NewsArticle({ article }: { article: NewsType }) {
       <Separator orientation="vertical" className="" />
       <ItemContent>
         <ItemDescription>{article.description}</ItemDescription>
+        {article.paragraphs && (
+          <ItemDescription>
+            {article.paragraphs.map((paragraph, index) => (
+              <p key={index} className="text-sm text-muted-foreground">
+                {paragraph}
+              </p>
+            ))}
+          </ItemDescription>
+        )}
       </ItemContent>
     </Item>
   );
