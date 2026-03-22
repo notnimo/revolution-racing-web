@@ -7,19 +7,26 @@ import { open_sans } from "@/src/ui/fonts";
 
 export function NewsSnapshot() {
 	return (
-		<div className="w-screen">
-			<div className="flex flex-row items-center justify-center gap-3">
-				<h1 className="text-3xl font-bold mb-2">Our News</h1>
-				<a href="/news">
-					<div className="flex flex-row w-fit h-fit items-center justify-center">
-						<ArrowRight />
-						<h3 className={open_sans.className}>MORE OF OUR WORK</h3>
-					</div>
+		<section className="w-screen p-4 md:p-8 bg-white">
+			<div className="flex flex-col md:flex-row items-center justify-between border border-[#E8F5FC] bg-[#E8F5FC] rounded-2xl p-4 md:p-6 gap-3">
+				<div>
+					<h1 className="text-3xl md:text-4xl font-bold text-[#3B9FE5]">
+						Our News
+					</h1>
+					<p className="text-[#2C3E50]">
+						Latest updates and stories from our racing team.
+					</p>
+				</div>
+				<a
+					href="/news"
+					className="inline-flex items-center gap-2 rounded-lg bg-[#1FBEB6] px-3 py-2 text-white font-semibold hover:bg-[#7EC8E3] transition-colors">
+					<ArrowRight />
+					<span className={open_sans.className}>MORE OF OUR WORK</span>
 				</a>
 			</div>
-			<div>
+			<div className="mt-5">
 				<NewsSection news={newsData} />
 			</div>
-		</div>
+		</section>
 	);
 }
