@@ -56,6 +56,12 @@ const newsData: NewsType[] = [
     date: "01/02/2023",
     badges: ["sponsor", "event"],
     primaryImage: { imageRef: "/news/foo2.png", altText: "News primary image" },
+    images: [
+      { imageRef: "/news/foo2.png", altText: "News image 1" },
+      { imageRef: "/news/foo2.png", altText: "News image 2" },
+      { imageRef: "/news/foo2.png", altText: "News image 3" },
+      { imageRef: "/news/foo2.png", altText: "News image 4" },
+    ],
   },
 ];
 
