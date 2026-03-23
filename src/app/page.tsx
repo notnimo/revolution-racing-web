@@ -93,7 +93,7 @@ export default function Main() {
 	return (
 		<div className="w-screen flex flex-col justify-start items-center overflow-x-hidden">
 			<div
-				className="sticky top-0 z-50 w-screen bg-white/40 backdrop-blur-md"
+				className="fixed top-0 left-0 right-0 z-50 w-screen bg-white/40 backdrop-blur-md"
 				id="nav-bar-container">
 				<NavBar navbarItems={navbarItems} onItemClick={handleNavClick} />
 			</div>

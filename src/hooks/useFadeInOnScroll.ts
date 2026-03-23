@@ -6,6 +6,9 @@ export function useFadeInOnScroll(selector: string = ".fade-in-section") {
 			entries.forEach((entry) => {
 				if (entry.isIntersecting) {
 					entry.target.classList.add("fade-in-visible");
+				} else {
+					// Remove the class when element exits viewport to allow re-triggering
+					entry.target.classList.remove("fade-in-visible");
 				}
 			});
 		};
