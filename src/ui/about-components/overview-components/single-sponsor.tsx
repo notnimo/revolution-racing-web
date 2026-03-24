@@ -23,7 +23,7 @@ function SingleSponsor({
 		level === "platinum"
 			? "bg-white border-2 border-[#3B9FE5] shadow-lg"
 			: level === "gold"
-				? "bg-[#E8F5FC] border-2 border-[#7EC8E3] shadow-md"
+				? "bg-white border-2 border-[#7EC8E3] shadow-md"
 				: "bg-white border border-slate-200 shadow-sm";
 
 	return (
