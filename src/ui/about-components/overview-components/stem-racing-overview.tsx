@@ -14,35 +14,35 @@ export function StemRacingOverview() {
 
 			<div className="text-[#2C3E50] text-sm md:text-base space-y-3 md:max-w-[80%]">
 				<p>
-					STEM Racing (precedentemente Formula 1 in Schools) è un programma
-					educativo internazionale riconosciuto a livello mondiale che coinvolge
-					studenti di scuole secondarie di secondo grado. La competizione
-					unisce:
+					STEM Racing (formerly Formula 1 in Schools) is a globally recognized
+					international educational program involving high school students. The
+					competition includes:
 				</p>
 				<ul className="list-disc list-inside space-y-2">
 					<li>
-						<strong>Ingegneria e tecnologia:</strong> progettazione e
-						realizzazione di una vettura in miniatura
+						<strong>Engineering and Technology:</strong> design and
+						implementation of a miniature race car using CAD software, CFU
+						analysis, and CNC manufacturing
 					</li>
 					<li>
-						<strong>Gestione progettuale:</strong> budget, timeline, controllo
-						delle risorse
+						<strong>Project Management:</strong> budget, timeline, resources
+						control
 					</li>
 					<li>
-						<strong>Comunicazione:</strong> presentazione professionale del
-						progetto e brand identity
+						<strong>Communication:</strong> professional presentation of the
+						project and brand identity
 					</li>
 					<li>
-						<strong>Competizione:</strong> gare cronometrate su pista con
-						sistema di timing elettronico
+						<strong>Competition:</strong> timed races on a track with an
+						electronic timing system
 					</li>
 				</ul>
 				<p>
-					Centinaia di team partecipano alle qualifiche regionali italiane, dai
-					50 ai 100+ team per ogni regione nelle aree ad alta
-					industrializzazione (Piemonte, Lombardia, Emilia-Romagna) ed un numero
-					variabile avanza alle finali regionali (top 10-15 per regione). Infine
-					circa 50-100 team competono al campionato nazionale a settembre.
+					Hundreds of teams participate in the Italian regional qualifiers, 50
+					to 100+ teams per region in highly industrialized areas (Piedmont,
+					Lombardy, Emilia-Romagna), and a variable number advance to the
+					regional finals (top 10-15 per region). In the end, about 50-100 teams
+					compete in the national championship in September.
 				</p>
 			</div>
 		</section>
