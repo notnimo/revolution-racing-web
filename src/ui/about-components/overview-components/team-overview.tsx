@@ -88,7 +88,7 @@ export function TeamOverview({
 								{teamMembers?.map((member) => (
 									<div
 										key={member.id}
-										className="min-w-[85vw] md:min-w-[20rem] lg:min-w-[22rem] max-w-[85vw] md:max-w-[20rem] rounded-2xl bg-white shadow-lg p-2">
+										className="h-fit min-w-[85vw] md:min-w-[20rem] lg:min-w-[22rem] max-w-[85vw] md:max-w-[20rem] rounded-2xl bg-white shadow-lg p-2">
 										<TMCard teamMember={member as TMtype} />
 									</div>
 								))}

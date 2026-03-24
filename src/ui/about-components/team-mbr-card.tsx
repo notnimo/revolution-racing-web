@@ -12,7 +12,7 @@ import { poppins, inter500 } from "@/src/ui/fonts";
 export function TMCard({ teamMember }: { teamMember: TMtype }) {
 	return (
 		<div className="w-full min-h-[18rem] md:min-h-[20rem] rounded-2xl bg-[#FFFFFF] border border-[#E8F5FC] shadow-md overflow-hidden">
-			<Card className="w-full h-full">
+			<Card className="w-full h-[60vh] max-h-[30rem]">
 				<CardContent className="flex flex-col items-center justify-start gap-3 p-4">
 					<CardTitle
 						className={`${poppins.className} antialiased text-xl font-semibold text-[#3B9FE5]`}>
@@ -21,7 +21,7 @@ export function TMCard({ teamMember }: { teamMember: TMtype }) {
 					<img
 						src={teamMember.image.imageRef}
 						alt={`${teamMember.name}'s card picture`}
-						className="w-full h-[25vw] max-h-[10rem] object-cover rounded-lg"
+						className="w-full h-[25vw] max-h-[18.5rem] object-cover rounded-lg"
 					/>
 					<CardHeader
 						className={`${poppins.className} antialiased text-base text-[#2C3E50]`}>
