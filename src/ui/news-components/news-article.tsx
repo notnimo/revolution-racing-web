@@ -21,7 +21,7 @@ import { matchBadge, NewsType } from "@/src/lib/news";
 
 export function NewsArticle({ article }: { article: NewsType }) {
 	return (
-		<Item className="w-full h-fit flex flex-col gap-4 border-2 border-[#E8F5FC] bg-white rounded-2xl shadow-md p-4 md:p-6">
+		<Item className="w-full h-fit flex flex-col gap-4 border-2 border-[#E8F5FC] bg-white rounded-2xl shadow-md p-4 md:p-6 min-h-[400px]">
 			<ItemHeader className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
 				<ItemTitle>
 					<h2 className="text-2xl md:text-3xl font-bold text-[#3B9FE5]">
@@ -38,22 +38,22 @@ export function NewsArticle({ article }: { article: NewsType }) {
 				</div>
 			</ItemHeader>
 
-			<div className="flex flex-col md:flex-row gap-4">
-				<div className="w-full md:w-[35%]">
+			<div className="flex flex-col md:flex-row gap-4 flex-1">
+				<div className="w-full md:w-[40%] h-full">
 					{article.images ? (
 						<Carousel
 							opts={{ align: "start" }}
-							className="w-full h-60 md:h-72 rounded-xl overflow-hidden">
+							className="w-full h-full rounded-xl relative p-4">
 							<CarouselContent>
 								{article.images.map((image, index) => (
 									<CarouselItem key={index}>
 										<div className="p-1">
 											<Card>
-												<CardContent className="h-56 md:h-64 flex items-center justify-center p-0 overflow-hidden">
+												<CardContent className="h-full flex items-center justify-center p-0">
 													<img
 														src={image.imageRef}
 														alt={image.altText}
-														className="w-full h-full object-cover"
+														className="w-full h-full object-cover rounded-lg"
 													/>
 												</CardContent>
 											</Card>
@@ -61,31 +61,37 @@ export function NewsArticle({ article }: { article: NewsType }) {
 									</CarouselItem>
 								))}
 							</CarouselContent>
-							<div className="absolute inset-x-0 bottom-2 flex justify-between px-3">
-								<CarouselPrevious className="rounded-full bg-white/80 p-1" />
-								<CarouselNext className="rounded-full bg-white/80 p-1" />
-							</div>
+							<CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-1 z-10" />
+							<CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-1 z-10" />
 						</Carousel>
 					) : (
-						<div className="h-60 md:h-72 rounded-xl overflow-hidden">
-							<img
-								src={article.primaryImage.imageRef}
-								alt={article.primaryImage.altText}
-								className="w-full h-full object-cover"
-							/>
+						<div className="w-full h-full rounded-xl relative p-4">
+							<Card>
+								<CardContent className="h-full flex items-center justify-center p-0">
+									<img
+										src={article.primaryImage.imageRef}
+										alt={article.primaryImage.altText}
+										className="w-full h-full object-cover rounded-lg"
+									/>
+								</CardContent>
+							</Card>
 						</div>
 					)}
 				</div>
 
-				<ItemContent className="w-full md:w-[65%]">
-					<ItemDescription className="text-[#2C3E50]">
-						{article.description}
+				<ItemContent className="w-full md:w-[60%] h-full">
+					<ItemDescription className="text-[#192530] text-lg font-medium">
+						{article.subtitle}
 					</ItemDescription>
-					{article.paragraphs && (
+					{article.paragraph && (
 						<div className="mt-3 space-y-2 text-sm text-[#2C3E50]">
-							{article.paragraphs.map((paragraph, index) => (
-								<p key={index}>{paragraph}</p>
-							))}
+							{typeof article.paragraph === "string" ? (
+								<p>{article.paragraph}</p>
+							) : (
+								article.paragraph.map((paragraph, index) => (
+									<p key={index}>{paragraph}</p>
+								))
+							)}
 						</div>
 					)}
 				</ItemContent>
