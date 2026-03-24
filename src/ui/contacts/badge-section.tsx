@@ -17,7 +17,7 @@ export function BadgeSection({ contacts }: { contacts: Contact[] }) {
 						href={contact.href}
 						target="_blank"
 						rel="noopener noreferrer"
-						className="flex items-center gap-3 p-3 rounded-xl border border-[#E8F5FC] bg-white hover:bg-[#E8F5FC] transition-all">
+						className="flex items-center gap-3 p-3 rounded-xl border border-[#E8F5FC] bg-[#E8F5FC] hover:bg-blue-100 transition-all">
 						<Icon className="text-[#1FBEB6]" />
 						<div className="flex flex-col">
 							<h3 className="text-lg font-semibold text-[#2C3E50]">

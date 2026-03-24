@@ -1,6 +1,6 @@
 export function HeroSection() {
 	return (
-		<section className="relative h-screen w-screen overflow-hidden bg-gradient-to-b from-[#3B9FE5] to-white p-5 md:p-10">
+		<section className="relative h-screen w-screen overflow-hidden bg-gradient-to-b from-[#3B9FE5] to-[#E8F5FC] p-5 md:p-10">
 			<div className="absolute inset-0 overflow-hidden">
 				<img
 					src="/car-hero.png"

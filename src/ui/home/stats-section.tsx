@@ -7,7 +7,7 @@ import { open_sans } from "@/src/ui/fonts";
 
 export function StatsSection() {
 	return (
-		<section className="w-screen p-4 md:p-8 bg-[#f6fbff] fade-in-section">
+		<section className="w-screen p-4 md:p-8 bg-gradient-to-b from-[#f6fbff] to-white fade-in-section">
 			<div className="flex flex-col md:flex-row items-center justify-between border border-[#E8F5FC] rounded-2xl p-4 md:p-6 gap-3">
 				<div>
 					<h1 className="text-3xl md:text-4xl font-bold text-[#3B9FE5]">

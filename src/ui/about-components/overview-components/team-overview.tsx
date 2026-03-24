@@ -7,17 +7,6 @@ import { teamMembersPack, TMtype } from "@/src/lib/team-members";
 import { TMCard } from "@/src/ui/about-components/team-mbr-card";
 import { open_sans } from "@/src/ui/fonts";
 
-function TeamDescription() {
-	return (
-		<div className="m-1.5 max-w-3xl text-base md:text-lg leading-relaxed text-[#2C3E50]">
-			Team description Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-			Totam laboriosam modi illum facilis quo, non consectetur molestiae iusto
-			ab, ipsum reprehenderit beatae, praesentium expedita reiciendis? Harum,
-			dolore repudiandae. Accusantium, similique?
-		</div>
-	);
-}
-
 export function TeamOverview({
 	teamMembers,
 }: {

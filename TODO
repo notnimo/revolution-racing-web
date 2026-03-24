@@ -31,8 +31,9 @@
         - center sponsors
         - secondary sponsor bg color done
         - news carousel fix
-        - badge revert to light mode colors (on shadcn badge component page) and fix hover effect
-        - contacts bg
+        - badge revert to light mode colors (on shadcn badge component page) and fix hover effect done
+        - contacts bg and separator done
+        - whole page bg gradient done
   - other changes
     - use famar blank space
       - carousel photo
