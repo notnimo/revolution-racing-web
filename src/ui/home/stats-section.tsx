@@ -21,7 +21,7 @@ export function StatsSection() {
 					href="/projects"
 					className="inline-flex items-center gap-2 rounded-lg bg-[#1FBEB6] px-3 py-2 text-white font-semibold hover:bg-[#7EC8E3] transition-colors">
 					<ArrowRight />
-					<span className={open_sans.className}>More of Our Projects</span>
+					<span className={open_sans.className}>MORE OF OUR PROJECTS</span>
 				</a>
 			</div>
 			<div className="mt-5">

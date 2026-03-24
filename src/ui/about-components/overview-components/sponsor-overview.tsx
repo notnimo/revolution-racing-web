@@ -4,9 +4,17 @@ import { SingleSponsor } from "@/src/ui/about-components/overview-components/sin
 export function SponsorOverview({ sponsors }: { sponsors: sponsorPack }) {
 	return (
 		<section className="fade-in-section w-full p-4 md:p-8">
-			<h1 className="text-3xl md:text-4xl font-bold text-[#3B9FE5] mb-4">
-				Our Sponsors
-			</h1>
+			<div className="flex flex-col md:flex-row items-center w-full text-center justify-center border border-[#E8F5FC] rounded-2xl p-4 md:p-6 gap-3 bg-white mb-3">
+				<div>
+					<h1 className="text-3xl md:text-4xl font-bold text-[#3B9FE5]">
+						Our Sponsors
+					</h1>
+					<h2 className="text-[#2C3E50]">
+						We are grateful for the support of our sponsors who make our journey
+						possible
+					</h2>
+				</div>
+			</div>
 
 			<div className="grid grid-cols-1 gap-4 mb-6">
 				{sponsors.primary?.map((sponsor) => (

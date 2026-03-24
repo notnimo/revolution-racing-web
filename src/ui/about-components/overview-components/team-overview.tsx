@@ -55,18 +55,22 @@ export function TeamOverview({
 	return (
 		<section className="w-full py-8 md:py-10 fade-in-section">
 			<div className="flex flex-col items-center text-center w-full gap-3">
-				<div className="flex flex-row items-center justify-center gap-2">
-					<h1 className="text-3xl md:text-4xl font-bold">Our Team</h1>
-					<a href="/about-us" className="text-sm text-[#1FBEB6] underline">
-						<div className="flex flex-row gap-2 items-center">
-							<UsersRound />
-							<h3 className={open_sans.className}>ABOUT US</h3>
-						</div>
+				<div className="flex flex-col md:flex-row items-center w-full text-left justify-between border border-[#E8F5FC] rounded-2xl p-4 md:p-6 gap-3 bg-white">
+					<div>
+						<h1 className="text-3xl md:text-4xl font-bold text-[#3B9FE5]">
+							Our Team
+						</h1>
+						<h2 className="text-[#2C3E50]">
+							Meet the passionate individuals behind our success
+						</h2>
+					</div>
+					<a
+						href="/projects"
+						className="inline-flex items-center gap-2 rounded-lg bg-[#1FBEB6] px-3 py-2 text-white font-semibold hover:bg-[#7EC8E3] transition-colors">
+						<ArrowRight />
+						<span className={open_sans.className}>MORE ABOUT US</span>
 					</a>
 				</div>
-
-				<TeamDescription />
-
 				<div className="w-full relative">
 					<div className="flex items-center justify-between gap-2">
 						<button
