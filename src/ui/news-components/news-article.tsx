@@ -46,14 +46,16 @@ export function NewsArticle({ article }: { article: NewsType }) {
 							className="w-full h-full rounded-xl relative p-4">
 							<CarouselContent>
 								{article.images.map((image, index) => (
-									<CarouselItem key={index}>
-										<div className="p-1">
-											<Card>
+									<CarouselItem
+										key={index}
+										className="flex items-center justify-center">
+										<div className="p-1 w-full h-full max-w-full max-h-full">
+											<Card className="h-full">
 												<CardContent className="h-full flex items-center justify-center p-0">
 													<img
 														src={image.imageRef}
 														alt={image.altText}
-														className="w-full h-full object-cover rounded-lg"
+														className="max-w-full max-h-full object-contain rounded-lg"
 													/>
 												</CardContent>
 											</Card>
