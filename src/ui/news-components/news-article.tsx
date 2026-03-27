@@ -1,87 +1,103 @@
 import {
-  Item,
-  ItemActions,
-  ItemContent,
-  ItemDescription,
-  ItemHeader,
-  ItemMedia,
-  ItemTitle,
+	Item,
+	ItemActions,
+	ItemContent,
+	ItemDescription,
+	ItemHeader,
+	ItemMedia,
+	ItemTitle,
 } from "@/src/components/item";
 import { Separator } from "@/src/components/separator";
 import { Card, CardContent } from "@/src/components/card";
 import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+	Carousel,
+	CarouselContent,
+	CarouselItem,
+	CarouselNext,
+	CarouselPrevious,
 } from "@/src/components/carousel";
 
 import { matchBadge, NewsType } from "@/src/lib/news";
 
 export function NewsArticle({ article }: { article: NewsType }) {
-  return (
-    <Item className="w-full h-fit flex flex-col md:flex-row items-start gap-4 border-2 border-solid border-primary rounded-lg p-4">
-      <ItemHeader className="flex flex-row justify-start gap-3">
-        <ItemTitle>
-          <h2>{article.title}</h2>
-        </ItemTitle>
-        {article.badges &&
-          article.badges.map((badge, index) => {
-            const BadgeUi = matchBadge[badge];
-            return <BadgeUi key={index} />;
-          })}
-        <h4>{article.date}</h4>
-      </ItemHeader>
-      <Separator />
-      {article.images ? (
-        <Carousel
-          opts={{
-            align: "start",
-          }}
-          className="w-full max-w-[12rem] sm:max-w-xs md:max-w-sm">
-          <CarouselContent>
-            {article.images.map((image, index) => (
-              <CarouselItem key={index}>
-                <div className="p-1">
-                  <Card>
-                    <CardContent className="flex aspect-square items-center justify-center p-6">
-                      <img
-                        src={image.imageRef}
-                        alt={image.altText}
-                        className="w-full h-full object-cover rounded-md"
-                      />
-                    </CardContent>
-                  </Card>
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
-        </Carousel>
-      ) : (
-        <ItemMedia>
-          <img
-            src={article.primaryImage.imageRef}
-            alt={article.primaryImage.altText}
-            className="w-full h-full object-cover"
-          />
-        </ItemMedia>
-      )}
-      <Separator orientation="vertical" className="" />
-      <ItemContent>
-        <ItemDescription>{article.description}</ItemDescription>
-        {article.paragraphs && (
-          <ItemDescription>
-            {article.paragraphs.map((paragraph, index) => (
-              <p key={index} className="text-sm text-muted-foreground">
-                {paragraph}
-              </p>
-            ))}
-          </ItemDescription>
-        )}
-      </ItemContent>
-    </Item>
-  );
+	return (
+		<Item className="w-full h-fit flex flex-col gap-4 border-2 border-[#E8F5FC] bg-white rounded-2xl shadow-md p-4 md:p-6 min-h-[400px]">
+			<ItemHeader className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+				<ItemTitle>
+					<h2 className="text-2xl md:text-3xl font-bold text-[#3B9FE5]">
+						{article.title}
+					</h2>
+				</ItemTitle>
+				<div className="flex flex-row items-center gap-2 text-sm text-[#2C3E50]">
+					{article.badges &&
+						article.badges.map((badge, index) => {
+							const BadgeUi = matchBadge[badge];
+							return <BadgeUi key={index} />;
+						})}
+					<span className="font-medium">{article.date}</span>
+				</div>
+			</ItemHeader>
+
+			<div className="flex flex-col md:flex-row gap-4 flex-1">
+				<div className="w-full md:w-[40%] h-full">
+					{article.images ? (
+						<Carousel
+							opts={{ align: "start" }}
+							className="w-full h-full rounded-xl relative p-4">
+							<CarouselContent>
+								{article.images.map((image, index) => (
+									<CarouselItem
+										key={index}
+										className="flex items-center justify-center">
+										<div className="p-1 w-full h-full max-w-full max-h-full">
+											<Card className="h-full">
+												<CardContent className="h-full flex items-center justify-center p-0">
+													<img
+														src={image.imageRef}
+														alt={image.altText}
+														className="max-w-full max-h-full object-contain rounded-lg"
+													/>
+												</CardContent>
+											</Card>
+										</div>
+									</CarouselItem>
+								))}
+							</CarouselContent>
+							<CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-1 z-10" />
+							<CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-1 z-10" />
+						</Carousel>
+					) : (
+						<div className="w-full h-full rounded-xl relative p-4">
+							<Card>
+								<CardContent className="h-full flex items-center justify-center p-0">
+									<img
+										src={article.primaryImage.imageRef}
+										alt={article.primaryImage.altText}
+										className="w-full h-full object-cover rounded-lg"
+									/>
+								</CardContent>
+							</Card>
+						</div>
+					)}
+				</div>
+
+				<ItemContent className="w-full md:w-[60%] h-full">
+					<ItemDescription className="text-[#192530] text-lg font-medium">
+						{article.subtitle}
+					</ItemDescription>
+					{article.paragraph && (
+						<div className="mt-3 space-y-2 text-sm text-[#2C3E50]">
+							{typeof article.paragraph === "string" ? (
+								<p>{article.paragraph}</p>
+							) : (
+								article.paragraph.map((paragraph, index) => (
+									<p key={index}>{paragraph}</p>
+								))
+							)}
+						</div>
+					)}
+				</ItemContent>
+			</div>
+		</Item>
+	);
 }

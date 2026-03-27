@@ -1,23 +1,66 @@
-- home
-  - hero
+- home done
+  - hero done
     - background done
-    - h1
+    - h1 done
   - about
-    - team
+    - team done
       - tm def and card done
       - scroller done
-    - stem racing
-      - text 
+    - stem racing done
+      - text done
       - logo done
-    - sponsor
+    - sponsor done
       - sponsor def and card done
-      - pagination
-  - news
-  - stats
-  - contacts
+      - pagination done
+  - news done
+  - stats done
+  - contacts done
     - contact def done
-    - render
+    - render done
+  - style
+    - run style prompt done
+    - review
+      - tests done
+        - npm run dev done
+        - npm run build done
+      - adjustments
+        - scroll effect done
+        - navbar done
+        - "Our Team" and "Our Sponsors" header to style equally as the other ones done
+        - higher tm cards and fit images done
+        - center sponsors done
+        - secondary sponsor bg color done
+        - news carousel fix done
+        - badge revert to light mode colors (on shadcn badge component page) and fix hover effect done
+        - contacts bg and separator done
+        - whole page bg gradient done
+  - feedback
+   - adjustments
+  - other changes
+    - use famar blank space
+      - carousel photo
+    - stats
+      - change the way stats are viewed (cards and everything)
+    - head
+      - meta tags done
+      - favicon done
+  - data
+    - news
+    - sponsors
+    - stats
+    - tm
+    - photos
+      - tm
+      - sponsors
+      - news
+      - stats
+    - texts
+      - team
+      - stem racing done
+      - hero
 - vercel
+  - set up
+  - link to domain
 - domain
 - branch workflow
 - about page

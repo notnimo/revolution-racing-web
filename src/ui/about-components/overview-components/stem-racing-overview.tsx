@@ -1,47 +1,50 @@
 export function StemRacingOverview() {
-  return (
-    <div className="flex flex-col items-center max-w-[50vw]">
-      <div className="flex flex-row justify-around items-center-safe gap-10">
-        <h1>The STEM Racing Competition</h1>
-        <img
-          src="/stem-racing-logo.png"
-          alt="stem racing logo"
-          className="h-[6rem]"
-        />
-      </div>
-      <div>
-        <p>
-          STEM Racing (precedentemente Formula 1 in Schools) è un programma
-          educativo internazionale riconosciuto a livello mondiale che coinvolge
-          studenti di scuole secondarie di secondo grado. La competizione
-          unisce:
-        </p>
-        <ul>
-          <li>
-            <strong>Ingegneria e tecnologia:</strong> progettazione e
-            realizzazione di una vettura in miniatura
-          </li>
-          <li>
-            <strong>Gestione progettuale:</strong> budget, timeline, controllo
-            delle risorse
-          </li>
-          <li>
-            <strong>Comunicazione:</strong> presentazione professionale del
-            progetto e brand identity
-          </li>
-          <li>
-            <strong>Competizione:</strong> gare cronometrate su pista con
-            sistema di timing elettronico
-          </li>
-        </ul>
-        <div>
-          Centinaia di team partecipano alle qualifiche regionali italiane, dai
-          50 ai 100+ team per ogni regione nelle aree ad alta
-          industrializzazione (Piemonte, Lombardia, Emilia-Romagna) ed un numero
-          variabile avanza alle finali regionali (top 10-15 per regione). Infine
-          circa 50-100 team competono al campionato nazionale a settembre
-        </div>
-      </div>
-    </div>
-  );
+	return (
+		<section className="w-full rounded-2xl bg-white p-5 md:p-8 shadow-md fade-in-section">
+			<div className="flex flex-col md:flex-row justify-between items-center gap-5 mb-4">
+				<h1 className="text-2xl md:text-3xl font-bold text-[#3B9FE5]">
+					The STEM Racing Competition
+				</h1>
+				<img
+					src="/stem-racing-logo.png"
+					alt="stem racing logo"
+					className="w-[22vw] min-w-[8rem] max-w-[10rem] h-auto"
+				/>
+			</div>
+
+			<div className="text-[#2C3E50] text-sm md:text-base space-y-3 md:max-w-[80%]">
+				<p>
+					STEM Racing (formerly Formula 1 in Schools) is a globally recognized
+					international educational program involving high school students. The
+					competition includes:
+				</p>
+				<ul className="list-disc list-inside space-y-2">
+					<li>
+						<strong>Engineering and Technology:</strong> design and
+						implementation of a miniature race car using CAD software, CFU
+						analysis, and CNC manufacturing
+					</li>
+					<li>
+						<strong>Project Management:</strong> budget, timeline, resources
+						control
+					</li>
+					<li>
+						<strong>Communication:</strong> professional presentation of the
+						project and brand identity
+					</li>
+					<li>
+						<strong>Competition:</strong> timed races on a track with an
+						electronic timing system
+					</li>
+				</ul>
+				<p>
+					Hundreds of teams participate in the Italian regional qualifiers, 50
+					to 100+ teams per region in highly industrialized areas (Piedmont,
+					Lombardy, Emilia-Romagna), and a variable number advance to the
+					regional finals (top 10-15 per region). In the end, about 50-100 teams
+					compete in the national championship in September.
+				</p>
+			</div>
+		</section>
+	);
 }
