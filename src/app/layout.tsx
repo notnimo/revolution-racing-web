@@ -20,7 +20,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 				/>
 			</head>
 			<body>{children}</body>
-			<body>{children}</body>
 			<Analytics />
 			<SpeedInsights />
 		</html>
