@@ -28,7 +28,7 @@
         - navbar done
         - "Our Team" and "Our Sponsors" header to style equally as the other ones done
         - higher tm cards and fit images done
-        - center sponsors
+        - center sponsors done
         - secondary sponsor bg color done
         - news carousel fix done
         - badge revert to light mode colors (on shadcn badge component page) and fix hover effect done
@@ -42,8 +42,8 @@
     - stats
       - change the way stats are viewed (cards and everything)
     - head
-      - meta tags
-      - favicon
+      - meta tags done
+      - favicon done
   - data
     - news
     - sponsors
@@ -56,7 +56,7 @@
       - stats
     - texts
       - team
-      - stem racing
+      - stem racing done
       - hero
 - vercel
   - set up
