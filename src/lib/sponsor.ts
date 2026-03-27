@@ -32,7 +32,7 @@ const famar: PrimarySponsor = {
 	id: 0,
 	sponsorName: "Famar",
 	description: "kkkkkkkkkkkkk",
-	image: { imageRef: "/sponsor/FAMAR/famar.png" },
+	image: { imageRef: "/sponsor/FAMAR/famar-big.png" },
 	header: "FOO",
 	contactSocials: { website: { id: 1, type: "website", href: "foo.com" } },
 	carouselImages: [
