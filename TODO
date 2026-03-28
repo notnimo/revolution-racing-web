@@ -2,7 +2,7 @@
   - hero done
     - background done
     - h1 done
-  - about
+  - about done
     - team done
       - tm def and card done
       - scroller done
@@ -19,11 +19,11 @@
     - render done
   - style
     - run style prompt done
-    - review
+    - review done 
       - tests done
         - npm run dev done
         - npm run build done
-      - adjustments
+      - adjustments done
         - scroll effect done
         - navbar done
         - "Our Team" and "Our Sponsors" header to style equally as the other ones done
@@ -41,7 +41,7 @@
       - carousel photo
     - stats
       - change the way stats are viewed (cards and everything)
-    - head
+    - head done
       - meta tags done
       - favicon done
   - data
@@ -59,10 +59,9 @@
       - stem racing done
       - hero
 - vercel
-  - set up
+  - set up done
   - link to domain
-- domain
-- branch workflow
+- branch workflow done
 - about page
 - news page
 - projects page

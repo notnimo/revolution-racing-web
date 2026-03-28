@@ -9,7 +9,6 @@ import {
 	centroServizi,
 	comuneGiaveno,
 	pascal,
-	poliTo,
 } from "@/src/lib/sponsor";
 import {
 	tm1,
@@ -28,7 +27,7 @@ export function AboutSnapshot() {
 		primary: [famar],
 		secondary: [hyperion],
 		tier3: [mitor, centroServizi],
-		others: [comuneGiaveno, pascal, poliTo],
+		others: [comuneGiaveno, pascal],
 	};
 	const teamMembersList: TMtype[] = [tm1, tm2, tm3, tm4, tm5, tm6, tm7, tm8];
 

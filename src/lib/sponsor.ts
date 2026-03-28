@@ -73,21 +73,6 @@ const pascal: Sponsor = {
 	header: "FOO",
 	contactSocials: { website: { id: 1, type: "website", href: "foo.com" } },
 };
-const poliTo: Sponsor = {
-	id: 5,
-	sponsorName: "Squadra Corse PoliTo",
-	description: "kkkkkkkkkkkk",
-	image: { imageRef: "/sponsor/poliTo/poli-white-logo.png" },
-	header: "FOO",
-	contactSocials: {
-		website: { id: 1, type: "website", href: "foo.com" },
-		instagram: {
-			id: 2,
-			type: "instagram",
-			href: "https://www.instagram.com/squadracorsepolito/",
-		},
-	},
-};
 const centroServizi: Sponsor = {
 	id: 6,
 	sponsorName: "Centro Servizi",
@@ -98,4 +83,4 @@ const centroServizi: Sponsor = {
 };
 
 export type { Sponsor, sponsorPack, PrimarySponsor };
-export { famar, hyperion, mitor, comuneGiaveno, pascal, poliTo, centroServizi };
+export { famar, hyperion, mitor, comuneGiaveno, pascal, centroServizi };
