@@ -7,8 +7,10 @@ function calcRowsCols(numContacts: number): [number, number] {
 }
 
 export function BadgeSection({ contacts }: { contacts: Contact[] }) {
+	const [rows, cols] = calcRowsCols(contacts.length);
 	return (
-		<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full px-4 md:px-8">
+		<div
+			className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-${cols} gap-4 w-full px-4 md:px-8`}>
 			{contacts.map((contact: Contact) => {
 				const Icon = matchIcon[contact.type];
 				return (

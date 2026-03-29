@@ -53,26 +53,12 @@ export default function Main() {
 		title: "TikTok",
 		description: "Follow us on TikTok",
 	};
-	const facebookSq: Contact = {
-		id: 2,
-		type: "facebook",
-		href: "https://www.facebook.com/yourprofile",
-		title: "Facebook",
-		description: "Follow us on Facebook",
-	};
 	const linkedinSq: Contact = {
 		id: 3,
 		type: "linkedin",
 		href: "https://www.linkedin.com/in/yourprofile",
 		title: "LinkedIn",
 		description: "Follow us on LinkedIn",
-	};
-	const youtubeSq: Contact = {
-		id: 4,
-		type: "youtube",
-		href: "https://www.youtube.com/@yourprofile",
-		title: "YouTube",
-		description: "Follow us on YouTube",
 	};
 	const emailSq: Contact = {
 		id: 5,
@@ -81,14 +67,7 @@ export default function Main() {
 		title: "Email",
 		description: "Contact us via email",
 	};
-	const contacts: Contact[] = [
-		instaSq,
-		tiktokSq,
-		facebookSq,
-		linkedinSq,
-		youtubeSq,
-		emailSq,
-	];
+	const contacts: Contact[] = [instaSq, tiktokSq, linkedinSq, emailSq];
 
 	return (
 		<div className="w-screen flex flex-col justify-start items-center overflow-x-hidden">
