@@ -9,14 +9,10 @@ export function HeroSection() {
 				/>
 			</div>
 
-			<div className="relative z-10 flex h-full flex-col justify-center items-start text-white md:text-[#2C3E50]">
+			<div className="relative z-10 flex h-full flex-col justify-start items-start text-white md:text-[#2C3E50] pt-[27vh]">
 				<h1 className="text-3xl md:text-6xl font-bold leading-tight max-w-[90vw] md:max-w-[50vw] mb-4">
 					Welcome to Revolution Racing
 				</h1>
-				<p className="mt-4 text-base md:text-2xl text-white/90 md:text-[#2C3E50] max-w-[95vw] md:max-w-[45vw]">
-					Our official website for our STEM Racing journey. Explore our
-					projects, news, and team updates.
-				</p>
 			</div>
 		</section>
 	);
