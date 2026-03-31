@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
 	/* config options here */
 };
 module.exports = {
-	//temp
+	//TEMP
 	allowedDevOrigins: ["192.168.1.111"],
 };
 
