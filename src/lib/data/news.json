@@ -1,0 +1,51 @@
+{
+	"n1": {
+		"id": 0,
+		"title": "News Title",
+		"subtitle": "News description",
+		"date": "01/01/2023",
+		"badges": ["competition", "development"],
+		"primaryImage": {
+			"imageRef": "/news/foo2.png",
+			"altText": "News primary image"
+		},
+		"paragraph": [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur varius. Sed at felis a enim efficitur bibendum. Curabitur ac ligula id metus efficitur convallis.",
+			"Phasellus ut velit nec nisl tincidunt commodo. Nulla facilisi. In hac habitasse platea dictumst. Maecenas ac odio a justo efficitur fermentum."
+		]
+	},
+	"n2": {
+		"id": 1,
+		"title": "Another News Title",
+		"subtitle": "Another news description",
+		"date": "01/02/2023",
+		"badges": ["sponsor", "event"],
+		"primaryImage": {
+			"imageRef": "/news/foo2.png",
+			"altText": "News primary image"
+		},
+		"images": [
+			{
+				"imageRef": "/news/foo2.png",
+				"altText": "News image 1"
+			},
+			{
+				"imageRef": "/news/foo2.png",
+				"altText": "News image 2"
+			},
+			{
+				"imageRef": "/news/foo2.png",
+				"altText": "News image 3"
+			},
+			{
+				"imageRef": "/news/foo2.png",
+				"altText": "News image 4"
+			}
+		],
+		"paragraph": [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur varius. Sed at felis a enim efficitur bibendum. Curabitur ac ligula id metus efficitur convallis.",
+			"Phasellus ut velit nec nisl tincidunt commodo. Nulla facilisi. In hac habitasse platea dictumst. Maecenas ac odio a justo efficitur fermentum.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur varius. Sed at felis a enim efficitur bibendum. Curabitur ac ligula id metus efficitur convallis."
+		]
+	}
+}

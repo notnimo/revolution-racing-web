@@ -1,3 +1,5 @@
+import { default as newsData } from "@/src/lib/data/news.json";
+
 import { ImageType } from "@/src/lib/team-members";
 
 import {
@@ -40,7 +42,7 @@ type NewsType = {
 };
 
 // News data to change with real imported from json or something like that, for now it's hardcoded for testing purposes
-const newsData: NewsType[] = [
+const newsData1: NewsType[] = [
 	{
 		id: 0,
 		title: "News Title",
@@ -74,4 +76,4 @@ const newsData: NewsType[] = [
 	},
 ];
 
-export { newsData, type NewsType, matchBadge };
+export { newsData1 as newsData, type NewsType, matchBadge };

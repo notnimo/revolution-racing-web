@@ -1,0 +1,23 @@
+{
+	"s1": {
+		"id": 0,
+		"value": 100,
+		"label": "Racers",
+		"image": {
+			"imageRef": "/stats/foo2.png"
+		}
+	},
+	"s2": {
+		"id": 1,
+		"value": 50,
+		"label": "Teams",
+		"image": {
+			"imageRef": "/stats/foo2.png"
+		}
+	},
+	"s3": {
+		"id": 2,
+		"value": 200,
+		"label": "Events"
+	}
+}

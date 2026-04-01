@@ -1,0 +1,30 @@
+{
+	"instaSq": {
+		"id": 0,
+		"type": "instagram",
+		"href": "https://www.instagram.com/yourprofile",
+		"title": "Instagram",
+		"description": "Follow us on Instagram"
+	},
+	"tiktokSq": {
+		"id": 1,
+		"type": "tiktok",
+		"href": "https://www.tiktok.com/@yourprofile",
+		"title": "TikTok",
+		"description": "Follow us on TikTok"
+	},
+	"linkedinSq": {
+		"id": 3,
+		"type": "linkedin",
+		"href": "https://www.linkedin.com/in/yourprofile",
+		"title": "LinkedIn",
+		"description": "Follow us on LinkedIn"
+	},
+	"emailSq": {
+		"id": 5,
+		"type": "email",
+		"href": "mailto:yourprofile@example.com",
+		"title": "Email",
+		"description": "Contact us via email"
+	}
+}

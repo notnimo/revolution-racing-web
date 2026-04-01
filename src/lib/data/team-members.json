@@ -1,0 +1,74 @@
+{
+	"tm1": {
+		"id": 0,
+		"name": "Gabriele di Giorgio",
+		"position": "Project Manager",
+		"image": {
+			"imageRef": "/team-members/foo2.png"
+		},
+		"description": "Gabriele is our Project Manager."
+	},
+	"tm2": {
+		"id": 1,
+		"name": "Arturo Serpico",
+		"position": "Design Engineer",
+		"image": {
+			"imageRef": "/team-members/foo2.png"
+		},
+		"description": "Arturo is our Head of the Engineering"
+	},
+	"tm3": {
+		"id": 2,
+		"name": "Edoardo Bona",
+		"position": "Graphic Designer",
+		"image": {
+			"imageRef": "/team-members/foo2.png"
+		},
+		"description": "Edoardo is our Graphic Designer."
+	},
+	"tm4": {
+		"id": 3,
+		"name": "Federico Ponti",
+		"position": "Design Engineer",
+		"image": {
+			"imageRef": "/team-members/foo2.png"
+		},
+		"description": "Federico is one of our Design Engineers."
+	},
+	"tm5": {
+		"id": 4,
+		"name": "Sherine Cirigliano",
+		"position": "Design Engineer",
+		"image": {
+			"imageRef": "/team-members/foo2.png"
+		},
+		"description": "Sherine is one of our Design Engineers."
+	},
+	"tm6": {
+		"id": 5,
+		"name": "Pietro Tranca",
+		"position": "Manufacturing Engineer",
+		"image": {
+			"imageRef": "/team-members/foo2.png"
+		},
+		"description": "Pietro is one of our Manufacturing Engineers."
+	},
+	"tm7": {
+		"id": 6,
+		"name": "Damiano Livoni",
+		"position": "Web Developer",
+		"image": {
+			"imageRef": "/team-members/foo2.png"
+		},
+		"description": "Damiano is our Web Developer."
+	},
+	"tm8": {
+		"id": 7,
+		"name": "Damiano Livoni",
+		"position": "Web Developer",
+		"image": {
+			"imageRef": "/team-members/foo2.png"
+		},
+		"description": "Damiano is our Web Developer."
+	}
+}

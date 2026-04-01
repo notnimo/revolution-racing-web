@@ -1,3 +1,5 @@
+import { default as sponsorData } from "@/src/lib/data/sponsors.json";
+
 import { ImageType } from "@/src/lib/team-members";
 import { Contact } from "@/src/lib/contacts";
 
