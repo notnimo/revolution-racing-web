@@ -76,4 +76,22 @@ const newsData1: NewsType[] = [
 	},
 ];
 
+//const newsData2: NewsType[] = [];
+//newsData.map((newsItem) => {
+//	if (
+//		!newsItem.id ||
+//		!newsItem.title ||
+//		!newsItem.subtitle ||
+//		!newsItem.date ||
+//		!newsItem.badges ||
+//		!newsItem.primaryImage ||
+//		!newsItem.paragraph
+//	) {
+//		throw new Error(
+//			`News item with id ${newsItem.id} is missing required fields.`,
+//		);
+//	}
+//	newsData.push(newsItem);
+//});
+
 export { newsData1 as newsData, type NewsType, matchBadge };
