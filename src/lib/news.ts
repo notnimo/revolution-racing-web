@@ -1,4 +1,4 @@
-import { default as newsData } from "@/src/lib/data/news.json";
+import { default as newsData } from "@/src/lib/data/news.json" with { type: "json" };
 
 import { ImageType } from "@/src/lib/team-members";
 
@@ -76,22 +76,7 @@ const newsData1: NewsType[] = [
 	},
 ];
 
-//const newsData2: NewsType[] = [];
-//newsData.map((newsItem) => {
-//	if (
-//		!newsItem.id ||
-//		!newsItem.title ||
-//		!newsItem.subtitle ||
-//		!newsItem.date ||
-//		!newsItem.badges ||
-//		!newsItem.primaryImage ||
-//		!newsItem.paragraph
-//	) {
-//		throw new Error(
-//			`News item with id ${newsItem.id} is missing required fields.`,
-//		);
-//	}
-//	newsData.push(newsItem);
-//});
+//definitive TO MODIFY
+//const newsData1 = Object.values(newsData).forEach((news) => news);
 
 export { newsData1 as newsData, type NewsType, matchBadge };
