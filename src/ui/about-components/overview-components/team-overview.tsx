@@ -2,16 +2,12 @@ import { useEffect, useRef, useState } from "react";
 
 import { ArrowLeft, ArrowRight, UsersRound } from "lucide-react";
 
-import { teamMembersPack, TMtype } from "@/src/lib/team-members";
+import { TMtype } from "@/src/lib/team-members";
 
 import { TMCard } from "@/src/ui/about-components/team-mbr-card";
 import { open_sans } from "@/src/ui/fonts";
 
-export function TeamOverview({
-	teamMembers,
-}: {
-	teamMembers: teamMembersPack;
-}) {
+export function TeamOverview({ teamMembers }: { teamMembers: TMtype[] }) {
 	const [scrollPosition, setScrollPosition] = useState(0);
 	const [canScrollLeft, setCanScrollLeft] = useState(false);
 	const [canScrollRight, setCanScrollRight] = useState(false);
