@@ -30,17 +30,17 @@ export function NumberSection({ stats }: { stats: Stat[] }) {
 						className="flex flex-col sm:flex-row items-center justify-center gap-4 p-4">
 						{section.map((stat) => {
 							const statStyle =
-								"w-[92vw] sm:w-[44vw] md:w-[30vw] lg:w-[22vw] h-[20vh] min-h-[12rem] flex flex-row items-center justify-center text-center bg-white";
+								"w-[92vw] sm:w-[44vw] md:w-[30vw] lg:w-[22vw] flex flex-col items-center justify-center text-center bg-white p-6";
 							return (
 								<Item key={stat.id} className={statStyle}>
 									<ItemHeader>
-										<h1
-											className={`${barlowCondensed.className} text-5xl md:text-6xl text-[#3B9FE5] font-bold text-center`}>
+										<div
+											className={`${barlowCondensed.className} text-6xl md:text-[4rem] text-[#3B9FE5] font-bold text-center`}>
 											{stat.value}
-										</h1>
+										</div>
 									</ItemHeader>
 									<ItemContent>
-										<h3 className="text-lg md:text-xl font-semibold text-[#2C3E50]">
+										<h3 className="text-xl md:text-2xl font-bold text-[#2C3E50]">
 											{stat.label}
 										</h3>
 									</ItemContent>
