@@ -6,7 +6,7 @@ export function StemRacingOverview() {
 					The STEM Racing Competition
 				</h1>
 				<img
-					src="/stem-racing-logo.png"
+					src="/stem-racing/stem-racing-logo.png"
 					alt="stem racing logo"
 					className="w-[22vw] min-w-[8rem] max-w-[10rem] h-auto"
 				/>
