@@ -46,10 +46,10 @@
       - favicon done
   - data
     - placeholder done
-    - news done
-    - sponsors done
-    - stats done
-    - tm done
+    - news
+    - sponsors
+    - stats
+    - tm
     - photos
       - tm done (sherine and damiano missing)
       - sponsors
@@ -58,7 +58,7 @@
     - texts
       - team
       - stem racing done
-      - hero
+      - hero done
 - vercel
   - set up done
   - link to domain
