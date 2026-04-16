@@ -1,13 +1,13 @@
 {
 	"s1": {
 		"id": 0,
-		"value": 100,
-		"label": "Racers"
+		"value": 13,
+		"label": "Members"
 	},
 	"s2": {
 		"id": 1,
-		"value": 50,
-		"label": "Teams"
+		"value": 2,
+		"label": "Competitions"
 	},
 	"s3": {
 		"id": 2,
