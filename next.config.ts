@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
 };
 module.exports = {
 	//TEMP
-	allowedDevOrigins: ["192.168.1.111"],
+	allowedDevOrigins: [],
 };
 
 export default nextConfig;

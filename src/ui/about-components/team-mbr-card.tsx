@@ -21,7 +21,7 @@ export function TMCard({ teamMember }: { teamMember: TMtype }) {
 					<img
 						src={teamMember.image.imageRef}
 						alt={`${teamMember.name}'s card picture`}
-						className="h-full max-h-[21rem] object-cover rounded-lg"
+						className="h-full max-h-[18rem] md:max-h-[21rem] object-cover rounded-lg"
 					/>
 					<CardHeader
 						className={`${poppins.className} antialiased text-base text-[#2C3E50]`}>
