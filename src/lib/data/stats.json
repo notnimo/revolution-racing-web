@@ -1,37 +1,37 @@
 {
 	"s1": {
 		"id": 0,
-		"value": 100,
-		"label": "Racers"
+		"value": 13,
+		"label": "Team Members"
 	},
 	"s2": {
 		"id": 1,
-		"value": 50,
-		"label": "Teams"
+		"value": 1,
+		"label": "Team"
 	},
 	"s3": {
 		"id": 2,
-		"value": 200,
-		"label": "Events"
+		"value": 6,
+		"label": "Sponsors"
 	},
 	"s4": {
 		"id": 3,
-		"value": 150,
-		"label": "Races"
+		"value": 2,
+		"label": "Competitions Attended"
 	},
 	"s5": {
 		"id": 4,
-		"value": 100,
-		"label": "Tracks"
+		"value": 24,
+		"label": "Meters of Track"
 	},
 	"s6": {
 		"id": 5,
-		"value": 75,
-		"label": "Countries"
+		"value": 3,
+		"label": "Events Attended"
 	},
 	"s7": {
 		"id": 6,
-		"value": 25,
-		"label": "Championships"
+		"value": 2,
+		"label": "Years of Experience"
 	}
 }
