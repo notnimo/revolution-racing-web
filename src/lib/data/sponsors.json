@@ -77,18 +77,60 @@
 	"sparco": {
 		"id": 1,
 		"sponsorName": "Sparco",
-		"description": "",
+		"description": "Sparco employs approximately 800 people across three continents: Europe, America, and Africa. Sparco's distribution network reaches 80 countries worldwide. Their pride is being the leader in the world of motorsport.\n\nSparco sponsors Revolution Racing and has been a fundamental partner in our journey, providing us with high-quality uniforms and support. We are proud to have Sparco as one of our main sponsors.",
 		"image": {
 			"imageRef": "/sponsor/sparco/sparco.png"
 		},
-		"header": "FOO",
 		"contactSocials": {
 			"website": {
-				"id": 1,
+				"id": 0,
 				"type": "website",
-				"href": "foo.com"
+				"href": "https://www.sparco-official.com/en/"
+			},
+			"facebook": {
+				"id": 1,
+				"type": "facebook",
+				"href": "https://www.facebook.com/SparcoOfficial"
+			},
+			"instagram": {
+				"id": 2,
+				"type": "instagram",
+				"href": "https://www.instagram.com/sparco_official/"
+			},
+			"linkedin": {
+				"id": 3,
+				"type": "linkedin",
+				"href": "https://www.linkedin.com/company/sparco/"
+			},
+			"youtube": {
+				"id": 4,
+				"type": "youtube",
+				"href": "https://www.youtube.com/user/SparcoOfficial"
+			},
+			"tiktok": {
+				"id": 5,
+				"type": "tiktok",
+				"href": "https://www.tiktok.com/@sparco.official"
 			}
-		}
+		},
+		"carouselImages": [
+			{
+				"imageRef": "/sponsor/sparco/bench-factory-sparco.jpg",
+				"altText": "Sparco - Bench Factory Picture"
+			},
+			{
+				"imageRef": "/sponsor/sparco/factories-car-sparco.webp",
+				"altText": "Sparco - Picture of the Factory with Cars"
+			},
+			{
+				"imageRef": "/sponsor/sparco/redbull-factory-sparco.webp",
+				"altText": "Sparco - Red Bull Car Factory Picture"
+			},
+			{
+				"imageRef": "/sponsor/sparco/trophy-factory-sparco.webp",
+				"altText": "Sparco - Trophy Factory Picture"
+			}
+		]
 	},
 	"ansys": {
 		"id": 2,
