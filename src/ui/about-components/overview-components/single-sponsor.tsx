@@ -28,22 +28,21 @@ function Platinum({
 }) {
 	return (
 		<Card className={`w-full h-full rounded-2xl ${wrapperStyle}`}>
-			<CardContent className="flex flex-col items-center justify-around gap-3 p-4 md:p-6">
+			<CardContent className="flex flex-col items-center justify-around gap-4 p-2 md:p-3">
 				<CardTitle
 					className={`${poppins.className} antialiased text-lg font-semibold text-[#1B5C70]`}>
 					<h1>{sponsor.sponsorName.toUpperCase()}</h1>
 				</CardTitle>
 
-				<div className="flex flex-col  md:flex-row items-center justify-between">
+				<div className="flex flex-col md:grid md:grid-cols-3 md:grid-rows-1 items-center justify-between gap-3">
 					<img
 						src={sponsor.image.imageRef}
 						alt={`${sponsor.sponsorName}'s card picture`}
 						className="rounded-lg w-full h-[20vw] max-h-[12rem] md:h-[16vw] md:max-h-[14rem] object-contain"
 					/>
 
-					<CardDescription
-						className={`${inter500.className} antialiased text-sm text-[#2C3E50]`}>
-						{sponsor.description}
+					<CardDescription className="antialiased text-center text-sm text-[#2C3E50]">
+						<pre className={`${inter500.className}`}>{sponsor.description}</pre>
 					</CardDescription>
 
 					<Carousel
@@ -74,7 +73,7 @@ function Platinum({
 					</Carousel>
 				</div>
 
-				<CardFooter>
+				<CardFooter className="mt-2">
 					<div className="flex flex-row items-center justify-center gap-3">
 						{Object.values(sponsor.contactSocials).map((contact) => {
 							const Icon = matchIcon[contact.type];
@@ -85,7 +84,7 @@ function Platinum({
 									target="_blank"
 									rel="noopener noreferrer"
 									className="text-[#1FBEB6] hover:text-[#3B9FE5] transition-colors">
-									<Icon size={18} />
+									<Icon size={24} />
 								</a>
 							);
 						})}

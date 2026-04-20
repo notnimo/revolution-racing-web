@@ -2,32 +2,80 @@
 	"famar": {
 		"id": 0,
 		"sponsorName": "Famar",
-		"description": "kkkkkkkkkkkkk",
+		"description": "It all began in 1973, in Rivoli, just outside Turin.\n From the very beginning, innovation was not a goal, but\n a method. Growth was driven by a clear industrial vision:\n improve processes, simplify production, and increase\n machine reliability. \n Today, Famar Group continues this journey, pursuing\n the same philosophy as always: combining mechanical\n precision, automation, and technological innovation.\n\nFamar Group sponsors Revolution Racing and has given us\n the means to overcome our manufacturing challenges as\n well as important technical support.\n We are proud to have Famar as our main sponsor.",
 		"image": {
 			"imageRef": "/sponsor/famar/famar-big.png"
 		},
 		"header": "FOO",
 		"contactSocials": {
 			"website": {
-				"id": 1,
+				"id": 0,
 				"type": "website",
-				"href": "foo.com"
+				"href": "https://www.famargroup.com/"
+			},
+			"facebook": {
+				"id": 1,
+				"type": "facebook",
+				"href": "https://www.facebook.com/famarsrl"
+			},
+			"linkedin": {
+				"id": 2,
+				"type": "linkedin",
+				"href": "https://www.linkedin.com/company/famar-srl/"
+			},
+			"instagram": {
+				"id": 3,
+				"type": "instagram",
+				"href": "https://www.instagram.com/famar1973/"
+			},
+			"youtube": {
+				"id": 4,
+				"type": "youtube",
+				"href": "https://www.youtube.com/@famargroup1973"
+			},
+			"mail": {
+				"id": 5,
+				"type": "email",
+				"href": "mailto:info@famargroup.com"
 			}
 		},
 		"carouselImages": [
 			{
-				"imageRef": "/sponsor/foo2.png"
+				"imageRef": "https://www.famargroup.com/wp-content/uploads/2026/02/01-MarinelloTesta-BIG.jpg",
+				"altText": "Famar - Marinello Testa Historical Picture"
 			},
 			{
-				"imageRef": "/sponsor/foo2.png"
+				"imageRef": "https://www.famargroup.com/wp-content/uploads/2025/07/LineaFamar_Completa-1536x1047.webp",
+				"altText": "Famar - Famar Linea Completa"
 			},
 			{
-				"imageRef": "/sponsor/foo2.png"
+				"imageRef": "https://www.famargroup.com/wp-content/uploads/2026/02/06-Automation-1-scaled-e1770811002163.jpg",
+				"altText": "Famar - Factory Automation Picture"
+			},
+			{
+				"imageRef": "https://www.famargroup.com/wp-content/uploads/2026/02/DSC7560-scaled-e1770832479896.jpg",
+				"altText": "Famar - Factory Machine Close-up Picture"
+			},
+			{
+				"imageRef": "https://www.famargroup.com/wp-content/uploads/2023/01/Risorsa-1small.png",
+				"altText": "Famar - Fausto Marinello Logo"
+			},
+			{
+				"imageRef": "https://www.famargroup.com/wp-content/uploads/2023/01/famarautomationssmallsmall.png",
+				"altText": "Famar - Famar Automations Logo"
+			},
+			{
+				"imageRef": "https://www.famargroup.com/wp-content/uploads/2026/02/SUB-biSUB.jpg",
+				"altText": "Famar - Factory Machines Group Picture"
+			},
+			{
+				"imageRef": "https://www.famargroup.com/wp-content/uploads/2025/11/Famar_gruppo-scaled.jpg",
+				"altText": "Famar - Factory Machines Group Picture 2"
 			}
 		]
 	},
 	"hyperion": {
-		"id": 1,
+		"id": 3,
 		"sponsorName": "Hyperion",
 		"description": "kkkkkkk",
 		"image": {
@@ -43,7 +91,7 @@
 		}
 	},
 	"mitor": {
-		"id": 2,
+		"id": 4,
 		"sponsorName": "Mitor",
 		"description": "",
 		"image": {
@@ -59,7 +107,7 @@
 		}
 	},
 	"comuneGiaveno": {
-		"id": 3,
+		"id": 5,
 		"sponsorName": "Comune di Giaveno",
 		"description": "",
 		"image": {
@@ -75,7 +123,7 @@
 		}
 	},
 	"pascal": {
-		"id": 4,
+		"id": 6,
 		"sponsorName": "ISS Blaise Pascal",
 		"description": "",
 		"image": {
@@ -91,7 +139,7 @@
 		}
 	},
 	"centroServizi": {
-		"id": 6,
+		"id": 7,
 		"sponsorName": "Centro Servizi",
 		"description": "",
 		"image": {
