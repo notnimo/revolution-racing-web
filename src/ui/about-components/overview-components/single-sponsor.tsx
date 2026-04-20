@@ -130,7 +130,7 @@ function SingleSponsor({
 
 				{(level === "gold" || level === "tier3") && (
 					<CardHeader
-						className={`${poppins.className} antialiased text-sm md:text-base text-[#2C3E50]`}>
+						className={`${poppins.className} antialiased text-sm md:text-base text-center text-[#2C3E50]`}>
 						{sponsor.header}
 					</CardHeader>
 				)}

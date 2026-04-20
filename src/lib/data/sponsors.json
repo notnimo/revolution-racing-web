@@ -208,16 +208,25 @@
 	"hyperion": {
 		"id": 3,
 		"sponsorName": "Hyperion",
-		"description": "kkkkkkk",
 		"image": {
 			"imageRef": "/sponsor/hyperion/hyperion-black.png"
 		},
-		"header": "FOO",
+		"header": "Hyperion helped us manufacturing our projects for research and development, providing us with their tools.",
 		"contactSocials": {
 			"website": {
-				"id": 1,
+				"id": 0,
 				"type": "website",
-				"href": "foo.com"
+				"href": "https://www.hyperionsrl.eu/"
+			},
+			"facebook": {
+				"id": 1,
+				"type": "facebook",
+				"href": "https://www.facebook.com/hyperionsrl.eu"
+			},
+			"linkedin": {
+				"id": 2,
+				"type": "linkedin",
+				"href": "https://www.linkedin.com/company/hyperionsrl/?viewAsMember=true/"
 			}
 		}
 	},
@@ -229,13 +238,7 @@
 			"imageRef": "/sponsor/mitor/mitor-logo.png"
 		},
 		"header": "FOO",
-		"contactSocials": {
-			"website": {
-				"id": 1,
-				"type": "website",
-				"href": "foo.com"
-			}
-		}
+		"contactSocials": {}
 	},
 	"comuneGiaveno": {
 		"id": 5,
@@ -272,16 +275,25 @@
 	"centroServizi": {
 		"id": 7,
 		"sponsorName": "Centro Servizi",
-		"description": "",
 		"image": {
 			"imageRef": "/sponsor/centro-servizi/centro_servizi.png"
 		},
-		"header": "FOO",
+		"header": "Centro Servizi has been a fundamental partner in our journey, providing us with their support. We are proud to have Centro Servizi as one of our sponsors.",
 		"contactSocials": {
-			"website": {
+			"facebook": {
+				"id": 0,
+				"type": "facebook",
+				"href": "https://www.facebook.com/profile.php?id=61560809624124&sk=directory_contact_infom"
+			},
+			"instagram": {
 				"id": 1,
-				"type": "website",
-				"href": "foo.com"
+				"type": "instagram",
+				"href": "https://www.instagram.com/le_arti_di_ecate"
+			},
+			"email": {
+				"id": 2,
+				"type": "email",
+				"href": "mailto:cs24.giaveno@gmail.com"
 			}
 		}
 	}
