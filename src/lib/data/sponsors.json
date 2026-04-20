@@ -211,7 +211,7 @@
 		"image": {
 			"imageRef": "/sponsor/hyperion/hyperion-black.png"
 		},
-		"header": "Hyperion helped us manufacturing our projects for research and development, providing us with their tools.",
+		"header": "Hyperion has been a fundamental partner in our journey, providing us with their support. We are proud to have Hyperion as one of our sponsors.",
 		"contactSocials": {
 			"website": {
 				"id": 0,
@@ -233,12 +233,23 @@
 	"mitor": {
 		"id": 4,
 		"sponsorName": "Mitor",
-		"description": "",
+		"description": "Mitor helped us manufacturing our projects for research and development, providing us with their tools.",
 		"image": {
 			"imageRef": "/sponsor/mitor/mitor-logo.png"
 		},
 		"header": "FOO",
-		"contactSocials": {}
+		"contactSocials": {
+			"website": {
+				"id": 0,
+				"type": "website",
+				"href": "https://www.mitorsrl.info/"
+			},
+			"email": {
+				"id": 1,
+				"type": "email",
+				"href": "mailto:mitor@mitorsrl.info"
+			}
+		}
 	},
 	"comuneGiaveno": {
 		"id": 5,
