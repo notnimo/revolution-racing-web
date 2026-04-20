@@ -50,7 +50,7 @@ export function TeamOverview({ teamMembers }: { teamMembers: TMtype[] }) {
 						</h2>
 					</div>
 					<a
-						href="/projects"
+						href="/about-us"
 						className="inline-flex items-center gap-2 rounded-lg bg-[#1FBEB6] px-3 py-2 text-white font-semibold hover:bg-[#7EC8E3] transition-colors">
 						<ArrowRight />
 						<span className={open_sans.className}>MORE ABOUT US</span>

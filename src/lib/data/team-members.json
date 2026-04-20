@@ -47,11 +47,11 @@
 	"tm6": {
 		"id": 5,
 		"name": "Pietro Tranca",
-		"position": "Manufacturing Engineer",
+		"position": "Design Engineer",
 		"image": {
 			"imageRef": "/team-members/pietro-tranca.png"
 		},
-		"description": "Pietro is one of our Manufacturing Engineers."
+		"description": "Pietro is one of our Design Engineers."
 	},
 	"tm7": {
 		"id": 6,

@@ -41,8 +41,9 @@ function Platinum({
 						className="rounded-lg w-full h-[20vw] max-h-[12rem] md:h-[16vw] md:max-h-[14rem] object-contain"
 					/>
 
-					<CardDescription className="antialiased text-center text-sm text-[#2C3E50]">
-						<pre className={`${inter500.className}`}>{sponsor.description}</pre>
+					<CardDescription
+						className={`${inter500.className} antialiased text-center text-[0.675rem] md:text-sm text-[#2C3E50] whitespace-pre-wrap`}>
+						{sponsor.description}
 					</CardDescription>
 
 					<Carousel
