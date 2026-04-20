@@ -74,6 +74,38 @@
 			}
 		]
 	},
+	"sparco": {
+		"id": 1,
+		"sponsorName": "Sparco",
+		"description": "",
+		"image": {
+			"imageRef": "/sponsor/sparco/sparco.png"
+		},
+		"header": "FOO",
+		"contactSocials": {
+			"website": {
+				"id": 1,
+				"type": "website",
+				"href": "foo.com"
+			}
+		}
+	},
+	"ansys": {
+		"id": 2,
+		"sponsorName": "Ansys",
+		"description": "",
+		"image": {
+			"imageRef": "/sponsor/ansys/ansys.png"
+		},
+		"header": "FOO",
+		"contactSocials": {
+			"website": {
+				"id": 1,
+				"type": "website",
+				"href": "foo.com"
+			}
+		}
+	},
 	"hyperion": {
 		"id": 3,
 		"sponsorName": "Hyperion",
