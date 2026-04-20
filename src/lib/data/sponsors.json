@@ -254,16 +254,31 @@
 	"comuneGiaveno": {
 		"id": 5,
 		"sponsorName": "Comune di Giaveno",
-		"description": "",
+		"description": "The Comune di Giaveno has been a fundamental partner in our journey. Revolution Racing took part at many of Comune di Giaveno's events.",
 		"image": {
 			"imageRef": "/sponsor/giaveno/giaveno.png"
 		},
 		"header": "FOO",
 		"contactSocials": {
 			"website": {
-				"id": 1,
+				"id": 0,
 				"type": "website",
-				"href": "foo.com"
+				"href": "https://www.comune.giaveno.to.it/en-us/home"
+			},
+			"facebook": {
+				"id": 1,
+				"type": "facebook",
+				"href": "https://www.facebook.com/cittadigiaveno/"
+			},
+			"youtube": {
+				"id": 2,
+				"type": "youtube",
+				"href": "https://www.youtube.com/channel/UCdrIZb07dEQWUzY4dngbYBQ/videos"
+			},
+			"instagram": {
+				"id": 3,
+				"type": "instagram",
+				"href": "https://www.instagram.com/cittadigiaveno/"
 			}
 		}
 	},
