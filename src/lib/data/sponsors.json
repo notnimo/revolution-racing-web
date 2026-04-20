@@ -233,11 +233,11 @@
 	"mitor": {
 		"id": 4,
 		"sponsorName": "Mitor",
-		"description": "Mitor helped us manufacturing our projects for research and development, providing us with their tools.",
 		"image": {
 			"imageRef": "/sponsor/mitor/mitor-logo.png"
 		},
-		"header": "FOO",
+		"header": "Mitor helped us manufacturing our projects for research and development, providing us with their tools.",
+
 		"contactSocials": {
 			"website": {
 				"id": 0,
@@ -258,7 +258,6 @@
 		"image": {
 			"imageRef": "/sponsor/giaveno/giaveno.png"
 		},
-		"header": "FOO",
 		"contactSocials": {
 			"website": {
 				"id": 0,
@@ -285,16 +284,15 @@
 	"pascal": {
 		"id": 6,
 		"sponsorName": "ISS Blaise Pascal",
-		"description": "",
+		"description": "The Blaise Pascal High School supports our journey by providing us with their facilities and resources for our manufacturing and research activities.",
 		"image": {
 			"imageRef": "/sponsor/Pascal/pascal.png"
 		},
-		"header": "FOO",
 		"contactSocials": {
 			"website": {
-				"id": 1,
+				"id": 0,
 				"type": "website",
-				"href": "foo.com"
+				"href": "https://www.pascalgiaveno.edu.it/"
 			}
 		}
 	},
