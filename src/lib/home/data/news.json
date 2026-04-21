@@ -2,32 +2,32 @@
 	"n1": {
 		"id": 0,
 		"title": "Regional Qualifiers 2026",
-		"subtitle": "News description",
-		"date": "01/01/2023",
+		"subtitle": "Our start competing in Stem Racing in 2026",
+		"date": "14/02/2026",
 		"badges": ["competition", "team"],
 		"primaryImage": {
-			"imageRef": "/news/foo2.png",
-			"altText": "News primary image"
+			"imageRef": "/news/regional-quali/car-display-vert.jpeg",
+			"altText": "Regional Qualifiers - Car Display Vertical"
 		},
 		"paragraph": [
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur varius. Sed at felis a enim efficitur bibendum. Curabitur ac ligula id metus efficitur convallis.",
-			"Phasellus ut velit nec nisl tincidunt commodo. Nulla facilisi. In hac habitasse platea dictumst. Maecenas ac odio a justo efficitur fermentum."
+			"14th of February 2026.\n\n We competed in the regional qualifiers for Stem Racing 2026. The event was held at the institute of mechatronics in Sesto San Giovanni, Italy. We had a great time competing against other teams and showcasing our car.",
+			"The first competition only comprehended the engineering exposition and portfolio presentation and the actual race on track. Thanks to the hard work of the team we managed to qualify for the Regional Finals, which will be held in May 2026."
 		]
 	},
 	"n2": {
 		"id": 1,
-		"title": "Another News Title",
-		"subtitle": "Another news description",
-		"date": "01/02/2023",
-		"badges": ["sponsor", "event"],
+		"title": "Our Visit to PoliTo",
+		"subtitle": "We met with the Formula Student team of Politecnico di Torino",
+		"date": "20/02/2026",
+		"badges": ["development", "team"],
 		"primaryImage": {
-			"imageRef": "/news/foo2.png",
-			"altText": "News primary image"
+			"imageRef": "/news/poli/formula-student-car-display.jpg",
+			"altText": "Poli - Formula Student Car Display"
 		},
 		"paragraph": [
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur varius. Sed at felis a enim efficitur bibendum. Curabitur ac ligula id metus efficitur convallis.",
-			"Phasellus ut velit nec nisl tincidunt commodo. Nulla facilisi. In hac habitasse platea dictumst. Maecenas ac odio a justo efficitur fermentum.",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur varius. Sed at felis a enim efficitur bibendum. Curabitur ac ligula id metus efficitur convallis."
+			"20th of February 2026.\n\n We had the opportunity to visit the Formula Student team of Politecnico di Torino. We had a great time learning about their car and sharing our experiences in Stem Racing.",
+			"During our visit the members of the team showed us around their facilities and their car on display. Since some of the members of Formula Student's team have similar roles to some of our members we had the opportunity to learn from more experienced competitors.",
+			"The visit was a great opportunity to network with other teams and learn from their experiences."
 		]
 	}
 }

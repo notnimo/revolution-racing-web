@@ -46,7 +46,7 @@ export function NewsArticle({ article }: { article: NewsType }) {
 								<img
 									src={article.primaryImage.imageRef}
 									alt={article.primaryImage.altText}
-									className="w-full h-full object-cover rounded-lg"
+									className=" h-full max-h-[17rem] md:max-h-[20rem] object-cover rounded-lg"
 								/>
 							</CardContent>
 						</Card>
@@ -60,10 +60,13 @@ export function NewsArticle({ article }: { article: NewsType }) {
 					{article.paragraph && (
 						<div className="mt-3 space-y-2 text-sm text-[#2C3E50]">
 							{typeof article.paragraph === "string" ? (
-								<p>{article.paragraph}</p>
+								<p className="whitespace-pre-wrap">{article.paragraph}</p>
 							) : (
 								article.paragraph.map((paragraph, index) => (
-									<p key={index}>{paragraph}</p>
+									<p className="whitespace-pre-wrap" key={index}>
+										{paragraph}
+										<br />
+									</p>
 								))
 							)}
 						</div>

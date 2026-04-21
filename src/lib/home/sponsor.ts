@@ -19,7 +19,7 @@ type Sponsor = {
 	};
 };
 interface PrimarySponsor extends Sponsor {
-	carouselImages?: ImageType<`/sponsor/${string}.${string}`>[];
+	carouselImages?: ImageType<`/sponsor/${string}.${"png" | "jpeg" | "jpg" | "webp"}`>[];
 }
 
 type sponsorPack = {

@@ -37,7 +37,7 @@ type NewsType = {
 	date: `${number}/${number}/${number}`;
 	badges: BadgeOptions[];
 	paragraph: string[] | string;
-	primaryImage: ImageType<`/news/${string}.png`>;
+	primaryImage: ImageType<`/news/${string}.${"png" | "jpeg" | "jpg" | "webp"}`>;
 };
 
 let newsData: NewsType[] = [];
