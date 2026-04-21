@@ -9,7 +9,7 @@ import {
 
 import { poppins, inter500 } from "@/src/ui/fonts";
 
-import { Sponsor, PrimarySponsor } from "@/src/lib/sponsor";
+import { Sponsor, PrimarySponsor } from "@/src/lib/home/sponsor";
 import { matchIcon } from "@/src/lib/contacts";
 import {
 	Carousel,

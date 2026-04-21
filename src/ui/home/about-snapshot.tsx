@@ -1,8 +1,8 @@
 import { StemRacingOverview } from "@/src/ui/about-components/overview-components/stem-racing-overview";
 import { TeamOverview } from "@/src/ui/about-components/overview-components/team-overview";
 import { SponsorOverview } from "@/src/ui/about-components/overview-components/sponsor-overview";
-import { sponsorPack, sponsorsList } from "@/src/lib/sponsor";
-import { teamMembersData } from "@/src/lib/team-members";
+import { sponsorPack, sponsorsList } from "@/src/lib/home/sponsor";
+import { teamMembersData } from "@/src/lib/home/team-members";
 
 export function AboutSnapshot() {
 	return (

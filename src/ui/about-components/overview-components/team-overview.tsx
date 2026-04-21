@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 import { ArrowLeft, ArrowRight, UsersRound } from "lucide-react";
 
-import { TMtype } from "@/src/lib/team-members";
+import { TMtype } from "@/src/lib/home/team-members";
 
 import { TMCard } from "@/src/ui/about-components/team-mbr-card";
 import { open_sans } from "@/src/ui/fonts";

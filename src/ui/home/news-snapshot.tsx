@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 
-import { newsData } from "@/src/lib/news";
+import { newsData } from "@/src/lib/home/news";
 
 import { NewsSection } from "@/src/ui/news-components/news-overview/news-section";
 import { open_sans } from "@/src/ui/fonts";

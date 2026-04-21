@@ -1,5 +1,5 @@
-import { NewsType } from "@/src/lib/news";
-import { NewsArticle } from "@/src/ui/news-components/news-article";
+import { NewsType } from "@/src/lib/home/news";
+import { NewsArticle } from "@/src/ui/news-components/news-overview/news-article";
 
 export function NewsSection({ news }: { news: NewsType[] }) {
 	const pairs = [];

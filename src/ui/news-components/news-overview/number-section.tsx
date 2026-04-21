@@ -4,7 +4,7 @@ import { useWindowWidth } from "@/src/hooks/useWindowWidth";
 
 import { Item, ItemHeader, ItemContent } from "@/src/components/item";
 
-import { Stat } from "@/src/lib/stats";
+import { Stat } from "@/src/lib/home/stats";
 
 import { barlowCondensed } from "@/src/ui/fonts";
 

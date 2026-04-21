@@ -6,7 +6,7 @@ import {
 	CardTitle,
 } from "@/src/components/card";
 
-import { TMtype } from "@/src/lib/team-members";
+import { TMtype } from "@/src/lib/home/team-members";
 import { poppins, inter500 } from "@/src/ui/fonts";
 
 export function TMCard({ teamMember }: { teamMember: TMtype }) {

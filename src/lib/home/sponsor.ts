@@ -1,6 +1,6 @@
-import { default as rawSponsorData } from "@/src/lib/data/sponsors.json";
+import { default as rawSponsorData } from "@/src/lib/home/data/sponsors.json";
 
-import { ImageType } from "@/src/lib/team-members";
+import { ImageType } from "@/src/lib/home/team-members";
 import { Contact } from "@/src/lib/contacts";
 
 type Sponsor = {
@@ -19,7 +19,7 @@ type Sponsor = {
 	};
 };
 interface PrimarySponsor extends Sponsor {
-	carouselImages?: ImageType<`/sponsor/${string}.png`>[];
+	carouselImages?: ImageType<`/sponsor/${string}.${string}`>[];
 }
 
 type sponsorPack = {

@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 
-import { statsData } from "@/src/lib/stats";
+import { statsData } from "@/src/lib/home/stats";
 
 import { NumberSection } from "@/src/ui/news-components/news-overview/number-section";
 import { open_sans } from "@/src/ui/fonts";
