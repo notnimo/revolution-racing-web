@@ -1,4 +1,4 @@
-import { default as rawStatsData } from "@/src/lib/data/stats.json";
+import { default as rawStatsData } from "@/src/lib/home/data/stats.json";
 
 type Stat = {
 	id: number;

@@ -47,11 +47,11 @@
 	"tm6": {
 		"id": 5,
 		"name": "Pietro Tranca",
-		"position": "Manufacturing Engineer",
+		"position": "Design Engineer",
 		"image": {
 			"imageRef": "/team-members/pietro-tranca.png"
 		},
-		"description": "Pietro is one of our Manufacturing Engineers."
+		"description": "Pietro is one of our Design Engineers."
 	},
 	"tm7": {
 		"id": 6,
@@ -61,5 +61,59 @@
 			"imageRef": "/team-members/damiano-livoni.png"
 		},
 		"description": "Damiano is our Web Developer."
+	},
+	"tm8": {
+		"id": 7,
+		"name": "Edoardo Beccaris",
+		"position": "Resource Manager",
+		"image": {
+			"imageRef": "/team-members/edoardo-beccaris.png"
+		},
+		"description": "Edoardo is a Resource Manager."
+	},
+	"tm9": {
+		"id": 8,
+		"name": "Jacopo Belmondo",
+		"position": "Manufacturing Engineer",
+		"image": {
+			"imageRef": "/team-members/jacopo-belmondo.png"
+		},
+		"description": "Jacopo is a Manufacturing Engineer."
+	},
+	"tm10": {
+		"id": 9,
+		"name": "Leonardo Zucchini",
+		"position": "Manufacturing Engineer",
+		"image": {
+			"imageRef": "/team-members/leonardo-zucchini.png"
+		},
+		"description": "Leonardo is a Manufacturing Engineer."
+	},
+	"tm11": {
+		"id": 10,
+		"name": "Matteo Sivera",
+		"position": "Resource Manager",
+		"image": {
+			"imageRef": "/team-members/matteo-sivera.png"
+		},
+		"description": "Matteo is a Resource Manager."
+	},
+	"tm12": {
+		"id": 11,
+		"name": "Mattia Petiti",
+		"position": "Resource Manager",
+		"image": {
+			"imageRef": "/team-members/mattia-petiti.png"
+		},
+		"description": "Mattia is a Resource Manager."
+	},
+	"tm13": {
+		"id": 12,
+		"name": "Pietro Tais",
+		"position": "Manufacturing Engineer",
+		"image": {
+			"imageRef": "/team-members/pietro-tais.png"
+		},
+		"description": "Damiano is our Manufacturing Engineer."
 	}
 }

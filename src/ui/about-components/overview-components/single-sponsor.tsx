@@ -9,7 +9,7 @@ import {
 
 import { poppins, inter500 } from "@/src/ui/fonts";
 
-import { Sponsor, PrimarySponsor } from "@/src/lib/sponsor";
+import { Sponsor, PrimarySponsor } from "@/src/lib/home/sponsor";
 import { matchIcon } from "@/src/lib/contacts";
 import {
 	Carousel,
@@ -28,13 +28,13 @@ function Platinum({
 }) {
 	return (
 		<Card className={`w-full h-full rounded-2xl ${wrapperStyle}`}>
-			<CardContent className="flex flex-col items-center justify-around gap-3 p-4 md:p-6">
+			<CardContent className="flex flex-col items-center justify-around gap-4 p-2 md:p-3">
 				<CardTitle
 					className={`${poppins.className} antialiased text-lg font-semibold text-[#1B5C70]`}>
 					<h1>{sponsor.sponsorName.toUpperCase()}</h1>
 				</CardTitle>
 
-				<div className="flex flex-col  md:flex-row items-center justify-between">
+				<div className="flex flex-col md:grid md:grid-cols-3 md:grid-rows-1 items-center justify-between gap-3">
 					<img
 						src={sponsor.image.imageRef}
 						alt={`${sponsor.sponsorName}'s card picture`}
@@ -42,7 +42,7 @@ function Platinum({
 					/>
 
 					<CardDescription
-						className={`${inter500.className} antialiased text-sm text-[#2C3E50]`}>
+						className={`${inter500.className} antialiased text-center text-[0.675rem] md:text-sm text-[#2C3E50] whitespace-pre-wrap`}>
 						{sponsor.description}
 					</CardDescription>
 
@@ -74,7 +74,7 @@ function Platinum({
 					</Carousel>
 				</div>
 
-				<CardFooter>
+				<CardFooter className="mt-2">
 					<div className="flex flex-row items-center justify-center gap-3">
 						{Object.values(sponsor.contactSocials).map((contact) => {
 							const Icon = matchIcon[contact.type];
@@ -85,7 +85,7 @@ function Platinum({
 									target="_blank"
 									rel="noopener noreferrer"
 									className="text-[#1FBEB6] hover:text-[#3B9FE5] transition-colors">
-									<Icon size={18} />
+									<Icon size={24} />
 								</a>
 							);
 						})}
@@ -130,7 +130,7 @@ function SingleSponsor({
 
 				{(level === "gold" || level === "tier3") && (
 					<CardHeader
-						className={`${poppins.className} antialiased text-sm md:text-base text-[#2C3E50]`}>
+						className={`${poppins.className} antialiased text-sm md:text-base text-center text-[#2C3E50]`}>
 						{sponsor.header}
 					</CardHeader>
 				)}

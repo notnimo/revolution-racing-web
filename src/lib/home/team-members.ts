@@ -1,4 +1,4 @@
-import { default as rawTeamMembersData } from "@/src/lib/data/team-members.json";
+import { default as rawTeamMembersData } from "@/src/lib/home/data/team-members.json";
 
 const positionOptList = [
 	"Project Manager",

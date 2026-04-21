@@ -20,7 +20,8 @@ export function Contacts({ contacts }: { contacts: Contact[] }) {
 					</h2>
 				</div>
 				<a
-					href="https://linktr.ee/"
+					href="https://linktr.ee/_revolutionracing_"
+					target="_blank"
 					className="inline-flex items-center gap-2 rounded-lg bg-[#1FBEB6] px-3 py-2 text-white font-semibold hover:bg-[#7EC8E3] transition-colors">
 					<ArrowRight />
 					<span className={open_sans.className}>MORE CONTACTS</span>

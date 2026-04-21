@@ -1,0 +1,37 @@
+{
+	"s1": {
+		"id": 0,
+		"value": 13,
+		"label": "Team Members"
+	},
+	"s2": {
+		"id": 1,
+		"value": 1,
+		"label": "Team"
+	},
+	"s3": {
+		"id": 2,
+		"value": 6,
+		"label": "Sponsors"
+	},
+	"s4": {
+		"id": 3,
+		"value": 2,
+		"label": "Competitions Attended"
+	},
+	"s5": {
+		"id": 4,
+		"value": 24,
+		"label": "Meters of Track"
+	},
+	"s6": {
+		"id": 5,
+		"value": 3,
+		"label": "Events Attended"
+	},
+	"s7": {
+		"id": 6,
+		"value": 2,
+		"label": "Years of Experience"
+	}
+}

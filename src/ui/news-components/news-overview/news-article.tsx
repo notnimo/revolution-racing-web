@@ -17,7 +17,7 @@ import {
 	CarouselPrevious,
 } from "@/src/components/carousel";
 
-import { matchBadge, NewsType } from "@/src/lib/news";
+import { matchBadge, NewsType } from "@/src/lib/home/news";
 
 export function NewsArticle({ article }: { article: NewsType }) {
 	return (
@@ -40,45 +40,17 @@ export function NewsArticle({ article }: { article: NewsType }) {
 
 			<div className="flex flex-col md:flex-row gap-4 flex-1">
 				<div className="w-full md:w-[40%] h-full">
-					{article.images ? (
-						<Carousel
-							opts={{ align: "start" }}
-							className="w-full h-full rounded-xl relative p-4">
-							<CarouselContent>
-								{article.images.map((image, index) => (
-									<CarouselItem
-										key={index}
-										className="flex items-center justify-center">
-										<div className="p-1 w-full h-full max-w-full max-h-full">
-											<Card className="h-full">
-												<CardContent className="h-full flex items-center justify-center p-0">
-													<img
-														src={image.imageRef}
-														alt={image.altText}
-														className="max-w-full max-h-full object-contain rounded-lg"
-													/>
-												</CardContent>
-											</Card>
-										</div>
-									</CarouselItem>
-								))}
-							</CarouselContent>
-							<CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-1 z-10" />
-							<CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-1 z-10" />
-						</Carousel>
-					) : (
-						<div className="w-full h-full rounded-xl relative p-4">
-							<Card>
-								<CardContent className="h-full flex items-center justify-center p-0">
-									<img
-										src={article.primaryImage.imageRef}
-										alt={article.primaryImage.altText}
-										className="w-full h-full object-cover rounded-lg"
-									/>
-								</CardContent>
-							</Card>
-						</div>
-					)}
+					<div className="w-full h-full rounded-xl relative p-4">
+						<Card>
+							<CardContent className="h-full flex items-center justify-center p-0">
+								<img
+									src={article.primaryImage.imageRef}
+									alt={article.primaryImage.altText}
+									className=" h-full max-h-[17rem] md:max-h-[20rem] object-cover rounded-lg"
+								/>
+							</CardContent>
+						</Card>
+					</div>
 				</div>
 
 				<ItemContent className="w-full md:w-[60%] h-full">
@@ -88,10 +60,13 @@ export function NewsArticle({ article }: { article: NewsType }) {
 					{article.paragraph && (
 						<div className="mt-3 space-y-2 text-sm text-[#2C3E50]">
 							{typeof article.paragraph === "string" ? (
-								<p>{article.paragraph}</p>
+								<p className="whitespace-pre-wrap">{article.paragraph}</p>
 							) : (
 								article.paragraph.map((paragraph, index) => (
-									<p key={index}>{paragraph}</p>
+									<p className="whitespace-pre-wrap" key={index}>
+										{paragraph}
+										<br />
+									</p>
 								))
 							)}
 						</div>
