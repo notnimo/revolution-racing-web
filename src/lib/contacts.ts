@@ -8,6 +8,8 @@ import {
 } from "lucide-react";
 import { FaTiktok } from "react-icons/fa";
 
+import { default as rawContacts } from "@/src/lib/data/contact-sq.json" with { type: "json" };
+
 const typeOpts = [
 	"instagram",
 	"facebook",
@@ -37,4 +39,9 @@ const matchIcon = {
 	website: Globe,
 };
 
-export { type Contact, matchIcon };
+let contactsSq: Contact[] = [];
+Object.values(rawContacts).forEach((contact) =>
+	contactsSq.push(contact as Contact),
+);
+
+export { type Contact, matchIcon, contactsSq };
