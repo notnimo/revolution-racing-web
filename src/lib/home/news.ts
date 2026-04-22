@@ -9,7 +9,7 @@ import {
 	DevelopmentBadge,
 	OtherBadge,
 	TeamBadge,
-} from "@/src/ui/news-components/news-overview/badges";
+} from "@/src/ui/news-components/badges";
 
 const badgeOpts = [
 	"competition",
