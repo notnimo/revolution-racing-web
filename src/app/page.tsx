@@ -10,7 +10,7 @@ import { NewsSnapshot } from "@/src/ui/home/news-snapshot";
 import { StatsSection } from "@/src/ui/home/stats-section";
 import { Contacts } from "@/src/ui/contacts/contacts";
 
-import { Contact } from "@/src/lib/contacts";
+import { contactsSq } from "@/src/lib/contacts";
 
 export default function Main() {
 	const navbarItems = ["Home", "About", "News", "Stats", "Contact"];
@@ -39,36 +39,6 @@ export default function Main() {
 		}
 	};
 
-	const instaSq: Contact = {
-		id: 0,
-		type: "instagram",
-		href: "https://www.instagram.com/revolution.racing26?igsh=bHdvN3R4YjlsemNn",
-		title: "Instagram",
-		description: "Follow us on Instagram",
-	};
-	const tiktokSq: Contact = {
-		id: 1,
-		type: "tiktok",
-		href: "https://www.tiktok.com/@revolution_racing26?_r=1&_t=ZN-95jVpiXcNs6",
-		title: "TikTok",
-		description: "Follow us on TikTok",
-	};
-	const linkedinSq: Contact = {
-		id: 3,
-		type: "linkedin",
-		href: "https://www.linkedin.com/company/revolution-racingteam/posts/?feedView=all",
-		title: "LinkedIn",
-		description: "Follow us on LinkedIn",
-	};
-	const emailSq: Contact = {
-		id: 5,
-		type: "email",
-		href: "mailto:revolution.rt@pascalgiaveno.it",
-		title: "Email",
-		description: "Contact us via email",
-	};
-	const contacts: Contact[] = [instaSq, tiktokSq, linkedinSq, emailSq];
-
 	return (
 		<div className="w-screen flex flex-col justify-start items-center overflow-x-hidden">
 			<div
@@ -89,7 +59,7 @@ export default function Main() {
 				<StatsSection />
 			</div>
 			<div ref={contactRef}>
-				<Contacts contacts={contacts} />
+				<Contacts contacts={contactsSq} />
 			</div>
 		</div>
 	);
