@@ -17,7 +17,7 @@
   - contacts done
     - contact def done
     - render done
-  - style
+  - style done
     - run style prompt done
     - review done 
       - tests done
@@ -45,19 +45,19 @@
       - meta tags done
       - favicon done
   - data
-    - branch
+    - branch done
     - placeholder done
-    - news
-    - sponsors
-    - stats
+    - news done
+    - sponsors done
+    - stats done
     - tm done
-    - photos
+    - photos done
       - tm done (sherine and damiano missing)
-      - sponsors
-      - news
-      - stats
+      - sponsors done
+      - news done
+      - stats aborted
     - texts
-      - team
+      - team aborted
       - stem racing done
       - hero done
 - vercel
@@ -65,5 +65,10 @@
   - link to domain
 - branch workflow done
 - about page
+  - branch done
+  - file structure done
+  - team presentation
+  - team members
+  - sponsor showcase
 - news page
 - projects page
