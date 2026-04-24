@@ -11,7 +11,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 				<title>Revolution Racing</title>
 				<meta
 					name="description"
-					content="Revolution Racing is a racing team that competes in the Formula Student competition."
+					content="Revolution Racing is a racing team that competes in the STEM Racing student competition."
 				/>
 				<link
 					rel="icon"
