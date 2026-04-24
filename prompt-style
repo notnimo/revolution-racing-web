@@ -1,8 +1,11 @@
-style everything in the directory @/src/ui (with the exception of project-components) and @/src/app/page.tsx following this guidelines:
+style the added files, so the about-us folder in the app folder and all the used ui components in the ui folder
 
-- use a mobile first approach, using the md: functionality of tailwind
-- change all the height and width definition to relative units to maintain proportions and prevent distortions on different size screen
-- color theme:
+style characteristics:
+  - the primary background color for the about-us page should be (as already set) bg-[#E8F5FC]
+  - should be similar to the overall style of already styled components so modern and spacious
+  - use a mobile first approach, using the md: functionality of tailwind
+  - change all the height and width definition to relative units to maintain proportions and prevent distortions on different size screen
+  - color theme:
     Primary Colors
       Primary Blue
       Hex: #3B9FE5
@@ -35,44 +38,28 @@ style everything in the directory @/src/ui (with the exception of project-compon
       Uso: Hover on primary buttons, card border on hover, animations
       Note: lighter version of the primary light blue for hover effects
 
-  Text Color
-  Primary Text (Dark Gray)
-  Hex: #2C3E50
-  RGB: 44, 62, 80
-  Uso: Paragraphs
+    Text Color
+      Primary Text (Dark Gray)
+      Hex: #2C3E50
+      RGB: 44, 62, 80
+      Uso: Paragraphs
 
-- use only tailwind
-- font rules:
-  - h1: opensans weight700
-  - h2: poppins weight600
-  - h3: poppins weight600
-  - h4: poppins weight600
-  - body: inter weight400
-  - button: inter weight600
-- leave comfortable spaces between elements to give a modern look, use padding and margin accordingly
-- the total width at any point should be the screen's, no horizontal scroll or less than screen width
-- DO NOT touch the code; only modify the tailwind styling for each component is needed
-- DO NOT change the fonts.ts file in @/src/ui
-- respect hierarchy, if a part is labeled as primary give it a more important styling that makes it pop out
-- use wide radius to respect the modern and comfortable feel
-- ADD an animation of fade in on vertical scroll, (use normal code out of tailwind if needed) to give a modern look
-- if a set of cards have the same hierarchy (ex. all the platinum sponsors or the tm cards) they HAVE TO have the same dimensions
-- all the cards and sections that should be the most important have to have different background that the background to make them stand out
-- DO NOT use the already existent tailwind code as a guide WITH THE EXCEPTION OF ANIMATIONS AND DISPLAY PROPERTIES (don't touch the animation and use the flex direction property as guidelines)
-- every img tag should have one set between height and width (with relative units)
+  - use only tailwind
+  - font rules:
+    - h1: opensans weight700
+    - h2: poppins weight600
+    - h3: poppins weight600
+    - h4: poppins weight600
+    - body: inter weight400
+    - button: inter weight600
+  - leave comfortable spaces between elements to give a modern look, use padding and margin accordingly
+  - the total width at any point should be the screen's, no horizontal scroll or less than screen width
+  - DO NOT touch the code; only modify the tailwind styling for each component is needed
+  - DO NOT change the fonts.ts file in @/src/ui
+  - respect hierarchy, if a part is labeled as primary give it a more important styling that makes it pop out
+  - use wide radius to respect the modern and comfortable feel
+  - all the cards and sections that should be the most important have to have different background that the background to make them stand out
+  - DO NOT use the already existent tailwind code as a guide WITH THE EXCEPTION OF ANIMATIONS AND DISPLAY PROPERTIES (don't touch the animation and use the flex direction property as guidelines)
+  - every img tag should have one set between height and width (with relative units)
 
-Specific page guidelines:
-
-- in @/src/app/page.tsx the navbar component has to be sticky to the top and ave z-50 as a fixed value
-- in @/src/ui/about-components/overview-components/team-overview.tsx place the arrows to the side of the cards scrolling not above them (it is allowed to move the html components if required)
-- sponsor section in the about snapshot (@/src/ui/about-components/overview-components/sponsor-overview.tsx, @src/ui/about-components/overview-components/single-sponsor.tsx), hierarchy:
-  - make platinum sponsor more spacious with only one on every row
-  - gold is a bit less two or three per row, reduce the size of the card
-  - tier 3 and others are even less important reduce the size even more, four per row
-- DON'T change the tailwind rules to make the scrolling effect in @/src/ui/about-components/overview-components/team-overview.tsx (it is permitted to change the rules for other aspects of styling cards)
-- in @/src/ui/home/hero-section.tsx DO NOT change the gradient in background of the hero image
-- in @/src/ui/news-components/number-section.tsx find a fitting font for the numbers supported on google fonts and apply it (for this you can ignore the rule to not touch the font file), scatter the various stats around the page, enclosed in items maintaining the importance of the number by having it bigger than everything else
-- in @/src/ui/news-components/news-overview/news-section.tsx the news have to be in a column
-- DO NOT change the colors in @/src/ui/news-components/news-overview/badges.tsx although everything else inside the tailwind rules is editable
-- in @/src/ui/news-components/news-article.tsx make sure that regardless if there is more than one image in the carousel or just one static image the images have the same appearance, style, and dimensions
-- in @/src/ui/home/news-snapshot.tsx, @/src/ui/about-components/overview-components/team-overview.tsx and src/ui/home/stats-section.tsx style the part that links to other pages in a way that fits the overall theme of the website, don't take ANY existing style into account (ignore the rule that says to do so)
+specific file rules
