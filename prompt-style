@@ -63,3 +63,4 @@ style characteristics:
   - every img tag should have one set between height and width (with relative units)
 
 specific file rules
+  - in src\ui\about-components\team-presentation.tsx focus especially on the color, making the logo pop out and not having the headers confuse with the background because of the similarity in colors
