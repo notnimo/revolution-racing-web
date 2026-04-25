@@ -11,7 +11,7 @@
 	},
 	"s3": {
 		"id": 2,
-		"value": 6,
+		"value": 11,
 		"label": "Sponsors"
 	},
 	"s4": {
@@ -26,7 +26,7 @@
 	},
 	"s6": {
 		"id": 5,
-		"value": 3,
+		"value": 2,
 		"label": "Events Attended"
 	},
 	"s7": {
