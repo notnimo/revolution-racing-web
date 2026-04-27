@@ -36,18 +36,19 @@ Object.values(rawSponsorData).forEach((sponsor) =>
 const [
 	famar,
 	sparco,
-	ansys,
+	ansysEsss,
 	hyperion,
 	mitor,
 	comuneGiaveno,
 	pascal,
 	centroServizi,
+	deltaTi,
 ] = sponsorData as Sponsor[];
 
 const sponsorsList: sponsorPack = {
-	primary: [famar, sparco],
+	primary: [famar, sparco, deltaTi],
 	secondary: [centroServizi, hyperion],
-	tier3: [mitor, ansys],
+	tier3: [mitor, ansysEsss],
 	others: [comuneGiaveno, pascal],
 };
 

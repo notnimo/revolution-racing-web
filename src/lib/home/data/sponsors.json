@@ -282,5 +282,48 @@
 				"href": "mailto:cs24.giaveno@gmail.com"
 			}
 		}
+	},
+	"deltaTi": {
+		"id": 8,
+		"sponsorName": "Delta Ti",
+		"description": "Delta-ti, originally focused on system realization and installation, is now an E.P.C. company (Engineering, Procurement, and Construction). Delta-ti has consistently pursued innovation by adapting its structure, promoting collaborations, and making strategic investments.\n\nDelta-ti sponsors Revolution Racing and has been a fundamental partner in our journey, providing us with their support. We are proud to have Delta-ti as one of our sponsors.",
+		"image": {
+			"imageRef": "/sponsor/delta-ti/delta-ti-logo.png"
+		},
+		"contactSocials": {
+			"website": {
+				"id": 0,
+				"type": "website",
+				"href": "https://www.delta-ti.it/en/"
+			},
+			"email": {
+				"id": 1,
+				"type": "email",
+				"href": "mailto:info@delta-ti.it"
+			},
+			"linkedin": {
+				"id": 2,
+				"type": "linkedin",
+				"href": "https://www.linkedin.com/company/delta-ti-impianti-spa"
+			}
+		},
+		"carouselImages": [
+			{
+				"imageRef": "https://www.delta-ti.it/wp-content/uploads/2024/10/Delta-ti_1975-1980-1024x878.jpg",
+				"altText": "Delta Ti - Historical Factory Picture"
+			},
+			{
+				"imageRef": "https://www.delta-ti.it/wp-content/uploads/2024/10/Delta-ti_1925-1975-1024x878.jpg",
+				"altText": "Delta Ti - Historical Picture"
+			},
+			{
+				"imageRef": "https://www.delta-ti.it/wp-content/uploads/2024/10/Delta-ti_2003-2009-1024x878.jpg",
+				"altText": "Delta Ti - Factory Picture"
+			},
+			{
+				"imageRef": "https://www.delta-ti.it/wp-content/uploads/2024/10/Delta-ti_2019_Today-scaled-1-1024x878.jpg",
+				"altText": "Delta Ti - Factory Picture 2"
+			}
+		]
 	}
 }
