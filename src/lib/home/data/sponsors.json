@@ -325,5 +325,58 @@
 				"altText": "Delta Ti - Factory Picture 2"
 			}
 		]
+	},
+	"Ilma": {
+		"id": 9,
+		"sponsorName": "Ilma",
+		"description": "The history of Ilma Modelli has deep roots that date back to the period following the Second World War, when the founder, driven by his passion for modeling and carpentry, began his business in the home cellar. Now in its third generation, the company is now led by descendants, who have brought a breath of innovation and modernization, introducing numerically controlled (CNC) machines and adopting advanced software for digital design. These changes have allowed the company to remain competitive and at the forefront of the industry.\n\n Ilma sponsors Revolution Racing and has helped us manufacturing the solid body of the competition cars with CNC machines.",
+		"image": {
+			"imageRef": "/sponsor/ilma/ilma-logo.png"
+		},
+		"contactSocials": {
+			"website": {
+				"id": 0,
+				"type": "website",
+				"href": "https://www.ilmamodelli.eu/"
+			},
+			"facebook": {
+				"id": 1,
+				"type": "facebook",
+				"href": "https://www.facebook.com/milea.meccanica/"
+			},
+			"instagram": {
+				"id": 2,
+				"type": "instagram",
+				"href": "https://www.instagram.com/ilma.modelli/"
+			},
+			"linkedin": {
+				"id": 3,
+				"type": "linkedin",
+				"href": "https://www.linkedin.com/in/massimiliano-mittino-ba4343ba/"
+			},
+			"email": {
+				"id": 4,
+				"type": "email",
+				"href": "mailto:ilma.novara@gmail.com"
+			}
+		},
+		"carouselImages": [
+			{
+				"imageRef": "https://www.ilmamodelli.eu/wp-content/uploads/2024/05/VideoCapture_20240528-145622.jpg",
+				"altText": "Ilma - Picture 1"
+			},
+			{
+				"imageRef": "https://www.ilmamodelli.eu/wp-content/uploads/2024/05/image.webp",
+				"altText": "Ilma - Machine Picture"
+			},
+			{
+				"imageRef": "https://www.ilmamodelli.eu/wp-content/uploads/2024/05/Screenshot-2024-05-29-000754.png",
+				"altText": "Ilma - Stamp Picture"
+			},
+			{
+				"imageRef": "https://www.ilmamodelli.eu/wp-content/uploads/2024/06/1000472763.jpg",
+				"altText": "Ilma - Machine Picture 2"
+			}
+		]
 	}
 }
