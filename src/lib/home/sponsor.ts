@@ -45,9 +45,9 @@ const [
 ] = sponsorData as Sponsor[];
 
 const sponsorsList: sponsorPack = {
-	primary: [famar, ansys, sparco],
+	primary: [famar, sparco],
 	secondary: [centroServizi, hyperion],
-	tier3: [mitor],
+	tier3: [mitor, ansys],
 	others: [comuneGiaveno, pascal],
 };
 

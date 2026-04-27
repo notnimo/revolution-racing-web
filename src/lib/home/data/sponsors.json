@@ -135,7 +135,7 @@
 	"ansys": {
 		"id": 2,
 		"sponsorName": "Ansys",
-		"description": "For more than 50 years, Ansys engineering simulation software has enabled innovators across industries to push boundaries using the predictive power of simulation, today Ansys is the gold standard for engineering simulation.\nWhen visionary companies need to know how their world-changing ideas will perform, they close the gap between design and reality with Ansys simulation.\n\nAnsys sponsors Revolution Racing and has been a crucial partner in our journey, providing us with their powerful software tools and support. We are proud to have Ansys as one of our main sponsors.",
+		"header": "Ansys partnered with us in our journey, providing us with their software to trace our CO2 emissions.",
 		"image": {
 			"imageRef": "/sponsor/ansys/ansys.png"
 		},
@@ -165,45 +165,7 @@
 				"type": "youtube",
 				"href": "https://www.youtube.com/user/ansysinc"
 			}
-		},
-		"carouselImages": [
-			{
-				"imageRef": "/sponsor/ansys/sym-car-logo-ansys.png",
-				"altText": "Ansys - Car Sym with Logo"
-			},
-			{
-				"imageRef": "/sponsor/ansys/aerodynamic-sym.jpeg",
-				"altText": "Ansys - Stem Racing Car Sym Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/fluid-sym-ansys.webp",
-				"altText": "Ansys - Ansys Software Fluid Dynamics Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/electrical-simulation-ansys.webp",
-				"altText": "Ansys - Ansys Software Electrical Simulation Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/car-sym-ansys.webp",
-				"altText": "Ansys - Ansys Software Car Simulation Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/ansys-fluid-image.png",
-				"altText": "Ansys - Ansys Fluid Banner Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/ansys-bridge-image.png",
-				"altText": "Ansys - Ansys Structural Banner Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/ansys-electronics-image.png",
-				"altText": "Ansys - Ansys Electronic Banner Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/ansys-3d-image.png",
-				"altText": "Ansys - Ansys 3D Banner Picture"
-			}
-		]
+		}
 	},
 	"hyperion": {
 		"id": 3,
