@@ -22,17 +22,17 @@ export function SponsorOverview({ sponsors }: { sponsors: sponsorPack }) {
 				))}
 			</div>
 
-			<div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-6">
+			<div className="flex flex-col md:grid md:grid-cols-2 justify-center items-center gap-4 mb-6">
 				{sponsors.secondary?.map((sponsor) => (
-					<div key={sponsor.id} className="w-full md:w-1/2">
+					<div key={sponsor.id} className="w-full">
 						<SingleSponsor level="gold" sponsor={sponsor} />
 					</div>
 				))}
 			</div>
 
-			<div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-6">
+			<div className="flex flex-col md:grid md:grid-cols-3 justify-center items-center gap-4 mb-6">
 				{sponsors.tier3?.map((sponsor) => (
-					<div key={sponsor.id} className="w-full md:w-1/3">
+					<div key={sponsor.id} className="w-full">
 						<SingleSponsor key={sponsor.id} level="tier3" sponsor={sponsor} />
 					</div>
 				))}

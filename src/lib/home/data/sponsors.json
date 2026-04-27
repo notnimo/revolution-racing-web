@@ -403,5 +403,30 @@
 				"href": "https://www.facebook.com/thebestofstickers"
 			}
 		}
+	},
+	"ferco": {
+		"id": 11,
+		"sponsorName": "Ferco",
+		"header": "Ferco SRL is a company operating in the distribution of DIY, electrical, plumbing, and interior and outdoor decoration products.\n\nFerco sponsors Revolution Racing and helped us with getting our t-shirts for our uniform.",
+		"image": {
+			"imageRef": "/sponsor/ferco/ferco-logo.png"
+		},
+		"contactSocials": {
+			"website": {
+				"id": 0,
+				"type": "website",
+				"href": "https://www.fercofaidate.it/"
+			},
+			"email": {
+				"id": 1,
+				"type": "email",
+				"href": "mailto:ferco.faidate@libero.it"
+			},
+			"facebook": {
+				"id": 2,
+				"type": "facebook",
+				"href": "https://www.facebook.com/FercoS.r.L/"
+			}
+		}
 	}
 }
