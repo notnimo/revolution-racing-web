@@ -132,12 +132,12 @@
 			}
 		]
 	},
-	"ansys": {
+	"ansys-esss": {
 		"id": 2,
-		"sponsorName": "Ansys",
-		"header": "Ansys partnered with us in our journey, providing us with their software to trace our CO2 emissions.",
+		"sponsorName": "Ansys x ESSS",
+		"header": "Ansys and ESSS partnered with us in our journey, providing us with their software to trace our CO2 emissions.",
 		"image": {
-			"imageRef": "/sponsor/ansys/ansys.png"
+			"imageRef": "/sponsor/ansys-esss/ansys-esss-logo.png"
 		},
 		"contactSocials": {
 			"website": {
