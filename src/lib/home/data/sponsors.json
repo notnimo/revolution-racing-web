@@ -378,5 +378,30 @@
 				"altText": "Ilma - Machine Picture 2"
 			}
 		]
+	},
+	"theBos": {
+		"id": 10,
+		"sponsorName": "The Bos",
+		"header": "The Bos is a company that produces prints on sportswear. They helped us printing our and our sponsors' logos on our uniforms and they are supporting us in our journey.",
+		"image": {
+			"imageRef": "/sponsor/the-bos/the-bos-logo.png"
+		},
+		"contactSocials": {
+			"website": {
+				"id": 0,
+				"type": "website",
+				"href": "https://www.thebos.it"
+			},
+			"email": {
+				"id": 1,
+				"type": "email",
+				"href": "mailto:info@thebos.it"
+			},
+			"facebook": {
+				"id": 2,
+				"type": "facebook",
+				"href": "https://www.facebook.com/thebestofstickers"
+			}
+		}
 	}
 }
