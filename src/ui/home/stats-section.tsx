@@ -11,7 +11,7 @@ export function StatsSection() {
 			<div className="flex flex-col md:flex-row items-center w-full text-left justify-between border border-[#E8F5FC] rounded-2xl p-4 md:p-6 gap-3 bg-[#E8F5FC]">
 				<div>
 					<h1 className="text-3xl md:text-4xl font-bold text-[#3B9FE5]">
-						Stats Section
+						Stats
 					</h1>
 					<h2 className="text-[#2C3E50]">
 						Some of the numbers that tell our story
