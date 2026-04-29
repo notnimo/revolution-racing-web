@@ -1,21 +1,12 @@
 import {
 	Item,
-	ItemActions,
 	ItemContent,
 	ItemDescription,
 	ItemHeader,
 	ItemMedia,
 	ItemTitle,
 } from "@/src/components/item";
-import { Separator } from "@/src/components/separator";
 import { Card, CardContent } from "@/src/components/card";
-import {
-	Carousel,
-	CarouselContent,
-	CarouselItem,
-	CarouselNext,
-	CarouselPrevious,
-} from "@/src/components/carousel";
 
 import { matchBadge, NewsType } from "@/src/lib/home/news";
 
