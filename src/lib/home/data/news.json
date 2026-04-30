@@ -4,7 +4,7 @@
 		"title": "Regional Qualifiers 2026",
 		"subtitle": "Our start competing in Stem Racing in 2026",
 		"date": "14/02/2026",
-		"badges": ["competition", "team"],
+		"badges": ["competition", "team", "event"],
 		"primaryImage": {
 			"imageRef": "/news/regional-quali/car-display-vert.jpeg",
 			"altText": "Regional Qualifiers - Car Display Vertical"
@@ -29,5 +29,23 @@
 			"During our visit the members of the team showed us around their facilities and their car on display. Since some of the members of Formula Student's team have similar roles to some of our members we had the opportunity to learn from more experienced competitors.",
 			"The visit was a great opportunity to network with other teams and learn from their experiences."
 		]
+	},
+	"n3": {
+		"id": 2,
+		"title": "Showcase of our Car Pacchiotti Institute",
+		"subtitle": "With the imitation of the track that we built we showed our progress to our school",
+		"date": "",
+		"badges": ["development", "event"],
+		"primaryImage": {},
+		"paragraph": []
+	},
+	"n4": {
+		"id": 3,
+		"title": "Self-Managed day at our school",
+		"subtitle": "We organized some activities for the students of our school during the self-managed day",
+		"date": "",
+		"badges": ["event", "team"],
+		"primaryImage": {},
+		"paragraph": []
 	}
 }
