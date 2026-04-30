@@ -1,4 +1,5 @@
 import { default as rawTeamMembersData } from "@/src/lib/home/data/team-members.json";
+import { ImageRef } from "@/src/lib/imageRef";
 
 const positionOptList = [
 	"Project Manager",
@@ -9,15 +10,11 @@ const positionOptList = [
 	"Web Developer",
 ] as const;
 type positionOptions = (typeof positionOptList)[number];
-type ImageType<T> = {
-	imageRef: T;
-	altText?: string;
-};
 type TMtype = {
 	id: number;
 	name: string;
 	position: positionOptions;
-	image: ImageType<`/team-members/${string}.png`>;
+	image: ImageRef<`/team-members/${string}.png`>;
 	description: string;
 };
 
@@ -26,5 +23,5 @@ Object.values(rawTeamMembersData).forEach((tm) =>
 	teamMembersData.push(tm as TMtype),
 );
 
-export type { TMtype, ImageType };
+export type { TMtype };
 export { teamMembersData };

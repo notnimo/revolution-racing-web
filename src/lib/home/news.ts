@@ -1,6 +1,6 @@
 import { default as rawNewsData } from "@/src/lib/home/data/news.json" with { type: "json" };
 
-import { ImageType } from "@/src/lib/home/team-members";
+import { ImageRef } from "@/src/lib/imageRef";
 
 import {
 	CompetitionBadge,
@@ -37,7 +37,7 @@ type NewsType = {
 	date: `${number}/${number}/${number}`;
 	badges: BadgeOptions[];
 	paragraph: string[] | string;
-	primaryImage: ImageType<`/news/${string}.${"png" | "jpeg" | "jpg" | "webp"}`>;
+	primaryImage: ImageRef<`/news/${string}.${"png" | "jpeg" | "jpg" | "webp"}`>;
 };
 
 let newsData: NewsType[] = [];

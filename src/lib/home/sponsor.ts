@@ -1,13 +1,13 @@
 import { default as rawSponsorData } from "@/src/lib/home/data/sponsors.json";
 
-import { ImageType } from "@/src/lib/home/team-members";
+import { ImageRef } from "@/src/lib/imageRef";
 import { Contact } from "@/src/lib/contacts";
 
 type Sponsor = {
 	id: number;
 	sponsorName: string;
 	description: string;
-	image: ImageType<`/sponsor/${string}.png`>;
+	image: ImageRef<`/sponsor/${string}.png`>;
 	header: string; // @TODO prop name to change
 	contactSocials: {
 		website: Contact;
@@ -19,7 +19,7 @@ type Sponsor = {
 	};
 };
 interface PrimarySponsor extends Sponsor {
-	carouselImages?: ImageType<`/sponsor/${string}.${"png" | "jpeg" | "jpg" | "webp"}`>[];
+	carouselImages?: ImageRef<`/sponsor/${string}.${"png" | "jpeg" | "jpg" | "webp"}`>[];
 }
 
 type sponsorPack = {
@@ -36,18 +36,22 @@ Object.values(rawSponsorData).forEach((sponsor) =>
 const [
 	famar,
 	sparco,
-	ansys,
+	ansysEsss,
 	hyperion,
 	mitor,
 	comuneGiaveno,
 	pascal,
 	centroServizi,
+	deltaTi,
+	ilma,
+	theBos,
+	ferco,
 ] = sponsorData as Sponsor[];
 
 const sponsorsList: sponsorPack = {
-	primary: [famar, ansys, sparco],
-	secondary: [centroServizi, hyperion],
-	tier3: [mitor],
+	primary: [famar, sparco, deltaTi, ilma],
+	secondary: [hyperion, theBos, ferco],
+	tier3: [mitor, ansysEsss, centroServizi],
 	others: [comuneGiaveno, pascal],
 };
 
