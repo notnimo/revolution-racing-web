@@ -131,12 +131,12 @@
 			}
 		]
 	},
-	"ansys": {
+	"ansys-esss": {
 		"id": 2,
-		"sponsorName": "Ansys",
-		"description": "For more than 50 years, Ansys engineering simulation software has enabled innovators across industries to push boundaries using the predictive power of simulation, today Ansys is the gold standard for engineering simulation.\nWhen visionary companies need to know how their world-changing ideas will perform, they close the gap between design and reality with Ansys simulation.\n\nAnsys sponsors Revolution Racing and has been a crucial partner in our journey, providing us with their powerful software tools and support. We are proud to have Ansys as one of our main sponsors.",
+		"sponsorName": "Ansys x ESSS",
+		"header": "Ansys and ESSS partnered with us in our journey, providing us with their software to trace our CO2 emissions.",
 		"image": {
-			"imageRef": "/sponsor/ansys/ansys.png"
+			"imageRef": "/sponsor/ansys-esss/ansys-esss-logo.png"
 		},
 		"contactSocials": {
 			"website": {
@@ -164,45 +164,7 @@
 				"type": "youtube",
 				"href": "https://www.youtube.com/user/ansysinc"
 			}
-		},
-		"carouselImages": [
-			{
-				"imageRef": "/sponsor/ansys/sym-car-logo-ansys.png",
-				"altText": "Ansys - Car Sym with Logo"
-			},
-			{
-				"imageRef": "/sponsor/ansys/aerodynamic-sym.jpeg",
-				"altText": "Ansys - Stem Racing Car Sym Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/fluid-sym-ansys.webp",
-				"altText": "Ansys - Ansys Software Fluid Dynamics Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/electrical-simulation-ansys.webp",
-				"altText": "Ansys - Ansys Software Electrical Simulation Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/car-sym-ansys.webp",
-				"altText": "Ansys - Ansys Software Car Simulation Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/ansys-fluid-image.png",
-				"altText": "Ansys - Ansys Fluid Banner Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/ansys-bridge-image.png",
-				"altText": "Ansys - Ansys Structural Banner Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/ansys-electronics-image.png",
-				"altText": "Ansys - Ansys Electronic Banner Picture"
-			},
-			{
-				"imageRef": "/sponsor/ansys/ansys-3d-image.png",
-				"altText": "Ansys - Ansys 3D Banner Picture"
-			}
-		]
+		}
 	},
 	"hyperion": {
 		"id": 3,
@@ -285,7 +247,7 @@
 		"sponsorName": "ISS Blaise Pascal",
 		"description": "The Blaise Pascal High School supports our journey by providing us with their facilities and resources for our manufacturing and research activities.",
 		"image": {
-			"imageRef": "/sponsor/Pascal/pascal.png"
+			"imageRef": "/sponsor/pascal/pascal.png"
 		},
 		"contactSocials": {
 			"website": {
@@ -317,6 +279,152 @@
 				"id": 2,
 				"type": "email",
 				"href": "mailto:cs24.giaveno@gmail.com"
+			}
+		}
+	},
+	"deltaTi": {
+		"id": 8,
+		"sponsorName": "Delta Ti",
+		"description": "Delta-ti, originally focused on system realization and installation, is now an E.P.C. company (Engineering, Procurement, and Construction). Delta-ti has consistently pursued innovation by adapting its structure, promoting collaborations, and making strategic investments.\n\nDelta-ti sponsors Revolution Racing and has been a fundamental partner in our journey, providing us with their support. We are proud to have Delta-ti as one of our sponsors.",
+		"image": {
+			"imageRef": "/sponsor/delta-ti/delta-ti-logo.png"
+		},
+		"contactSocials": {
+			"website": {
+				"id": 0,
+				"type": "website",
+				"href": "https://www.delta-ti.it/en/"
+			},
+			"email": {
+				"id": 1,
+				"type": "email",
+				"href": "mailto:info@delta-ti.it"
+			},
+			"linkedin": {
+				"id": 2,
+				"type": "linkedin",
+				"href": "https://www.linkedin.com/company/delta-ti-impianti-spa"
+			}
+		},
+		"carouselImages": [
+			{
+				"imageRef": "https://www.delta-ti.it/wp-content/uploads/2024/10/Delta-ti_1975-1980-1024x878.jpg",
+				"altText": "Delta Ti - Historical Factory Picture"
+			},
+			{
+				"imageRef": "https://www.delta-ti.it/wp-content/uploads/2024/10/Delta-ti_1925-1975-1024x878.jpg",
+				"altText": "Delta Ti - Historical Picture"
+			},
+			{
+				"imageRef": "https://www.delta-ti.it/wp-content/uploads/2024/10/Delta-ti_2003-2009-1024x878.jpg",
+				"altText": "Delta Ti - Factory Picture"
+			},
+			{
+				"imageRef": "https://www.delta-ti.it/wp-content/uploads/2024/10/Delta-ti_2019_Today-scaled-1-1024x878.jpg",
+				"altText": "Delta Ti - Factory Picture 2"
+			}
+		]
+	},
+	"Ilma": {
+		"id": 9,
+		"sponsorName": "Ilma",
+		"description": "The history of Ilma Modelli has deep roots that date back to the period following the Second World War, when the founder, driven by his passion for modeling and carpentry, began his business in the home cellar. Now in its third generation, the company is now led by descendants, who have brought a breath of innovation and modernization, introducing numerically controlled (CNC) machines and adopting advanced software for digital design. These changes have allowed the company to remain competitive and at the forefront of the industry.\n\n Ilma sponsors Revolution Racing and has helped us manufacturing the solid body of the competition cars with CNC machines.",
+		"image": {
+			"imageRef": "/sponsor/ilma/ilma-logo.png"
+		},
+		"contactSocials": {
+			"website": {
+				"id": 0,
+				"type": "website",
+				"href": "https://www.ilmamodelli.eu/"
+			},
+			"facebook": {
+				"id": 1,
+				"type": "facebook",
+				"href": "https://www.facebook.com/milea.meccanica/"
+			},
+			"instagram": {
+				"id": 2,
+				"type": "instagram",
+				"href": "https://www.instagram.com/ilma.modelli/"
+			},
+			"linkedin": {
+				"id": 3,
+				"type": "linkedin",
+				"href": "https://www.linkedin.com/in/massimiliano-mittino-ba4343ba/"
+			},
+			"email": {
+				"id": 4,
+				"type": "email",
+				"href": "mailto:ilma.novara@gmail.com"
+			}
+		},
+		"carouselImages": [
+			{
+				"imageRef": "https://www.ilmamodelli.eu/wp-content/uploads/2024/05/VideoCapture_20240528-145622.jpg",
+				"altText": "Ilma - Picture 1"
+			},
+			{
+				"imageRef": "https://www.ilmamodelli.eu/wp-content/uploads/2024/05/image.webp",
+				"altText": "Ilma - Machine Picture"
+			},
+			{
+				"imageRef": "https://www.ilmamodelli.eu/wp-content/uploads/2024/05/Screenshot-2024-05-29-000754.png",
+				"altText": "Ilma - Stamp Picture"
+			},
+			{
+				"imageRef": "https://www.ilmamodelli.eu/wp-content/uploads/2024/06/1000472763.jpg",
+				"altText": "Ilma - Machine Picture 2"
+			}
+		]
+	},
+	"theBos": {
+		"id": 10,
+		"sponsorName": "The Bos",
+		"header": "The Bos is a company that produces prints on sportswear. They helped us printing our and our sponsors' logos on our uniforms and they are supporting us in our journey.",
+		"image": {
+			"imageRef": "/sponsor/the-bos/the-bos-logo.png"
+		},
+		"contactSocials": {
+			"website": {
+				"id": 0,
+				"type": "website",
+				"href": "https://www.thebos.it"
+			},
+			"email": {
+				"id": 1,
+				"type": "email",
+				"href": "mailto:info@thebos.it"
+			},
+			"facebook": {
+				"id": 2,
+				"type": "facebook",
+				"href": "https://www.facebook.com/thebestofstickers"
+			}
+		}
+	},
+	"ferco": {
+		"id": 11,
+		"sponsorName": "Ferco",
+		"header": "Ferco SRL is a company operating in the distribution of DIY, electrical, plumbing, and interior and outdoor decoration products.\n\nFerco sponsors Revolution Racing and helped us with getting our t-shirts for our uniform.",
+		"image": {
+			"imageRef": "/sponsor/ferco/ferco-logo.png"
+		},
+		"contactSocials": {
+			"website": {
+				"id": 0,
+				"type": "website",
+				"href": "https://www.fercofaidate.it/"
+			},
+			"email": {
+				"id": 1,
+				"type": "email",
+				"href": "mailto:ferco.faidate@libero.it"
+			},
+			"facebook": {
+				"id": 2,
+				"type": "facebook",
+				"href": "https://www.facebook.com/FercoS.r.L/"
 			}
 		}
 	}
