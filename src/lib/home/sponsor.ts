@@ -8,7 +8,7 @@ type Sponsor = {
 	sponsorName: string;
 	description: string;
 	image: ImageRef<`/sponsor/${string}.png`>;
-	header: string; // @TODO prop name to change
+	header: string;
 	contactSocials: {
 		website: Contact;
 		instagram?: Contact;

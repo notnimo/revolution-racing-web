@@ -23,5 +23,5 @@ Object.values(rawTeamMembersData).forEach((tm) =>
 	teamMembersData.push(tm as TMtype),
 );
 
-export type { TMtype };
+export type { TMtype, positionOptions };
 export { teamMembersData };
