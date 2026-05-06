@@ -1,4 +1,0 @@
-crete a system that utilizes the components in src\ui\about-components\single-team-mbr.tsx and src\ui\about-components\team-mbrs-showcase.tsx that, with arrows lets you scroll from one tm presentation to the other with a fade in scroll.
-
-rules:
-  -
