@@ -3,18 +3,13 @@ import { default as tmRawData } from "@/src/lib/about/data/tm.json";
 import { ImageRef } from "@/src/lib/imageRef";
 import { positionOptions } from "@/src/lib/home/team-members";
 
-type Task = {
-	title: string;
-	photo: string;
-};
-
 type TM = {
 	id: number;
 	name: string;
 	role: positionOptions;
 	portrait: ImageRef<`/team-members/${string}.png`>;
 	description: string;
-	involvement: Task[];
+	taskIds: string[];
 };
 
 function getTMs(): TM[] {
@@ -28,5 +23,5 @@ function getTM(name: string): TM | undefined {
 	return tms.find((tm) => tm.name === name);
 }
 
-export type { TM, Task };
+export type { TM };
 export { getTMs, getTM };
