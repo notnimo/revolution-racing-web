@@ -14,7 +14,7 @@ export function StatsSection() {
 						Stats
 					</h1>
 					<h2 className="text-[#2C3E50]">
-						Some of the numbers that tell our story
+						Some of the numbers that tell our story.
 					</h2>
 				</div>
 				<a
@@ -27,10 +27,10 @@ export function StatsSection() {
 			<div className="flex flex-col md:flex-row items-center justify-center border border-[#E8F5FC] bg-white rounded-2xl p-4 md:p-6 gap-3">
 				<div className="flex flex-col items-center gap-2">
 					<h1 className="text-3xl md:text-4xl font-bold text-[#3B9FE5]">
-						Our News
+						Stats
 					</h1>
 					<p className="text-[#2C3E50]">
-						Latest updates and stories from our racing team.
+						Some of the numbers that tell our story.
 					</p>
 				</div>
 			</div>
