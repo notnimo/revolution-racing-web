@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"title": "CAD Design",
+		"description": "3D modeling and component design using advanced CAD software",
+		"color": "#3B9FE5"
+	},
+	{
+		"id": 2,
+		"title": "Car Assembly",
+		"description": "Precision assembly and integration of all vehicle components",
+		"color": "#1FBEB6"
+	},
+	{
+		"id": 3,
+		"title": "Car Testing",
+		"description": "Comprehensive testing and performance validation on track",
+		"color": "#7EC8E3"
+	},
+	{
+		"id": 4,
+		"title": "Car Launch",
+		"description": "Final preparation and official debut of the racing vehicle",
+		"color": "#F59E0B"
+	}
+]
