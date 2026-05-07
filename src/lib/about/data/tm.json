@@ -3,7 +3,7 @@
 		"id": 1,
 		"name": "Jacopo Belmondo",
 		"role": "Team Principal",
-		"portrait": "/team-members/jacopo-belmondo.png",
+		"portrait": { "imageRef": "/team-members/jacopo-belmondo.png" },
 		"description": "Visionary leader with extensive experience in motorsport management and team coordination.",
 		"taskIds": ["1", "2"]
 	},
@@ -11,7 +11,7 @@
 		"id": 2,
 		"name": "Leonardo Zucchini",
 		"role": "Chief Engineer",
-		"portrait": "/team-members/leonardo-zucchini.png",
+		"portrait": { "imageRef": "/team-members/leonardo-zucchini.png" },
 		"description": "Expert in vehicle dynamics and mechanical design with a passion for innovation.",
 		"taskIds": ["2", "3", "4"]
 	},
@@ -19,7 +19,7 @@
 		"id": 3,
 		"name": "Matteo Sivera",
 		"role": "Aerodynamics Lead",
-		"portrait": "/team-members/matteo-sivera.png",
+		"portrait": { "imageRef": "/team-members/matteo-sivera.png" },
 		"description": "Specialist in CFD analysis and aerodynamic optimization for competitive vehicles.",
 		"taskIds": ["3", "4"]
 	},
@@ -27,7 +27,7 @@
 		"id": 4,
 		"name": "Mattia Petiti",
 		"role": "Electronics Coordinator",
-		"portrait": "/team-members/mattia-petiti.png",
+		"portrait": { "imageRef": "/team-members/mattia-petiti.png" },
 		"description": "Expert in vehicle control systems and electronic integration across the car.",
 		"taskIds": ["4"]
 	},
@@ -35,7 +35,7 @@
 		"id": 5,
 		"name": "Pietro Tais",
 		"role": "Testing Manager",
-		"portrait": "/team-members/pietro-tais.png",
+		"portrait": { "imageRef": "/team-members/pietro-tais.png" },
 		"description": "Experienced in performance testing, data analysis, and continuous improvement strategies.",
 		"taskIds": ["1", "2", "3"]
 	}

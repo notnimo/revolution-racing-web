@@ -10,11 +10,11 @@ export function SingleTeamMbr({ tm }: { tm: TM }) {
 
 	return (
 		<div className="w-full max-w-sm flex flex-col bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-			<div className="relative w-full pt-full">
+			<div className="flex flex-row relative w-full items-center justify-center pt-full mt-5">
 				<img
-					src={tm.portrait}
+					src={tm.portrait.imageRef}
 					alt={tm.name}
-					className="w-full h-64 md:h-80 object-cover"
+					className="h-64 md:h-80 object-cover"
 				/>
 			</div>
 
