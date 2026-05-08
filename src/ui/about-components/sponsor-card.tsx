@@ -112,6 +112,14 @@ export function SponsorCard({
 				</p>
 			)}
 
+			<div className="flex flex-wrap gap-1 justify-center pt-2">
+				{sponsor.badges.map((badge) => {
+					const BadgeComponent =
+						badgeComponentMap[badge as keyof typeof badgeComponentMap];
+					return BadgeComponent ? <BadgeComponent key={badge} /> : null;
+				})}
+			</div>
+
 			{isPlatinum &&
 				sponsor.carouselImages &&
 				sponsor.carouselImages.length > 0 && (
@@ -131,14 +139,6 @@ export function SponsorCard({
 						</Carousel>
 					</div>
 				)}
-
-			<div className="flex flex-wrap gap-1 justify-center pt-2">
-				{sponsor.badges.map((badge) => {
-					const BadgeComponent =
-						badgeComponentMap[badge as keyof typeof badgeComponentMap];
-					return BadgeComponent ? <BadgeComponent key={badge} /> : null;
-				})}
-			</div>
 		</div>
 	);
 }
