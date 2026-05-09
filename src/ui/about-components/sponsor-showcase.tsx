@@ -49,11 +49,10 @@ function SponsorCard({
 					: isGold
 						? "bg-white border border-[#E8F5FC]"
 						: "bg-white"
-			}`}
-		>
+			}`}>
 			<div className="flex justify-center">
 				<img
-					src={sponsor.primaryLogo}
+					src={sponsor.primaryLogo.imageRef}
 					alt={sponsor.name}
 					className={`object-contain ${
 						isPlatinum
@@ -66,12 +65,12 @@ function SponsorCard({
 			</div>
 
 			<div className="flex flex-col gap-1">
-				<h3 className={`${opensans700.className} text-base md:text-lg text-[#3B9FE5] text-center`}>
+				<h3
+					className={`${opensans700.className} text-base md:text-lg text-[#3B9FE5] text-center`}>
 					{sponsor.name}
 				</h3>
 				<p
-					className={`${poppins600.className} text-xs md:text-sm text-[#1FBEB6] text-center`}
-				>
+					className={`${poppins600.className} text-xs md:text-sm text-[#1FBEB6] text-center`}>
 					{sponsor.headline}
 				</p>
 			</div>
@@ -86,9 +85,7 @@ function SponsorCard({
 				{sponsor.badges.map((badge) => {
 					const BadgeComponent =
 						badgeComponentMap[badge as keyof typeof badgeComponentMap];
-					return BadgeComponent ? (
-						<BadgeComponent key={badge} />
-					) : null;
+					return BadgeComponent ? <BadgeComponent key={badge} /> : null;
 				})}
 			</div>
 		</div>
@@ -99,7 +96,8 @@ export function SponsorShowcase({ sponsors }: SponsorShowcaseProps) {
 	return (
 		<div className="w-screen max-w-full px-4 md:px-8 py-8 md:py-16 bg-white">
 			<div className="flex flex-col gap-6 md:gap-12 max-w-7xl mx-auto">
-				<h2 className={`${poppins600.className} text-2xl md:text-4xl text-[#3B9FE5] text-center`}>
+				<h2
+					className={`${poppins600.className} text-2xl md:text-4xl text-[#3B9FE5] text-center`}>
 					Our Sponsors
 				</h2>
 
@@ -112,8 +110,7 @@ export function SponsorShowcase({ sponsors }: SponsorShowcaseProps) {
 										align: "center",
 										loop: true,
 									}}
-									className="w-full"
-								>
+									className="w-full">
 									<div className="relative">
 										<CarouselContent>
 											{sponsors.main.carouselImages &&
@@ -121,7 +118,7 @@ export function SponsorShowcase({ sponsors }: SponsorShowcaseProps) {
 												sponsors.main.carouselImages.map((image, idx) => (
 													<CarouselItem key={idx} className="basis-full">
 														<img
-															src={image}
+															src={image.imageRef}
 															alt={`${sponsors.main.name} image ${idx + 1}`}
 															className="w-full h-48 md:h-64 object-cover rounded-xl"
 														/>
@@ -130,7 +127,7 @@ export function SponsorShowcase({ sponsors }: SponsorShowcaseProps) {
 											) : (
 												<CarouselItem className="basis-full">
 													<img
-														src={sponsors.main.primaryLogo}
+														src={sponsors.main.primaryLogo.imageRef}
 														alt={sponsors.main.name}
 														className="w-full h-48 md:h-64 object-contain rounded-xl"
 													/>
@@ -157,10 +154,12 @@ export function SponsorShowcase({ sponsors }: SponsorShowcaseProps) {
 							</div>
 
 							<div className="text-center flex flex-col gap-2">
-								<h2 className={`${opensans700.className} text-2xl md:text-4xl text-[#3B9FE5]`}>
+								<h2
+									className={`${opensans700.className} text-2xl md:text-4xl text-[#3B9FE5]`}>
 									{sponsors.main.name}
 								</h2>
-								<p className={`${poppins600.className} text-sm md:text-base text-[#1FBEB6]`}>
+								<p
+									className={`${poppins600.className} text-sm md:text-base text-[#1FBEB6]`}>
 									{sponsors.main.headline}
 								</p>
 							</div>
@@ -173,9 +172,7 @@ export function SponsorShowcase({ sponsors }: SponsorShowcaseProps) {
 								{sponsors.main.badges.map((badge) => {
 									const BadgeComponent =
 										badgeComponentMap[badge as keyof typeof badgeComponentMap];
-									return BadgeComponent ? (
-										<BadgeComponent key={badge} />
-									) : null;
+									return BadgeComponent ? <BadgeComponent key={badge} /> : null;
 								})}
 							</div>
 						</div>
