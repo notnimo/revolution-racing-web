@@ -8,13 +8,13 @@ import { open_sans } from "@/src/ui/fonts";
 export function StatsSection() {
 	return (
 		<section className="w-screen p-4 md:p-8 bg-gradient-to-b from-[#f6fbff] to-white fade-in-section">
-			<div className="flex flex-col md:flex-row items-center w-full text-left justify-between border border-[#E8F5FC] rounded-2xl p-4 md:p-6 gap-3 bg-[#E8F5FC]">
+			{/*<div className="flex flex-col md:flex-row items-center w-full text-left justify-between border border-[#E8F5FC] rounded-2xl p-4 md:p-6 gap-3 bg-[#E8F5FC]">
 				<div>
 					<h1 className="text-3xl md:text-4xl font-bold text-[#3B9FE5]">
 						Stats
 					</h1>
 					<h2 className="text-[#2C3E50]">
-						Some of the numbers that tell our story
+						Some of the numbers that tell our story.
 					</h2>
 				</div>
 				<a
@@ -23,6 +23,16 @@ export function StatsSection() {
 					<ArrowRight />
 					<span className={open_sans.className}>MORE OF OUR PROJECTS</span>
 				</a>
+			</div>*/}
+			<div className="flex flex-col md:flex-row items-center justify-center border border-[#E8F5FC] bg-white rounded-2xl p-4 md:p-6 gap-3">
+				<div className="flex flex-col items-center gap-2">
+					<h1 className="text-3xl md:text-4xl font-bold text-[#3B9FE5]">
+						Stats
+					</h1>
+					<p className="text-[#2C3E50]">
+						Some of the numbers that tell our story.
+					</p>
+				</div>
 			</div>
 			<div className="mt-5">
 				<NumberSection stats={statsData} />
