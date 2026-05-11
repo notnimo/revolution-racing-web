@@ -2,6 +2,7 @@ import { default as tmRawData } from "@/src/lib/about/data/tm.json";
 
 import { ImageRef } from "@/src/lib/imageRef";
 import { positionOptions } from "@/src/lib/home/team-members";
+import { TaskOpt } from "@/src/lib/about/task";
 
 type TM = {
 	id: number;
@@ -9,7 +10,7 @@ type TM = {
 	role: positionOptions;
 	portrait: ImageRef<`/team-members/${string}.png`>;
 	description: string;
-	taskIds: string[];
+	tasks: TaskOpt[];
 };
 
 function getTMs(): TM[] {
