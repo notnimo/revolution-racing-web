@@ -1,4 +1,4 @@
-import type { Task } from "@/src/lib/about/tm";
+import type { Task } from "@/src/lib/about/task";
 import { poppins600 } from "@/src/ui/fonts";
 
 export function Task({ task }: { task: Task }) {

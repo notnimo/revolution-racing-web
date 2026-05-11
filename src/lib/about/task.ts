@@ -1,16 +1,23 @@
 import { default as taskRawData } from "@/src/lib/about/data/tasks.json";
 
-enum TaskOpt {
-	// placeholder options
+const TaskOptList = [
 	"CAD Design",
 	"Car Assembly",
-	"Car Testing",
 	"Car Launch",
-}
+	"Sponsorship Managing",
+	"Sample Track Building",
+	"Testing and Data Analysis",
+	"Marketing and Social Media",
+	"Graphic Design",
+	"Team Management",
+	"Web Development",
+	"Sustainability Research and Implementation",
+] as const;
+type TaskOpt = (typeof TaskOptList)[number];
 
 type Task = {
 	id: number;
-	title: string;
+	title: TaskOpt;
 	description: string;
 	color: string;
 };
@@ -21,10 +28,10 @@ function getTasks(): Task[] {
 	return taskData;
 }
 
-function getTask(id: number): Task | undefined {
+function getTask(title: TaskOpt): Task | undefined {
 	const tasks = getTasks();
-	return tasks.find((task) => task.id === id);
+	return tasks.find((task) => task.title === title);
 }
 
-export type { Task };
+export type { Task, TaskOpt };
 export { getTasks, getTask };
