@@ -3,7 +3,7 @@
 		"id": 0,
 		"sponsorName": "Famar",
 		"description": "It all began in 1973, in Rivoli, just outside Turin. From the very beginning, innovation was not a goal, but a method. Growth was driven by a clear industrial vision: improve processes, simplify production, and increase machine reliability. Today, Famar Group continues this journey, pursuing the same philosophy as always: combining mechanical precision, automation, and technological innovation.\n\nFamar Group sponsors Revolution Racing and has given us\n the means to overcome our manufacturing challenges as\n well as important technical support.\n We are proud to have Famar as our main sponsor.",
-		"image": {
+		"primaryLogo": {
 			"imageRef": "/sponsor/famar/famar-big.png"
 		},
 		"contactSocials": {
@@ -77,7 +77,7 @@
 		"id": 1,
 		"sponsorName": "Sparco",
 		"description": "Sparco employs approximately 800 people across three continents: Europe, America, and Africa. Sparco's distribution network reaches 80 countries worldwide. Their pride is being the leader in the world of motorsport.\n\nSparco sponsors Revolution Racing and has been a fundamental partner in our journey, providing us with high-quality uniforms and support. We are proud to have Sparco as one of our main sponsors.",
-		"image": {
+		"primaryLogo": {
 			"imageRef": "/sponsor/sparco/sparco.png"
 		},
 		"contactSocials": {
@@ -135,7 +135,7 @@
 		"id": 2,
 		"sponsorName": "Ansys x ESSS",
 		"header": "Ansys and ESSS partnered with us in our journey, providing us with their software to trace our CO2 emissions.",
-		"image": {
+		"primaryLogo": {
 			"imageRef": "/sponsor/ansys-esss/ansys-esss-logo.png"
 		},
 		"contactSocials": {
@@ -169,7 +169,7 @@
 	"hyperion": {
 		"id": 3,
 		"sponsorName": "Hyperion",
-		"image": {
+		"primaryLogo": {
 			"imageRef": "/sponsor/hyperion/hyperion-black.png"
 		},
 		"header": "Hyperion has been a fundamental partner in our journey, providing us with their support. We are proud to have Hyperion as one of our sponsors.",
@@ -194,7 +194,7 @@
 	"mitor": {
 		"id": 4,
 		"sponsorName": "Mitor",
-		"image": {
+		"primaryLogo": {
 			"imageRef": "/sponsor/mitor/mitor-logo.png"
 		},
 		"header": "Mitor helped us manufacturing our projects for research and development, providing us with their tools.",
@@ -216,7 +216,7 @@
 		"id": 5,
 		"sponsorName": "Comune di Giaveno",
 		"description": "The Comune di Giaveno has been a fundamental partner in our journey. Revolution Racing took part at many of Comune di Giaveno's events.",
-		"image": {
+		"primaryLogo": {
 			"imageRef": "/sponsor/giaveno/giaveno.png"
 		},
 		"contactSocials": {
@@ -246,7 +246,7 @@
 		"id": 6,
 		"sponsorName": "ISS Blaise Pascal",
 		"description": "The Blaise Pascal High School supports our journey by providing us with their facilities and resources for our manufacturing and research activities.",
-		"image": {
+		"primaryLogo": {
 			"imageRef": "/sponsor/pascal/pascal.png"
 		},
 		"contactSocials": {
@@ -260,7 +260,7 @@
 	"centroServizi": {
 		"id": 7,
 		"sponsorName": "Centro Servizi",
-		"image": {
+		"primaryLogo": {
 			"imageRef": "/sponsor/centro-servizi/centro_servizi.png"
 		},
 		"header": "Centro Servizi has been a fundamental partner in our journey, providing us with their support. We are proud to have Centro Servizi as one of our sponsors.",
@@ -286,7 +286,7 @@
 		"id": 8,
 		"sponsorName": "Delta Ti",
 		"description": "Delta-ti, originally focused on system realization and installation, is now an E.P.C. company (Engineering, Procurement, and Construction). Delta-ti has consistently pursued innovation by adapting its structure, promoting collaborations, and making strategic investments.\n\nDelta-ti sponsors Revolution Racing and has been a fundamental partner in our journey, providing us with their support. We are proud to have Delta-ti as one of our sponsors.",
-		"image": {
+		"primaryLogo": {
 			"imageRef": "/sponsor/delta-ti/delta-ti-logo.png"
 		},
 		"contactSocials": {
@@ -329,7 +329,7 @@
 		"id": 9,
 		"sponsorName": "Ilma",
 		"description": "The history of Ilma Modelli has deep roots that date back to the period following the Second World War, when the founder, driven by his passion for modeling and carpentry, began his business in the home cellar. Now in its third generation, the company is now led by descendants, who have brought a breath of innovation and modernization, introducing numerically controlled (CNC) machines and adopting advanced software for digital design. These changes have allowed the company to remain competitive and at the forefront of the industry.\n\n Ilma sponsors Revolution Racing and has helped us manufacturing the solid body of the competition cars with CNC machines.",
-		"image": {
+		"primaryLogo": {
 			"imageRef": "/sponsor/ilma/ilma-logo.png"
 		},
 		"contactSocials": {
@@ -382,7 +382,7 @@
 		"id": 10,
 		"sponsorName": "The Bos",
 		"header": "The Bos is a company that produces prints on sportswear. They helped us printing our and our sponsors' logos on our uniforms and they are supporting us in our journey.",
-		"image": {
+		"primaryLogo": {
 			"imageRef": "/sponsor/the-bos/the-bos-logo.png"
 		},
 		"contactSocials": {
@@ -407,7 +407,7 @@
 		"id": 11,
 		"sponsorName": "Ferco",
 		"header": "Ferco SRL is a company operating in the distribution of DIY, electrical, plumbing, and interior and outdoor decoration products.\n\nFerco sponsors Revolution Racing and helped us with getting our t-shirts for our uniform.",
-		"image": {
+		"primaryLogo": {
 			"imageRef": "/sponsor/ferco/ferco-logo.png"
 		},
 		"contactSocials": {

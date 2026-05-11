@@ -109,11 +109,12 @@ export function SponsorCard({
 						</p>
 					)}
 					<div className="flex flex-wrap gap-2 justify-center">
-						{sponsor.badges.map((badge) => {
-							const BadgeComponent =
-								badgeComponentMap[badge as keyof typeof badgeComponentMap];
-							return BadgeComponent ? <BadgeComponent key={badge} /> : null;
-						})}
+						{sponsor.badges &&
+							sponsor.badges.map((badge) => {
+								const BadgeComponent =
+									badgeComponentMap[badge as keyof typeof badgeComponentMap];
+								return BadgeComponent ? <BadgeComponent key={badge} /> : null;
+							})}
 					</div>
 				</div>
 			</div>
@@ -161,11 +162,12 @@ export function SponsorCard({
 			)}
 
 			<div className="flex flex-wrap gap-1 justify-center pt-2">
-				{sponsor.badges.map((badge) => {
-					const BadgeComponent =
-						badgeComponentMap[badge as keyof typeof badgeComponentMap];
-					return BadgeComponent ? <BadgeComponent key={badge} /> : null;
-				})}
+				{sponsor.badges &&
+					sponsor.badges.map((badge) => {
+						const BadgeComponent =
+							badgeComponentMap[badge as keyof typeof badgeComponentMap];
+						return BadgeComponent ? <BadgeComponent key={badge} /> : null;
+					})}
 			</div>
 
 			{isPlatinum &&
