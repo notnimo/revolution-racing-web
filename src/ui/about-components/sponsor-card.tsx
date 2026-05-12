@@ -1,5 +1,4 @@
-"use client";
-
+import { useMemo } from "react";
 import {
 	Carousel,
 	CarouselContent,
@@ -9,6 +8,7 @@ import {
 } from "@/src/components/carousel";
 
 import { Sponsor } from "@/src/lib/about/sponsor";
+import { matchIcon } from "@/src/lib/contacts";
 
 import {
 	EngineeringSupportBadge,
@@ -29,6 +29,13 @@ const badgeComponentMap = {
 	other: OtherSupportBadge,
 };
 
+const LOGO_SIZES = {
+	platinum: "h-24 md:h-32",
+	gold: "h-20 md:h-28",
+	silver: "h-16 md:h-24",
+	other: "h-12 md:h-20",
+} as const;
+
 export function SponsorCard({
 	sponsor,
 	tier,
@@ -39,6 +46,19 @@ export function SponsorCard({
 	const isMainTier = tier === "main";
 	const isPlatinum = tier === "platinum";
 	const isGold = tier === "gold";
+	const isSilver = tier === "silver";
+	const isOther = tier === "other";
+
+	const carouselImages = useMemo(() => {
+		if (!sponsor.carouselImages || sponsor.carouselImages.length === 0) {
+			return [];
+		}
+		const images = [...sponsor.carouselImages];
+		if (!images.includes(sponsor.primaryLogo)) {
+			images.unshift(sponsor.primaryLogo);
+		}
+		return images;
+	}, [sponsor.carouselImages, sponsor.primaryLogo]);
 
 	if (isMainTier) {
 		return (
@@ -55,7 +75,7 @@ export function SponsorCard({
 								<CarouselContent>
 									{sponsor.carouselImages &&
 									sponsor.carouselImages.length > 0 ? (
-										sponsor.carouselImages.map((image, idx) => (
+										carouselImages.map((image, idx) => (
 											<CarouselItem key={idx} className="basis-full">
 												<img
 													src={image.imageRef}
@@ -116,6 +136,25 @@ export function SponsorCard({
 								return BadgeComponent ? <BadgeComponent key={badge} /> : null;
 							})}
 					</div>
+
+					<div className="flex flex-wrap gap-3 justify-center pt-4">
+						{sponsor.contactSocials &&
+							Object.values(sponsor.contactSocials).map((contact) => {
+								if (!contact) return null;
+								const IconComponent =
+									matchIcon[contact.type as keyof typeof matchIcon];
+								return IconComponent ? (
+									<a
+										key={`${contact.id}-${contact.type}`}
+										href={contact.href}
+										target="_blank"
+										rel="noopener noreferrer"
+										className="text-[#3B9FE5] hover:text-[#1FBEB6] transition-colors duration-200">
+										<IconComponent size={20} />
+									</a>
+								) : null;
+							})}
+					</div>
 				</div>
 			</div>
 		);
@@ -128,7 +167,9 @@ export function SponsorCard({
 					? "bg-gradient-to-br from-white to-[#7EC8E3]/10 border border-[#7EC8E3]"
 					: isGold
 						? "bg-[#FFFFFF] border-b-2 border-[#1FBEB6]/20"
-						: "bg-[#F8FBFD]"
+						: isSilver
+							? "bg-[#F8FBFD] border border-[#1FBEB6]/15"
+							: "bg-[#F8FBFD]"
 			}`}>
 			<div className="flex justify-center">
 				<img
@@ -136,10 +177,12 @@ export function SponsorCard({
 					alt={sponsor.name}
 					className={`object-contain ${
 						isPlatinum
-							? "h-24 md:h-32"
+							? LOGO_SIZES.platinum
 							: isGold
-								? "h-20 md:h-24"
-								: "h-16 md:h-20"
+								? LOGO_SIZES.gold
+								: isSilver
+									? LOGO_SIZES.silver
+									: LOGO_SIZES.other
 					}`}
 				/>
 			</div>
@@ -155,7 +198,7 @@ export function SponsorCard({
 				</p>
 			</div>
 
-			{(isPlatinum || isGold) && sponsor.description && (
+			{(isPlatinum || isGold || isSilver) && sponsor.description && (
 				<p className="text-xs md:text-sm text-[#2C3E50] text-center leading-relaxed">
 					{sponsor.description}
 				</p>
@@ -186,9 +229,41 @@ export function SponsorCard({
 									</CarouselItem>
 								))}
 							</CarouselContent>
+							{sponsor.carouselImages && sponsor.carouselImages.length > 1 && (
+								<>
+									<div className="hidden md:flex justify-between absolute -left-14 -right-14 top-1/2 -translate-y-1/2 pointer-events-none">
+										<CarouselPrevious className="relative left-[2.5rem] translate-y-0 pointer-events-auto bg-[#3B9FE5] hover:bg-[#7EC8E3] text-white border-none shadow-md w-8 h-8" />
+										<CarouselNext className="relative right-[2.5rem] translate-y-0 pointer-events-auto bg-[#3B9FE5] hover:bg-[#7EC8E3] text-white border-none shadow-md w-8 h-8" />
+									</div>
+
+									<div className="flex md:hidden justify-center gap-4 mt-4">
+										<CarouselPrevious className="relative left-0 translate-y-0 bg-[#3B9FE5] hover:bg-[#7EC8E3] text-white border-none shadow-md w-8 h-8" />
+										<CarouselNext className="relative right-0 translate-y-0 bg-[#3B9FE5] hover:bg-[#7EC8E3] text-white border-none shadow-md w-8 h-8" />
+									</div>
+								</>
+							)}
 						</Carousel>
 					</div>
 				)}
+
+			<div className="flex flex-wrap gap-2 justify-center pt-3">
+				{sponsor.contactSocials &&
+					Object.values(sponsor.contactSocials).map((contact) => {
+						if (!contact) return null;
+						const IconComponent =
+							matchIcon[contact.type as keyof typeof matchIcon];
+						return IconComponent ? (
+							<a
+								key={`${contact.id}-${contact.type}`}
+								href={contact.href}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-[#3B9FE5] hover:text-[#1FBEB6] transition-colors duration-200">
+								<IconComponent size={16} />
+							</a>
+						) : null;
+					})}
+			</div>
 		</div>
 	);
 }

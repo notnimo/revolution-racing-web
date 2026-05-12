@@ -22,6 +22,13 @@ const badgeComponentMap = {
 	other: OtherSupportBadge,
 };
 
+const CARD_HEIGHTS = {
+	platinum: "min-h-96 md:min-h-96",
+	gold: "min-h-80 md:h-98",
+	silver: "min-h-72 md:h-90",
+	other: "min-h-72 md:min-h-72",
+} as const;
+
 interface SponsorShowcaseProps {
 	sponsors: SponsorPack;
 }
@@ -43,7 +50,7 @@ export function SponsorShowcase({ sponsors }: SponsorShowcaseProps) {
 							{sponsors.platinum.map((sponsor) => (
 								<div
 									key={sponsor.id}
-									className="basis-full md:basis-1/2 h-full min-h-72 md:min-h-80">
+									className={`basis-full md:basis-1/2 h-full ${CARD_HEIGHTS.platinum}`}>
 									<SponsorCard sponsor={sponsor} tier="platinum" />
 								</div>
 							))}
@@ -55,7 +62,7 @@ export function SponsorShowcase({ sponsors }: SponsorShowcaseProps) {
 							{sponsors.gold.map((sponsor) => (
 								<div
 									key={sponsor.id}
-									className="basis-full md:basis-1/3 h-full min-h-72 md:min-h-80">
+									className={`basis-full md:basis-1/3 h-full ${CARD_HEIGHTS.gold}`}>
 									<SponsorCard sponsor={sponsor} tier="gold" />
 								</div>
 							))}
@@ -67,7 +74,7 @@ export function SponsorShowcase({ sponsors }: SponsorShowcaseProps) {
 							{sponsors.silver.map((sponsor) => (
 								<div
 									key={sponsor.id}
-									className="basis-full md:basis-1/4 h-full min-h-72 md:min-h-80">
+									className={`basis-full md:basis-1/4 h-full ${CARD_HEIGHTS.silver}`}>
 									<SponsorCard sponsor={sponsor} tier="silver" />
 								</div>
 							))}
@@ -79,7 +86,7 @@ export function SponsorShowcase({ sponsors }: SponsorShowcaseProps) {
 							{sponsors.others.map((sponsor) => (
 								<div
 									key={sponsor.id}
-									className="basis-full md:basis-1/4 h-full min-h-72 md:min-h-80">
+									className={`basis-full md:basis-1/4 h-full ${CARD_HEIGHTS.other}`}>
 									<SponsorCard sponsor={sponsor} tier="other" />
 								</div>
 							))}
