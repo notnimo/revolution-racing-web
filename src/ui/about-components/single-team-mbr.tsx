@@ -4,8 +4,8 @@ import { Task } from "./task";
 import { poppins600, opensans700 } from "@/src/ui/fonts";
 
 export function SingleTeamMbr({ tm }: { tm: TM }) {
-	const tasks = tm.taskIds
-		.map((taskId) => getTask(parseInt(taskId)))
+	const tasks = tm.tasks
+		.map((taskTitle) => getTask(taskTitle))
 		.filter((task) => task !== undefined);
 
 	return (

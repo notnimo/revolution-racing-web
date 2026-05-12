@@ -3,11 +3,16 @@ import { ImageRef } from "@/src/lib/imageRef";
 
 const positionOptList = [
 	"Project Manager",
+	"Head of Engineering",
 	"Design Engineer",
 	"Manufacturing Engineer",
 	"Graphic Designer",
 	"Resource Manager",
 	"Web Developer",
+	"Test Engineer",
+	"Sustainability Manager",
+	"Marketing Lead",
+	"Sponsorship Manager",
 ] as const;
 type positionOptions = (typeof positionOptList)[number];
 type TMtype = {

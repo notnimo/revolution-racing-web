@@ -3,7 +3,7 @@ import { SingleSponsor } from "@/src/ui/about-components/overview-components/sin
 
 export function SponsorOverview({ sponsors }: { sponsors: sponsorPack }) {
 	return (
-		<section className="fade-in-section w-full p-4 md:p-8">
+		<section className="w-full p-4 md:p-8">
 			<div className="flex flex-col md:flex-row items-center w-full text-center justify-center border border-[#E8F5FC] rounded-2xl p-4 md:p-6 gap-3 bg-white mb-3">
 				<div>
 					<h1 className="text-3xl md:text-4xl font-bold text-[#3B9FE5]">
