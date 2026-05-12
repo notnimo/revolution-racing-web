@@ -51,6 +51,18 @@
 	--color-rr-teal: #1fbeb6;
 	--color-rr-green: #10b981;
 	--color-rr-red: #ef4444;
+	--animation-fade-in: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 :root {

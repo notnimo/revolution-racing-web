@@ -1,6 +1,6 @@
 import { default as rawNewsData } from "@/src/lib/home/data/news.json" with { type: "json" };
 
-import { ImageType } from "@/src/lib/home/team-members";
+import { ImageRef } from "@/src/lib/imageRef";
 
 import {
 	CompetitionBadge,
@@ -9,7 +9,13 @@ import {
 	DevelopmentBadge,
 	OtherBadge,
 	TeamBadge,
-} from "@/src/ui/news-components/badges";
+	EngineeringSupportBadge,
+	TechnicalSupportBadge,
+	FinancialSupportBadge,
+	MediaPartnerBadge,
+	UniformPartnerBadge,
+	OtherSupportBadge,
+} from "@/src/ui/badges";
 
 const badgeOpts = [
 	"competition",
@@ -28,6 +34,12 @@ const matchBadge = {
 	development: DevelopmentBadge,
 	other: OtherBadge,
 	team: TeamBadge,
+	engineering: EngineeringSupportBadge,
+	technical: TechnicalSupportBadge,
+	financial: FinancialSupportBadge,
+	media: MediaPartnerBadge,
+	uniform: UniformPartnerBadge,
+	otherSupport: OtherSupportBadge,
 };
 
 type NewsType = {
@@ -37,10 +49,10 @@ type NewsType = {
 	date: `${number}/${number}/${number}`;
 	badges: BadgeOptions[];
 	paragraph: string[] | string;
-	primaryImage: ImageType<`/news/${string}.${"png" | "jpeg" | "jpg" | "webp"}`>;
+	primaryImage: ImageRef<`/news/${string}.${"png" | "jpeg" | "jpg" | "webp"}`>;
 };
 
 let newsData: NewsType[] = [];
 Object.values(rawNewsData).forEach((news) => newsData.push(news as NewsType));
 
-export { newsData as newsData, type NewsType, matchBadge };
+export { newsData, type NewsType, matchBadge };

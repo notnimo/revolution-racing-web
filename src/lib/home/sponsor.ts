@@ -1,14 +1,14 @@
 import { default as rawSponsorData } from "@/src/lib/home/data/sponsors.json";
 
-import { ImageType } from "@/src/lib/home/team-members";
+import { ImageRef } from "@/src/lib/imageRef";
 import { Contact } from "@/src/lib/contacts";
 
 type Sponsor = {
 	id: number;
 	sponsorName: string;
 	description: string;
-	image: ImageType<`/sponsor/${string}.png`>;
-	header: string; // @TODO prop name to change
+	image: ImageRef<`/sponsor/${string}.png`>;
+	header: string;
 	contactSocials: {
 		website: Contact;
 		instagram?: Contact;
@@ -19,7 +19,7 @@ type Sponsor = {
 	};
 };
 interface PrimarySponsor extends Sponsor {
-	carouselImages?: ImageType<`/sponsor/${string}.${"png" | "jpeg" | "jpg" | "webp"}`>[];
+	carouselImages?: ImageRef<`/sponsor/${string}.${"png" | "jpeg" | "jpg" | "webp"}`>[];
 }
 
 type sponsorPack = {
