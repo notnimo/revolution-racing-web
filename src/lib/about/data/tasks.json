@@ -13,14 +13,56 @@
 	},
 	{
 		"id": 3,
-		"title": "Car Testing",
-		"description": "Comprehensive testing and performance validation on track",
-		"color": "#7EC8E3"
+		"title": "Car Launch",
+		"description": "Decreasing the total race time by optimizing the launch phase",
+		"color": "#F59E0B"
 	},
 	{
 		"id": 4,
-		"title": "Car Launch",
-		"description": "Final preparation and official debut of the racing vehicle",
-		"color": "#F59E0B"
+		"title": "Sponsorship Managing",
+		"description": "Securing and maintaining partnerships with sponsors",
+		"color": "#EF4444"
+	},
+	{
+		"id": 5,
+		"title": "Sample Track Building",
+		"description": "Designing and constructing test tracks for performance evaluation",
+		"color": "#10B981"
+	},
+	{
+		"id": 6,
+		"title": "Testing and Data Analysis",
+		"description": "Conducting tests and analyzing performance data to optimize the car",
+		"color": "#8B5CF6"
+	},
+	{
+		"id": 7,
+		"title": "Marketing and Social Media",
+		"description": "Promoting the team and engaging with fans through various platforms",
+		"color": "#EC4899"
+	},
+	{
+		"id": 8,
+		"title": "Graphic Design",
+		"description": "Creating visual content for branding, marketing, and presentations",
+		"color": "#3B82F6"
+	},
+	{
+		"id": 9,
+		"title": "Team Management",
+		"description": "Coordinating team activities, schedules, and communication",
+		"color": "#F97316"
+	},
+	{
+		"id": 10,
+		"title": "Web Development",
+		"description": "Designing and maintaining the team's website and online presence",
+		"color": "#6366F1"
+	},
+	{
+		"id": 11,
+		"title": "Sustainability Research and Implementation",
+		"description": "Researching sustainable practices and implementing them in the team's operations",
+		"color": "#22C55E"
 	}
 ]

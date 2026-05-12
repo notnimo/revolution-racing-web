@@ -22,7 +22,7 @@ export function TeamMembersShowcase({ team }: { team: TM[] }) {
 
 				<Carousel
 					opts={{
-						align: "center",
+						align: "start",
 						loop: true,
 					}}
 					className="w-full">

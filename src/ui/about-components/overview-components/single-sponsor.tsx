@@ -118,7 +118,7 @@ function SingleSponsor({
 		<Card className={`w-full h-full rounded-2xl ${levelStyles}`}>
 			<CardContent className="flex flex-col items-center justify-around gap-3 p-4 md:p-6">
 				<CardTitle
-					className={`${poppins.className} antialiased text-lg font-semibold text-[#1B5C70]`}>
+					className={`${poppins.className} antialiased text-center text-lg font-semibold text-[#1B5C70]`}>
 					<h1>{sponsor.sponsorName.toUpperCase()}</h1>
 				</CardTitle>
 

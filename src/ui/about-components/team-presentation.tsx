@@ -18,10 +18,12 @@ export function TeamPresentation() {
 					Our Team
 				</h2>
 				<p className="text-sm md:text-base text-[#2C3E50] leading-relaxed font-normal">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque,
-					magnam! Similique tenetur eaque accusamus omnis facilis cumque
-					pariatur labore reprehenderit recusandae, corrupti excepturi delectus
-					optio tempore iste autem aperiam. Magnam?
+					Revolution Racing was born from the shared passion of two teams, DEGAL
+					Squadra Corse and Photon Racing, who took part in the previous season
+					of Stem Racing. Both teams were founded by students from the ISS
+					Blaise Pascal in Giaveno, Italy. Both teams achieved remarkable
+					results in the previous season and every member of the team is
+					determined to push the limits even further in the upcoming season.
 				</p>
 			</div>
 		</div>

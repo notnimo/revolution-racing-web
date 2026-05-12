@@ -11,7 +11,7 @@
 	"tm2": {
 		"id": 1,
 		"name": "Arturo Serpico",
-		"position": "Design Engineer",
+		"position": "Head of Engineering",
 		"image": {
 			"imageRef": "/team-members/arturo-serpico.png"
 		},
@@ -65,20 +65,20 @@
 	"tm8": {
 		"id": 7,
 		"name": "Edoardo Beccaris",
-		"position": "Resource Manager",
+		"position": "Sustainability Manager",
 		"image": {
 			"imageRef": "/team-members/edoardo-beccaris.png"
 		},
-		"description": "Edoardo is a Resource Manager."
+		"description": "Edoardo is our Sustainability Manager."
 	},
 	"tm9": {
 		"id": 8,
 		"name": "Jacopo Belmondo",
-		"position": "Manufacturing Engineer",
+		"position": "Test Engineer",
 		"image": {
 			"imageRef": "/team-members/jacopo-belmondo.png"
 		},
-		"description": "Jacopo is a Manufacturing Engineer."
+		"description": "Jacopo is our Test Engineer."
 	},
 	"tm10": {
 		"id": 9,
@@ -92,20 +92,20 @@
 	"tm11": {
 		"id": 10,
 		"name": "Matteo Sivera",
-		"position": "Resource Manager",
+		"position": "Marketing Lead",
 		"image": {
 			"imageRef": "/team-members/matteo-sivera.png"
 		},
-		"description": "Matteo is a Resource Manager."
+		"description": "Matteo is our Marketing Lead."
 	},
 	"tm12": {
 		"id": 11,
 		"name": "Mattia Petiti",
-		"position": "Resource Manager",
+		"position": "Sponsorship Manager",
 		"image": {
 			"imageRef": "/team-members/mattia-petiti.png"
 		},
-		"description": "Mattia is a Resource Manager."
+		"description": "Mattia is our Sponsorship Manager."
 	},
 	"tm13": {
 		"id": 12,
@@ -114,6 +114,6 @@
 		"image": {
 			"imageRef": "/team-members/pietro-tais.png"
 		},
-		"description": "Damiano is our Manufacturing Engineer."
+		"description": "Pietro is a Manufacturing Engineer."
 	}
 }

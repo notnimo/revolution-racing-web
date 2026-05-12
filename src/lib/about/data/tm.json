@@ -1,0 +1,132 @@
+{
+	"tm1": {
+		"id": 0,
+		"name": "Gabriele di Giorgio",
+		"role": "Project Manager",
+		"portrait": {
+			"imageRef": "/team-members/gabriele-di-giorgio.png"
+		},
+		"description": "Gabriele coordinates the team, sets goals, and ensures we meet our deadlines.",
+		"tasks": ["Team Management", "Marketing and Social Media"]
+	},
+	"tm2": {
+		"id": 1,
+		"name": "Arturo Serpico",
+		"role": "Head of Engineering",
+		"portrait": {
+			"imageRef": "/team-members/arturo-serpico.png"
+		},
+		"description": "Arturo is the Head of the Engineering department, he oversees all engineering activities and runs the vast majority of aerodynamic simulations.",
+		"tasks": ["CAD Design", "Car Assembly", "Testing and Data Analysis"]
+	},
+	"tm3": {
+		"id": 2,
+		"name": "Edoardo Bona",
+		"role": "Graphic Designer",
+		"portrait": {
+			"imageRef": "/team-members/edoardo-bona.png"
+		},
+		"description": "Edoardo creates all the graphics for our team, from the race portfolios to the social media posts.",
+		"tasks": ["Graphic Design"]
+	},
+	"tm4": {
+		"id": 3,
+		"name": "Federico Ponti",
+		"role": "Design Engineer",
+		"portrait": {
+			"imageRef": "/team-members/federico-ponti.png"
+		},
+		"description": "Federico models the various components of the car multiple times to find the best design possible.",
+		"tasks": ["CAD Design"]
+	},
+	"tm7": {
+		"id": 6,
+		"name": "Damiano Livoni",
+		"role": "Web Developer",
+		"portrait": {
+			"imageRef": "/team-members/damiano-livoni.png"
+		},
+		"description": "Damiano is our Web Developer, he maintains and updates our website.",
+		"tasks": ["Web Development"]
+	},
+	"tm8": {
+		"id": 7,
+		"name": "Edoardo Beccaris",
+		"role": "Sustainability Manager",
+		"portrait": {
+			"imageRef": "/team-members/edoardo-beccaris.png"
+		},
+		"description": "Edoardo Researches and implements sustainability practices in the workflow of the team, he is the one responsible for the sustainability part of the portfolio.",
+		"tasks": ["Sustainability Research and Implementation"]
+	},
+	"tm6": {
+		"id": 5,
+		"name": "Pietro Tranca",
+		"role": "Design Engineer",
+		"portrait": {
+			"imageRef": "/team-members/pietro-tranca.png"
+		},
+		"description": "Pietro models the various components of the car multiple times to find the best design possible.",
+		"tasks": ["CAD Design", "Car Assembly"]
+	},
+	"tm9": {
+		"id": 8,
+		"name": "Jacopo Belmondo",
+		"role": "Test Engineer",
+		"portrait": {
+			"imageRef": "/team-members/jacopo-belmondo.png"
+		},
+		"description": "Jacopo builds the test track to run real life tests on the car and collect data on forces and speed in the race.",
+		"tasks": ["Sample Track Building"]
+	},
+	"tm10": {
+		"id": 9,
+		"name": "Leonardo Zucchini",
+		"role": "Manufacturing Engineer",
+		"portrait": {
+			"imageRef": "/team-members/leonardo-zucchini.png"
+		},
+		"description": "Leonardo is in charge of the car assembly, painting and the material management choices.",
+		"tasks": ["Car Assembly"]
+	},
+	"tm5": {
+		"id": 4,
+		"name": "Sherine Cirigliano",
+		"role": "Design Engineer",
+		"portrait": {
+			"imageRef": "/team-members/sherine-cirigliano.png"
+		},
+		"description": "Sherine models the various components of the car multiple times to find the best design possible.",
+		"tasks": ["CAD Design"]
+	},
+	"tm11": {
+		"id": 10,
+		"name": "Matteo Sivera",
+		"role": "Marketing Lead",
+		"portrait": {
+			"imageRef": "/team-members/matteo-sivera.png"
+		},
+		"description": "Matteo is responsible for the marketing presence of the team, he manages our social media accounts and creates content to share on them.",
+		"tasks": ["Marketing and Social Media"]
+	},
+	"tm12": {
+		"id": 11,
+		"name": "Mattia Petiti",
+		"role": "Sponsorship Manager",
+		"portrait": {
+			"imageRef": "/team-members/mattia-petiti.png"
+		},
+		"description": "Mattia manages our sponsorship relationships and works to secure new partnerships for the team.",
+		"tasks": ["Sponsorship Managing"]
+	},
+	"tm13": {
+		"id": 12,
+		"name": "Pietro Tais",
+		"role": "Manufacturing Engineer",
+		"portrait": {
+			"imageRef": "/team-members/pietro-tais.png"
+		},
+		"description": "Pietro is in charge of the manufacturing processes and ensures the quality of the components.",
+		"tasks": ["Car Assembly"]
+	}
+}
