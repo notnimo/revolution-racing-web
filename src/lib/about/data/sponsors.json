@@ -1,7 +1,7 @@
 {
 	"famar": {
 		"id": 0,
-		"sponsorName": "Famar",
+		"name": "Famar",
 		"description": "It all began in 1973, in Rivoli, just outside Turin. From the very beginning, innovation was not a goal, but a method. Growth was driven by a clear industrial vision: improve processes, simplify production, and increase machine reliability. Today, Famar Group continues this journey, pursuing the same philosophy as always: combining mechanical precision, automation, and technological innovation.\n\nFamar Group sponsors Revolution Racing and has given us\n the means to overcome our manufacturing challenges as\n well as important technical support.\n We are proud to have Famar as our main sponsor.",
 		"primaryLogo": {
 			"imageRef": "/sponsor/famar/famar-big.png"
@@ -71,11 +71,17 @@
 				"imageRef": "https://www.famargroup.com/wp-content/uploads/2025/11/Famar_gruppo-scaled.jpg",
 				"altText": "Famar - Factory Machines Group Picture 2"
 			}
+		],
+		"badges": [
+			"engineering support",
+			"technical support",
+			"media partner",
+			"financial support"
 		]
 	},
 	"sparco": {
 		"id": 1,
-		"sponsorName": "Sparco",
+		"name": "Sparco",
 		"description": "Sparco employs approximately 800 people across three continents: Europe, America, and Africa. Sparco's distribution network reaches 80 countries worldwide. Their pride is being the leader in the world of motorsport.\n\nSparco sponsors Revolution Racing and has been a fundamental partner in our journey, providing us with high-quality uniforms and support. We are proud to have Sparco as one of our main sponsors.",
 		"primaryLogo": {
 			"imageRef": "/sponsor/sparco/sparco.png"
@@ -129,12 +135,13 @@
 				"imageRef": "/sponsor/sparco/trophy-factory-sparco.webp",
 				"altText": "Sparco - Trophy Factory Picture"
 			}
-		]
+		],
+		"badges": ["media partner", "uniform partner"]
 	},
 	"ansys-esss": {
 		"id": 2,
-		"sponsorName": "Ansys x ESSS",
-		"header": "Ansys and ESSS partnered with us in our journey, providing us with their software to trace our CO2 emissions.",
+		"name": "Ansys x ESSS",
+		"headline": "Ansys and ESSS partnered with us in our journey, providing us with their software to trace our CO2 emissions.",
 		"primaryLogo": {
 			"imageRef": "/sponsor/ansys-esss/ansys-esss-logo.png"
 		},
@@ -164,15 +171,16 @@
 				"type": "youtube",
 				"href": "https://www.youtube.com/user/ansysinc"
 			}
-		}
+		},
+		"badges": ["engineering support", "media partner"]
 	},
 	"hyperion": {
 		"id": 3,
-		"sponsorName": "Hyperion",
+		"name": "Hyperion",
 		"primaryLogo": {
 			"imageRef": "/sponsor/hyperion/hyperion-black.png"
 		},
-		"header": "Hyperion has been a fundamental partner in our journey, providing us with their support. We are proud to have Hyperion as one of our sponsors.",
+		"headline": "Hyperion has been a fundamental partner in our journey, providing us with their support. We are proud to have Hyperion as one of our sponsors.",
 		"contactSocials": {
 			"website": {
 				"id": 0,
@@ -189,16 +197,16 @@
 				"type": "linkedin",
 				"href": "https://www.linkedin.com/company/hyperionsrl/?viewAsMember=true/"
 			}
-		}
+		},
+		"badges": ["financial support"]
 	},
 	"mitor": {
 		"id": 4,
-		"sponsorName": "Mitor",
+		"name": "Mitor",
 		"primaryLogo": {
 			"imageRef": "/sponsor/mitor/mitor-logo.png"
 		},
-		"header": "Mitor helped us manufacturing our projects for research and development, providing us with their tools.",
-
+		"headline": "Mitor helped us manufacturing our projects for research and development, providing us with their tools.",
 		"contactSocials": {
 			"website": {
 				"id": 0,
@@ -210,11 +218,12 @@
 				"type": "email",
 				"href": "mailto:mitor@mitorsrl.info"
 			}
-		}
+		},
+		"badges": ["technical support"]
 	},
 	"comuneGiaveno": {
 		"id": 5,
-		"sponsorName": "Comune di Giaveno",
+		"name": "Comune di Giaveno",
 		"description": "The Comune di Giaveno has been a fundamental partner in our journey. Revolution Racing took part at many of Comune di Giaveno's events.",
 		"primaryLogo": {
 			"imageRef": "/sponsor/giaveno/giaveno.png"
@@ -240,11 +249,12 @@
 				"type": "instagram",
 				"href": "https://www.instagram.com/cittadigiaveno/"
 			}
-		}
+		},
+		"badges": ["financial support", "other"]
 	},
 	"pascal": {
 		"id": 6,
-		"sponsorName": "ISS Blaise Pascal",
+		"name": "ISS Blaise Pascal",
 		"description": "The Blaise Pascal High School supports our journey by providing us with their facilities and resources for our manufacturing and research activities.",
 		"primaryLogo": {
 			"imageRef": "/sponsor/pascal/pascal.png"
@@ -255,15 +265,16 @@
 				"type": "website",
 				"href": "https://www.pascalgiaveno.edu.it/"
 			}
-		}
+		},
+		"badges": ["technical support", "other"]
 	},
 	"centroServizi": {
 		"id": 7,
-		"sponsorName": "Centro Servizi",
+		"name": "Centro Servizi",
 		"primaryLogo": {
 			"imageRef": "/sponsor/centro-servizi/centro_servizi.png"
 		},
-		"header": "Centro Servizi has been a fundamental partner in our journey, providing us with their support. We are proud to have Centro Servizi as one of our sponsors.",
+		"headline": "Centro Servizi has been a fundamental partner in our journey, providing us with their support. We are proud to have Centro Servizi as one of our sponsors.",
 		"contactSocials": {
 			"facebook": {
 				"id": 0,
@@ -280,11 +291,12 @@
 				"type": "email",
 				"href": "mailto:cs24.giaveno@gmail.com"
 			}
-		}
+		},
+		"badges": ["financial support"]
 	},
 	"deltaTi": {
 		"id": 8,
-		"sponsorName": "Delta Ti",
+		"name": "Delta Ti",
 		"description": "Delta-ti, originally focused on system realization and installation, is now an E.P.C. company (Engineering, Procurement, and Construction). Delta-ti has consistently pursued innovation by adapting its structure, promoting collaborations, and making strategic investments.\n\nDelta-ti sponsors Revolution Racing and has been a fundamental partner in our journey, providing us with their support. We are proud to have Delta-ti as one of our sponsors.",
 		"primaryLogo": {
 			"imageRef": "/sponsor/delta-ti/delta-ti-logo.png"
@@ -323,11 +335,12 @@
 				"imageRef": "https://www.delta-ti.it/wp-content/uploads/2024/10/Delta-ti_2019_Today-scaled-1-1024x878.jpg",
 				"altText": "Delta Ti - Factory Picture 2"
 			}
-		]
+		],
+		"badges": ["financial support", "media partner"]
 	},
 	"Ilma": {
 		"id": 9,
-		"sponsorName": "Ilma",
+		"name": "Ilma",
 		"description": "The history of Ilma Modelli has deep roots that date back to the period following the Second World War, when the founder, driven by his passion for modeling and carpentry, began his business in the home cellar. Now in its third generation, the company is now led by descendants, who have brought a breath of innovation and modernization, introducing numerically controlled (CNC) machines and adopting advanced software for digital design. These changes have allowed the company to remain competitive and at the forefront of the industry.\n\n Ilma sponsors Revolution Racing and has helped us manufacturing the solid body of the competition cars with CNC machines.",
 		"primaryLogo": {
 			"imageRef": "/sponsor/ilma/ilma-logo.png"
@@ -376,12 +389,13 @@
 				"imageRef": "https://www.ilmamodelli.eu/wp-content/uploads/2024/06/1000472763.jpg",
 				"altText": "Ilma - Machine Picture 2"
 			}
-		]
+		],
+		"badges": ["engineering support", "media partner"]
 	},
 	"theBos": {
 		"id": 10,
-		"sponsorName": "The Bos",
-		"header": "The Bos is a company that produces prints on sportswear. They helped us printing our and our sponsors' logos on our uniforms and they are supporting us in our journey.",
+		"name": "The Bos",
+		"headline": "The Bos is a company that produces prints on sportswear. They helped us printing our and our sponsors' logos on our uniforms and they are supporting us in our journey.",
 		"primaryLogo": {
 			"imageRef": "/sponsor/the-bos/the-bos-logo.png"
 		},
@@ -401,12 +415,13 @@
 				"type": "facebook",
 				"href": "https://www.facebook.com/thebestofstickers"
 			}
-		}
+		},
+		"badges": ["financial support"]
 	},
 	"ferco": {
 		"id": 11,
-		"sponsorName": "Ferco",
-		"header": "Ferco SRL is a company operating in the distribution of DIY, electrical, plumbing, and interior and outdoor decoration products.\n\nFerco sponsors Revolution Racing and helped us with getting our t-shirts for our uniform.",
+		"name": "Ferco",
+		"headline": "Ferco SRL is a company operating in the distribution of DIY, electrical, plumbing, and interior and outdoor decoration products.\n\nFerco sponsors Revolution Racing and helped us with getting our t-shirts for our uniform.",
 		"primaryLogo": {
 			"imageRef": "/sponsor/ferco/ferco-logo.png"
 		},
@@ -426,6 +441,7 @@
 				"type": "facebook",
 				"href": "https://www.facebook.com/FercoS.r.L/"
 			}
-		}
+		},
+		"badges": ["financial support"]
 	}
 }
