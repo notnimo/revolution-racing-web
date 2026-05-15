@@ -67,7 +67,7 @@
 			"imageRef": "/team-members/pietro-tranca.png"
 		},
 		"description": "Pietro models the various components of the car multiple times to find the best design possible.",
-		"tasks": ["CAD Design", "Car Assembly"]
+		"tasks": ["CAD Design"]
 	},
 	"tm9": {
 		"id": 8,

@@ -21,7 +21,7 @@ export function StemRacingOverview() {
 				<ul className="list-disc list-inside space-y-2">
 					<li>
 						<strong>Engineering and Technology:</strong> design and
-						implementation of a miniature race car using CAD software, CFU
+						implementation of a miniature race car using CAD software, CFD
 						analysis, and CNC manufacturing
 					</li>
 					<li>
@@ -38,11 +38,12 @@ export function StemRacingOverview() {
 					</li>
 				</ul>
 				<p>
-					Hundreds of teams participate in the Italian regional qualifiers, 50
-					to 100+ teams per region in highly industrialized areas (Piedmont,
-					Lombardy, Emilia-Romagna), and a variable number advance to the
-					regional finals (top 10-15 per region). In the end, about 50-100 teams
-					compete in the national championship in September.
+					Hundreds of teams participate in the Italian regional qualifiers and a
+					variable number advance to the regional finals (top 16 per region). In
+					the end, 10 teams compete in the national championship in Maranello.
+					The winner of the national championship represents Italy in the world
+					finals, held in different locations each year. The prize for the
+					winning team includes a trip to a F1 Grand Prix.
 				</p>
 			</div>
 		</section>
