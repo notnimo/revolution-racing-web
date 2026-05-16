@@ -34,18 +34,28 @@
 		"id": 2,
 		"title": "Showcase of our Car Pacchiotti Institute",
 		"subtitle": "With the imitation of the track that we built we showed our progress to our school",
-		"date": "",
+		"date": "17/04/2026",
 		"badges": ["development", "event"],
-		"primaryImage": {},
-		"paragraph": []
+		"primaryImage": {
+			"imageRef": "/news/pacchiotti-profs.jpeg",
+			"altText": "Pacchiotti - Car Showcase"
+		},
+		"paragraph": [
+			"17th of April 2026.\n\n We organized a showcase of our car for the students and teachers of our school. We built an imitation of the track and we sent the car on it with a CO2 cartridge. We had a great time showing our progress to our school and we received a lot of support from the students and teachers."
+		]
 	},
 	"n4": {
 		"id": 3,
 		"title": "Self-Managed day at our school",
 		"subtitle": "We organized some activities for the students of our school during the self-managed day",
-		"date": "",
+		"date": "23-24/04/2026",
 		"badges": ["event", "team"],
-		"primaryImage": {},
-		"paragraph": []
+		"primaryImage": {
+			"imageRef": "/news/self-managed-day-showcase.jpeg",
+			"altText": "Self-Managed Day"
+		},
+		"paragraph": [
+			"23rd and 24th of April 2026.\n\n We organized some activities for the students of our school during the self-managed day. We had a great time showing our car and explaining our project to the students. We also organized some games and activities related to Stem Racing."
+		]
 	}
 }
